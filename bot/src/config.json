@@ -1,5 +1,35 @@
 {
-	"token": "NjA0MjM3Nzg0NDk1OTQ3Nzk2.XoX3JQ.pm064BS88tWTQ-RsbUjtG1AulQo",
+	"token": "token",
 	"prefix": "!",
-	"admins": ["456911063083122694", "266672133457838081"]
+	"admins": ["456911063083122694", "266672133457838081"],
+	"dinosaurs": [
+		"DiabloAdultS", 
+		"ParaAdultS", 
+		"TrikeAdultS", 
+		"MaiaAdultS", 
+		"GalliAdultS", 
+		"AlloAdultS", 
+		"UtahAdultS", 
+		"RexAdultS", 
+		"CarnoAdultS", 
+		"CeratoAdultS", 
+		"GigaAdultS", 
+		"DiloAdultS", 
+		"SuchoAdultS", 
+		"PachyAdultS", 
+		"DryoAdultS", 
+		"Acro", 
+		"Anky", 
+		"Austro", 
+		"Bary", 
+		"Herrera",
+		"Shant", 
+		"Spino", 
+		"Stego", 
+		"Theri", 
+		"Velo", 
+		"Oro", 
+		"Taco", 
+		"Ava"
+	]
 }

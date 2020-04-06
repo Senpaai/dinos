@@ -1,5 +1,6 @@
 const path = require('path');
 const fs = require('fs')
+const config = require('../config.json');
 const Storage = require('./Storage.js');
 const dbPath = path.join(process.cwd(), '../TheIsle/Saved/Databases/Survival/Players/') 
 class Dino{
@@ -45,35 +46,6 @@ class Dino{
 		this.save()
 	}
 }
-Dino.ALL = new Set([
-	'DiabloAdultS', 
-	'ParaAdultS', 
-	'TrikeAdultS', 
-	'MaiaAdultS', 
-	'GalliAdultS', 
-	'AlloAdultS', 
-	'UtahAdultS', 
-	'RexAdultS', 
-	'CarnoAdultS', 
-	'CeratoAdultS', 
-	'GigaAdultS', 
-	'DiloAdultS', 
-	'SuchoAdultS', 
-	'PachyAdultS', 
-	'DryoAdultS', 
-	'Acro', 
-	'Anky', 
-	'Austro', 
-	'Bary', 
-	'Herrera',
-	'Shant', 
-	'Spino', 
-	'Stego', 
-	'Theri', 
-	'Velo', 
-	'Oro', 
-	'Taco', 
-	'Ava'
-])
+Dino.ALL = new Set(config.dinosaurs)
 
 module.exports = Dino
