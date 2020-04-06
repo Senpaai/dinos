@@ -1,0 +1,21 @@
+{
+	"CharacterClass": "HypoSpino",
+	"DNA": "",
+	"Location_Isle_V3": "X=432557.188 Y=219775.203 Z=-72266.547",
+	"Rotation_Isle_V3": "P=0.000000 Y=117.180824 R=0.000000",
+	"Growth": "1.0",
+	"Hunger": "20000",
+	"Thirst": "100",
+	"Stamina": "300",
+	"Health": "20000",
+	"BleedingRate": "0",
+	"Oxygen": "40",
+	"bGender": false,
+	"bIsResting": false,
+	"bBrokenLegs": false,
+	"ProgressionPoints": "0",
+	"ProgressionTier": "1",
+	"UnlockedCharacters": "",
+	"CameraRotation_Isle_V3": "P=0.000000 Y=-156.407196 R=0.000000",
+	"CameraDistance_Isle_V3": "157.678894"
+}

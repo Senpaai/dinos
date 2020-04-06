@@ -1,0 +1,1982 @@
+﻿Log file open, 10/22/19 04:01:35
+LogPakFile: Display: Found Pak file ../../../TheIsle/Content/Paks/TheIsle-WindowsServer.pak attempting to mount.
+LogPakFile: Display: Mounting pak file ../../../TheIsle/Content/Paks/TheIsle-WindowsServer.pak.
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 4 named threads and 8 total threads with 1 sets of task threads.
+LogModuleManager: Warning: ModuleManager: Module 'D3D11RHI' not found - its StaticallyLinkedModuleInitializers function is null.
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +3:00, Platform Override: ''
+LogPluginManager: Mounting plugin OnlineSubsystemSteam
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin WindowsDeviceProfileSelector
+LogPluginManager: Mounting plugin SteamController
+LogPluginManager: Mounting plugin AdvancedSessions
+LogPluginManager: Mounting plugin AdvancedSteamSessions
+LogPluginManager: Mounting plugin ImpostorBaker
+LogPluginManager: Mounting plugin BlueprintMaterialTextureNodes
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin IKinema
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-0
+LogInit: Engine Version: 4.20.3-0+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-0+++UE4+Release-4.20
+LogInit: Net CL: 0
+LogInit: OS: Windows Server 2012 (), CPU: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz, GPU: GenericGPUBrand
+LogInit: Compiled (64-bit): Apr 11 2019 08:04:47
+LogInit: Compiled with Visual C++: 19.16.27030.01
+LogInit: Build Configuration: Shipping
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: "/Game/TheIsle/Maps/Landscape3/Isle_V3?MultiHome=185.66.84.203?game=Survival?MaxPlayers=170?Port=27025?ServerName=MEZOZOI NEW ERA Ru/Eu?QueryPort=27026 -log | set /P "=""
+LogInit: Base Directory: d:/Servers/gsp_1954/185.66.84.203-27025/TheIsle/Binaries/Win64/
+LogInit: Installed Engine Build: 0
+LogInit: Presizing for max 2097152 objects, including 50000 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.10.22-01.01.35:751][  0]LogInit: Selected Device Profile: [WindowsServer]
+[2019.10.22-01.01.35:751][  0]LogInit: Applying CVar settings loaded from the selected device profile: [WindowsServer]
+[2019.10.22-01.01.35:754][  0]LogHAL: Display: Platform has ~ 64 GB [68352249856 / 68719476736 / 64], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.10.22-01.01.35:754][  0]LogInit: Going up to parent DeviceProfile [Windows]
+[2019.10.22-01.01.35:754][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.10.22-01.01.35:754][  0]LogInit: Going up to parent DeviceProfile []
+[2019.10.22-01.01.35:754][  0]LogInit: Computer: EURU700
+[2019.10.22-01.01.35:754][  0]LogInit: User: gspserv3502
+[2019.10.22-01.01.35:754][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.10.22-01.01.35:754][  0]LogInit: High frequency timer resolution =3.117193 MHz
+[2019.10.22-01.01.35:754][  0]LogMemory: Memory total: Physical=63.7GB (64GB approx)
+[2019.10.22-01.01.35:754][  0]LogMemory: Platform Memory Stats for WindowsServer
+[2019.10.22-01.01.35:754][  0]LogMemory: Process Physical Memory: 68.96 MB used, 68.96 MB peak
+[2019.10.22-01.01.35:754][  0]LogMemory: Process Virtual Memory: 87.68 MB used, 87.68 MB peak
+[2019.10.22-01.01.35:754][  0]LogMemory: Physical Memory: 25690.98 MB used,  39494.80 MB free, 65185.79 MB total
+[2019.10.22-01.01.35:754][  0]LogMemory: Virtual Memory: 312.57 MB used,  39494.80 MB free, 134217728.00 MB total
+[2019.10.22-01.01.35:759][  0]LogInit: Using OS detected language (ru-RU).
+[2019.10.22-01.01.35:759][  0]LogInit: Using OS detected locale (ru-RU).
+[2019.10.22-01.01.35:760][  0]LogTextLocalizationManager: No specific localization for 'ru-RU' exists, so the 'ru' localization will be used.
+[2019.10.22-01.01.35:763][  0]LogSlate: Warning: FCoreStyle assets not detected, skipping FCoreStyle initialization
+[2019.10.22-01.01.35:763][  0]LogInit: Using OS detected language (ru-RU).
+[2019.10.22-01.01.35:763][  0]LogInit: Using OS detected locale (ru-RU).
+[2019.10.22-01.01.35:764][  0]LogTextLocalizationManager: No specific localization for 'ru-RU' exists, so the 'ru' localization will be used.
+[2019.10.22-01.01.35:803][  0]LogAssetRegistry: FAssetRegistry took 0.0387 seconds to start up
+[2019.10.22-01.01.35:864][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.009636 seconds
+[2019.10.22-01.01.35:864][  0]LogPakFile: New pak file ../../../TheIsle/Content/Paks/TheIsle-WindowsServer.pak added to pak precacher.
+[2019.10.22-01.01.35:865][  0]LogInit: Selected Device Profile: [WindowsServer]
+[2019.10.22-01.01.35:870][  0]LogNetVersion: TheIsle 1.0.0, NetCL: 0, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2422549516)
+[2019.10.22-01.01.35:880][  0]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Button'. Using FButtonStyle defaults instead.
+[2019.10.22-01.01.35:880][  0]LogSlateStyle: Warning: Unable to find Slate Widget Style 'NormalText'. Using FTextBlockStyle defaults instead.
+[2019.10.22-01.01.35:881][  0]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Button'. Using FButtonStyle defaults instead.
+[2019.10.22-01.01.35:881][  0]LogSlateStyle: Warning: Unable to find Slate Widget Style 'NormalText'. Using FTextBlockStyle defaults instead.
+[2019.10.22-01.01.35:882][  0]ImportText (ProgressionOverrides): Missing opening parenthesis: 
+[2019.10.22-01.01.35:883][  0]LogSlateStyle: Warning: Unable to find Slate Widget Style 'CheckBox'. Using FCheckBoxStyle defaults instead.
+[2019.10.22-01.01.35:884][  0]LogSlateStyle: Warning: Unable to find Slate Widget Style 'ComboBox'. Using FComboBoxStyle defaults instead.
+[2019.10.22-01.01.35:884][  0]LogSlateStyle: Warning: Unable to find Slate Widget Style 'TableView.Row'. Using FTableRowStyle defaults instead.
+[2019.10.22-01.01.35:884][  0]LogSlateStyle: Warning: Unable to find Slate Widget Style 'NormalEditableText'. Using FEditableTextStyle defaults instead.
+[2019.10.22-01.01.35:884][  0]LogSlateStyle: Warning: Unable to find Slate Widget Style 'NormalEditableTextBox'. Using FEditableTextBoxStyle defaults instead.
+[2019.10.22-01.01.35:884][  0]LogSlateStyle: Warning: Unable to find Slate Widget Style 'ExpandableArea'. Using FExpandableAreaStyle defaults instead.
+[2019.10.22-01.01.35:884][  0]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Button'. Using FButtonStyle defaults instead.
+[2019.10.22-01.01.35:884][  0]LogSlateStyle: Warning: Unable to find Slate Widget Style 'NormalText'. Using FTextBlockStyle defaults instead.
+[2019.10.22-01.01.35:884][  0]LogSlateStyle: Warning: Unable to find Slate Widget Style 'NormalText'. Using FTextBlockStyle defaults instead.
+[2019.10.22-01.01.35:884][  0]LogSlateStyle: Warning: Unable to find Slate Widget Style 'NormalEditableTextBox'. Using FEditableTextBoxStyle defaults instead.
+[2019.10.22-01.01.35:884][  0]LogSlateStyle: Warning: Unable to find Slate Widget Style 'NormalText'. Using FTextBlockStyle defaults instead.
+[2019.10.22-01.01.35:884][  0]LogSlateStyle: Warning: Unable to find Slate Widget Style 'ProgressBar'. Using FProgressBarStyle defaults instead.
+[2019.10.22-01.01.35:885][  0]LogSlateStyle: Warning: Unable to find Slate Widget Style 'ScrollBar'. Using FScrollBarStyle defaults instead.
+[2019.10.22-01.01.35:885][  0]LogSlateStyle: Warning: Unable to find Slate Widget Style 'ScrollBox'. Using FScrollBoxStyle defaults instead.
+[2019.10.22-01.01.35:885][  0]LogSlateStyle: Warning: Unable to find Slate Widget Style 'ScrollBar'. Using FScrollBarStyle defaults instead.
+[2019.10.22-01.01.35:885][  0]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Slider'. Using FSliderStyle defaults instead.
+[2019.10.22-01.01.35:885][  0]LogSlateStyle: Warning: Unable to find Slate Widget Style 'SpinBox'. Using FSpinBoxStyle defaults instead.
+[2019.10.22-01.01.35:891][  0]LogUObjectArray: 36277 objects as part of root set at end of initial load.
+[2019.10.22-01.01.35:891][  0]LogUObjectAllocator: 5387784 out of 0 bytes used by permanent object pool.
+[2019.10.22-01.01.35:891][  0]LogUObjectArray: CloseDisregardForGC: 36277/0 objects in disregard for GC pool
+[2019.10.22-01.01.36:101][  0]LogEngine: Initializing Engine...
+[2019.10.22-01.01.36:118][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.10.22-01.01.36:118][  0]LogNetVersion: Set ProjectVersion to 0.1.53.3. Version Checksum will be recalculated on next use.
+[2019.10.22-01.01.36:118][  0]LogInit: Texture streaming: Disabled
+[2019.10.22-01.01.36:801][  0]ImportText (ProgressionOverrides): Missing opening parenthesis: 
+[2019.10.22-01.01.36:801][  0]ImportText (ProgressionOverrides): Missing opening parenthesis: 
+[2019.10.22-01.01.36:933][  0]LogTemp: Warning: IGameInstance::Init() executed in 0.807890 seconds.
+[2019.10.22-01.01.36:933][  0]LogInit: Display: Game Engine Initialized.
+[2019.10.22-01.01.36:933][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.10.22-01.01.36:940][  0]LogInit: Display: Starting Game.
+[2019.10.22-01.01.36:940][  0]LogLoad: LoadMap: /Game/TheIsle/Maps/Landscape3/Isle_V3?Name=Player?MultiHome=185.66.84.203?game=Survival?MaxPlayers=170?Port=27025?ServerName=MEZOZOI NEW ERA Ru/Eu?QueryPort=27026 -log | set /P 
+[2019.10.22-01.01.37:043][  0]ImportText (ProgressionOverrides): Missing opening parenthesis: 
+[2019.10.22-01.01.37:339][  0]LogAIModule: Creating AISystem for world Isle_V3
+[2019.10.22-01.01.37:339][  0]LogLoad: Game class is 'BP_GameMode_Survival_C'
+[2019.10.22-01.01.37:351][  0]LogWorld: Bringing World /Game/TheIsle/Maps/Landscape3/Isle_V3.Isle_V3 up for play (max tick rate 30) at 2019.10.22-04.01.37
+[2019.10.22-01.01.48:003][  0]LogWorld: Bringing up level for play took: 10.663926
+[2019.10.22-01.01.48:037][  0]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.10.22-01.01.48:044][  0]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.10.22-01.01.48:044][  0]LogLoad: Took 11.104545 seconds to LoadMap(/Game/TheIsle/Maps/Landscape3/Isle_V3)
+[2019.10.22-01.01.48:044][  0]LogTemp: Warning: IGameInstance::LoadComplete - Load Time: 11.104545 Map Name: /Game/TheIsle/Maps/Landscape3/Isle_V3
+[2019.10.22-01.01.48:044][  0]LogLoad: (Engine Initialization) Total time: 12.68 seconds
+[2019.10.22-01.01.49:628][ 12]LogOnline: Warning: STEAM: Server setting ,ServerName_s:MEZOZOI NEW ERA Ru/Eu overflows Steam SetGameTags call
+[2019.10.22-01.01.49:628][ 12]LogOnline: Warning: STEAM: Server setting ,SECURE_b:true overflows Steam SetGameTags call
+[2019.10.22-01.01.49:628][ 12]LogOnline: Warning: STEAM: Server setting ,Version_s:0.1.53.3 overflows Steam SetGameTags call
+[2019.10.22-01.01.49:628][ 12]LogOnline: Warning: STEAM: Server setting ,GameMode_s:Survival overflows Steam SetGameTags call
+[2019.10.22-01.01.49:628][ 12]LogOnline: Warning: STEAM: Server setting ,DISCORD_s:6zUBJ6V overflows Steam SetGameTags call
+[2019.10.22-01.01.50:429][ 32]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.10.22-01.01.50:429][ 32]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.10.22-01.02.13:866][739]LogNetVersion: TheIsle 0.1.53.3, NetCL: 0, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1885715905)
+[2019.10.22-01.04.18:998][493]LogIChat: [4:4] (Global) ((DN))✟ƊҾ℣įŁ✟: Девочка Тамико
+[2019.10.22-01.04.24:181][649]LogIChat: [4:4] (Global) ((DN))✟ƊҾ℣įŁ✟: Кака :c
+[2019.10.22-01.05.37:187][840]LogIChat: [4:5] (Global) [999]ДевочкаТамико: Че
+[2019.10.22-01.05.44:817][ 69]LogIChat: [4:5] (Global) [999]ДевочкаТамико: Надо тебе
+[2019.10.22-01.05.50:987][254]LogIChat: [4:5] (Global) ((DN))✟ƊҾ℣įŁ✟: Убить :>
+[2019.10.22-01.05.55:828][399]LogIChat: [4:5] (Global) [999]ДевочкаТамико: Иди ботов ешь
+[2019.10.22-01.05.56:763][427]LogIChat: [4:5] (Global) ((DN))✟ƊҾ℣įŁ✟: Я думал
+[2019.10.22-01.05.59:768][517]LogIChat: [4:5] (Global) ((DN))✟ƊҾ℣įŁ✟: Ты не появишься
+[2019.10.22-01.06.01:135][558]LogIChat: [4:6] (Global) ((DN))✟ƊҾ℣įŁ✟: Ненене
+[2019.10.22-01.06.11:868][880]LogIChat: [4:6] (Global) ((DN))✟ƊҾ℣įŁ✟: Я потратил кучу времени
+[2019.10.22-01.06.13:839][939]LogIChat: [4:6] (Global) ((DN))✟ƊҾ℣įŁ✟: И вот
+[2019.10.22-01.06.50:565][ 40]LogIChat: [4:6] (Global) [999]ДевочкаТамико: Я же скажу админам
+[2019.10.22-01.06.57:139][238]LogIChat: [4:6] (Global) [999]ДевочкаТамико: Что ты меня не подпускал к еде)
+[2019.10.22-01.07.01:819][379]LogIChat: [4:7] (Global) ((DN))✟ƊҾ℣įŁ✟: )
+[2019.10.22-01.07.02:650][404]LogIChat: [4:7] (Global) [999]ДевочкаТамико: Бил для этого)
+[2019.10.22-01.07.05:412][487]LogIChat: [4:7] (Global) [999]ДевочкаТамико: Нарушал правила)
+[2019.10.22-01.07.08:899][592]LogIChat: [4:7] (Global) ((DN))✟ƊҾ℣įŁ✟: Хых
+[2019.10.22-01.07.13:356][726]LogIChat: [4:7] (Global) [999]ДевочкаТамико: Мне то че
+[2019.10.22-01.07.14:722][767]LogIChat: [4:7] (Global) ((DN))✟ƊҾ℣įŁ✟: Нината)
+[2019.10.22-01.07.15:818][800]LogIChat: [4:7] (Global) [999]ДевочкаТамико: У меня реплей есть
+[2019.10.22-01.07.26:755][128]LogIChat: [4:7] (Global) [999]ДевочкаТамико: Либо ты убиваешь свою дилку
+[2019.10.22-01.07.31:573][272]LogIChat: [4:7] (Global) [999]ДевочкаТамико: Либо я на тебя репорт не пишу)
+[2019.10.22-01.07.37:710][456]LogIChat: [4:7] (Global) ((DN))✟ƊҾ℣įŁ✟: Ых
+[2019.10.22-01.07.42:206][591]LogIChat: [4:7] (Global) ((DN))✟ƊҾ℣įŁ✟: Ну лана
+[2019.10.22-01.07.48:089][768]LogIChat: [4:7] (Global) ((DN))✟ƊҾ℣įŁ✟: Она быстро растёт)
+[2019.10.22-01.08.00:577][143]LogIChat: [4:8] (Global) [999]ДевочкаТамико: Так а мне все равно рост вернут)
+[2019.10.22-01.08.18:330][677]LogIChat: [4:8] (Global) ((DN))✟ƊҾ℣įŁ✟: Так я тебя тогда скошу нормально уже)
+[2019.10.22-01.08.27:019][938]LogIChat: [4:8] (Global) [999]ДевочкаТамико: Я утка уже)
+[2019.10.22-01.08.32:580][105]LogIChat: [4:8] (Global) [999]ДевочкаТамико: Это тебе пипец)
+[2019.10.22-01.08.35:672][198]LogIChat: [4:8] (Global) [999]ДевочкаТамико: А не мне)
+[2019.10.22-01.08.40:334][338]LogIChat: [4:8] (Global) ((DN))✟ƊҾ℣įŁ✟: 50 минут до адолта не так уж и много)
+[2019.10.22-01.08.46:774][532]LogIChat: [4:8] (Global) [999]ДевочкаТамико: 40 минут)
+[2019.10.22-01.08.52:566][705]LogIChat: [4:8] (Global) ((DN))✟ƊҾ℣įŁ✟: Не-а
+[2019.10.22-01.08.58:054][869]LogIChat: [4:8] (Global) [999]ДевочкаТамико: Мне да
+[2019.10.22-01.08.59:281][906]LogIChat: [4:8] (Global) [999]ДевочкаТамико: Лол
+[2019.10.22-01.09.01:738][980]LogIChat: [4:9] (Global) ((DN))✟ƊҾ℣įŁ✟: Это у юты и карно 40 минут
+[2019.10.22-01.09.03:699][ 39]LogIChat: [4:9] (Global) ((DN))✟ƊҾ℣įŁ✟: А
+[2019.10.22-01.09.11:302][267]LogIChat: [4:9] (Global) ((DN))✟ƊҾ℣įŁ✟: Ты пошла репорт писать?)
+[2019.10.22-01.09.28:389][779]LogIChat: [4:9] (Global) ((DN))✟ƊҾ℣įŁ✟: Ну иди-иди)
+[2019.10.22-01.09.39:562][114]LogIChat: [4:9] (Global) Faw: юты пати
+[2019.10.22-01.09.43:537][233]LogIChat: [4:9] (Global) InFlex: Девочка ну и что ты быковала?
+[2019.10.22-01.09.53:628][535]LogIChat: [4:9] (Global) InFlex: Я б не съел
+[2019.10.22-01.10.00:089][729]LogIChat: [4:10] (Global) [999]ДевочкаТамико: Думала убью)
+[2019.10.22-01.10.05:143][881]LogIChat: [4:10] (Global) [999]ДевочкаТамико: И кста, какой экран?
+[2019.10.22-01.10.10:173][ 32]LogIChat: [4:10] (Global) InFlex: Никакой
+[2019.10.22-01.10.14:536][163]LogIChat: [4:10] (Global) [999]ДевочкаТамико: Лол хд
+[2019.10.22-01.10.49:124][202]LogIChat: [4:10] (Global) InFlex: Я к ней в гости сказать привет
+[2019.10.22-01.10.57:170][443]LogIChat: [4:10] (Global) InFlex: А она зубами встретила)
+[2019.10.22-01.11.01:375][569]LogIChat: [4:11] (Global) [999]ДевочкаТамико: Так ты даже ничего не писал)
+[2019.10.22-01.11.14:595][965]LogIChat: [4:11] (Global) InFlex: Ну так я встал типо я мир
+[2019.10.22-01.11.19:027][ 98]LogIChat: [4:11] (Global) InFlex: А ты кусаться)
+[2019.10.22-01.11.34:223][554]LogIChat: [4:11] (Global) [999]ДевочкаТамико: Вот такая вот)
+[2019.10.22-01.12.17:241][847]LogIChat: [4:12] (Global) InFlex: Ну да,тот ещё динозавр)
+[2019.10.22-01.22.47:242][751]LogIChat: [4:22] (Global) Petr_Menshikov: есть спино?
+[2019.10.22-01.27.30:003][222]LogIChat: [4:27] (Global) [999]ДевочкаТамико: Девил, я тебе больше скажу
+[2019.10.22-01.27.51:153][854]LogIChat: [4:27] (Global) [999]ДевочкаТамико: Ты даже после нашей тычки не имел права меня трогать 15 минут)
+[2019.10.22-01.28.00:119][122]LogIChat: [4:28] (Global) ((DN))✟ƊҾ℣įŁ✟: Ууу
+[2019.10.22-01.28.04:504][254]LogIChat: [4:28] (Global) ((DN))✟ƊҾ℣įŁ✟: Как много преувеличила)
+[2019.10.22-01.28.08:316][369]LogIChat: [4:28] (Global) ((DN))✟ƊҾ℣įŁ✟: Откатился трайк)
+[2019.10.22-01.28.12:862][505]LogIChat: [4:28] (Global) ((DN))✟ƊҾ℣įŁ✟: У меня то скрины есть)
+[2019.10.22-01.28.21:496][764]LogIChat: [4:28] (Global) [999]ДевочкаТамико: У меня-то реплей есть)
+[2019.10.22-01.28.31:446][ 62]LogIChat: [4:28] (Global) ((DN))✟ƊҾ℣įŁ✟: У меня тоже реплей есть
+[2019.10.22-01.28.33:582][126]LogIChat: [4:28] (Global) [999]ДевочкаТамико: Кому больше поверят?)
+[2019.10.22-01.28.41:350][358]LogIChat: [4:28] (Global) InFlex: Мне)
+[2019.10.22-01.28.44:024][438]LogIChat: [4:28] (Global) ((DN))✟ƊҾ℣įŁ✟: Окей
+[2019.10.22-01.28.44:825][462]LogIChat: [4:28] (Global) ((DN))✟ƊҾ℣įŁ✟: Ща
+[2019.10.22-01.28.52:693][698]LogIChat: [4:28] (Global) ((DN))✟ƊҾ℣įŁ✟: Пойду на реплее сделаю скрины
+[2019.10.22-01.29.07:970][157]LogIChat: [4:29] (Global) [999]ДевочкаТамико: По скринам на реплее не судят)
+[2019.10.22-01.29.16:413][410]LogIChat: [4:29] (Global) ((DN))✟ƊҾ℣įŁ✟: Там ник твой будет
+[2019.10.22-01.29.22:641][596]LogIChat: [4:29] (Global) ((DN))✟ƊҾ℣įŁ✟: И саб трайк
+[2019.10.22-01.29.24:870][663]LogIChat: [4:29] (Global) ((DN))✟ƊҾ℣įŁ✟: Облом
+[2019.10.22-01.29.25:769][690]LogIChat: [4:29] (Global) [999]ДевочкаТамико: И что? Он всей сути не передает
+[2019.10.22-01.29.34:712][958]LogIChat: [4:29] (Global) ((DN))✟ƊҾ℣įŁ✟: Тебе его не вернут уже
+[2019.10.22-01.29.51:355][457]LogIChat: [4:29] (Global) [999]ДевочкаТамико: Ну посмотрим)
+[2019.10.22-01.30.04:500][853]LogIChat: [4:30] (Global) InFlex: Не кусаешь?
+[2019.10.22-01.30.10:628][ 37]LogIChat: [4:30] (Global) ((DN))✟ƊҾ℣įŁ✟: Ну лана, я делать скрины
+[2019.10.22-01.30.20:300][328]LogIChat: [4:30] (Global) [999]ДевочкаТамико: Ну давай, лол)
+[2019.10.22-01.30.22:157][384]LogIChat: [4:30] (Global) kkashek1993i: не голоден)
+[2019.10.22-01.30.27:536][546]LogIChat: [4:30] (Global) ((DN))✟ƊҾ℣įŁ✟: Потом закошу
+[2019.10.22-01.30.28:330][570]LogIChat: [4:30] (Global) ((DN))✟ƊҾ℣įŁ✟: )
+[2019.10.22-01.30.44:591][ 59]LogIChat: [4:30] (Global) InFlex: Ты так затопал что у меня - фпс)
+[2019.10.22-01.30.54:227][348]LogIChat: [4:30] (Global) [999]ДевочкаТамико: Так я уток куплю, мне то что?)
+[2019.10.22-01.31.05:060][674]LogIChat: [4:31] (Global) kkashek1993i: тут дилы
+[2019.10.22-01.31.15:639][992]LogIChat: [4:31] (Global) InFlex: Оо
+[2019.10.22-01.33.15:241][580]LogIChat: [4:33] (Global) kkashek1993i: тамико он тебя убил?
+[2019.10.22-01.33.19:388][704]LogIChat: [4:33] (Global) [999]ДевочкаТамико: Да
+[2019.10.22-01.33.25:743][894]LogIChat: [4:33] (Global) [999]ДевочкаТамико: Да мне то что?)
+[2019.10.22-01.39.24:094][641]LogIChat: [4:39] (Global) ((DN))✟ƊҾ℣įŁ✟: Девочка Тамико, я уж тя за такое теперь всегда буду сразу косить)
+[2019.10.22-01.39.35:360][979]LogIChat: [4:39] (Global) [999]ДевочкаТамико: Ахах))
+[2019.10.22-01.39.41:188][154]LogIChat: [4:39] (Global) [999]ДевочкаТамико: Обиделся, что репорт написали)
+[2019.10.22-01.39.47:160][333]LogIChat: [4:39] (Global) ((DN))✟ƊҾ℣įŁ✟: Дыа
+[2019.10.22-01.40.04:579][853]LogIChat: [4:40] (Global) ((DN))✟ƊҾ℣įŁ✟: Пруфы того что твой труйк помер есть
+[2019.10.22-01.40.08:388][967]LogIChat: [4:40] (Global) ((DN))✟ƊҾ℣įŁ✟: Так что фиг тебе его вернут
+[2019.10.22-01.40.53:276][317]LogIChat: [4:40] (Global) ((DN))✟ƊҾ℣įŁ✟: Да и вщ я те не кричал миролюбивым криком
+[2019.10.22-01.41.01:035][549]LogIChat: [4:41] (Global) ((DN))✟ƊҾ℣įŁ✟: Я тебе даже никаким не кричал :c
+[2019.10.22-01.41.16:335][  8]LogIChat: [4:41] (Global) [999]ДевочкаТамико: Даже если-бы и не кричал, это все равно нарушение
+[2019.10.22-01.41.54:852][163]LogIChat: [4:41] (Global) ((DN))✟ƊҾ℣įŁ✟: Если бы я ушёл дальше, ты бы убежала
+[2019.10.22-01.42.08:451][569]LogIChat: [4:42] (Global) ((DN))✟ƊҾ℣įŁ✟: А я ждал пока сабиком станешь
+[2019.10.22-01.42.17:366][837]LogIChat: [4:42] (Global) =GH=FANK: а МОЖНО ВВЕСТИ МЕНЯ В КУРС ДЕЛА Я ПРОСТО СИДЕЛ ЧИТАЛ ДУМАЛ ВСЁ ПОНИМАЮ А ТЕПЕРЬ ОКАЗЫВАЕТСЯ Я НЕЧЕГО НЕ ПОНЯЛ( извеняюсь за капс)
+[2019.10.22-01.42.20:516][932]LogIChat: [4:42] (Global) ((DN))✟ƊҾ℣įŁ✟: Хотя это не отменяет правила...
+[2019.10.22-01.42.22:736][999]LogIChat: [4:42] (Global) ((DN))✟ƊҾ℣įŁ✟: Ну лана
+[2019.10.22-01.42.28:542][173]LogIChat: [4:42] (Global) [999]ДевочкаТамико: А ты правила читал?))
+[2019.10.22-01.42.32:003][277]LogIChat: [4:42] (Global) [999]ДевочкаТамико: Фанк
+[2019.10.22-01.42.32:405][289]LogIChat: [4:42] (Global) ((DN))✟ƊҾ℣įŁ✟: Да
+[2019.10.22-01.42.35:764][389]LogIChat: [4:42] (Global) [999]ДевочкаТамико: Дис есть?
+[2019.10.22-01.42.36:709][417]LogIChat: [4:42] (Global) ((DN))✟ƊҾ℣įŁ✟: А
+[2019.10.22-01.42.38:721][477]LogIChat: [4:42] (Global) ((DN))✟ƊҾ℣įŁ✟: Ты ему
+[2019.10.22-01.42.39:558][502]LogIChat: [4:42] (Global) ((DN))✟ƊҾ℣įŁ✟: )
+[2019.10.22-01.42.41:589][563]LogIChat: [4:42] (Global) [999]ДевочкаТамико: Моуг объяснить)
+[2019.10.22-01.42.47:380][737]LogIChat: [4:42] (Global) [999]ДевочкаТамико: *Могу
+[2019.10.22-01.43.07:460][340]LogIChat: [4:43] (Global) [999]ДевочкаТамико: Таким как ты, нарушителям правил нечего объяснять)
+[2019.10.22-01.43.37:424][241]LogIChat: [4:43] (Global) [999]ДевочкаТамико: Мы же можем только провоцировать на нарушения :рр
+[2019.10.22-01.43.45:675][488]LogIChat: [4:43] (Global) ((DN))✟ƊҾ℣įŁ✟: Дыа
+[2019.10.22-01.43.59:377][900]LogIChat: [4:43] (Global) ((DN))✟ƊҾ℣įŁ✟: За сочных трайков тут бегают
+[2019.10.22-01.44.10:258][227]LogIChat: [4:44] (Global) Sally Фейс: что тут случилось что то стряслось?
+[2019.10.22-01.44.13:410][322]LogIChat: [4:44] (Global) ((DN))✟ƊҾ℣įŁ✟: Потом преувеличивают сильно в репортах)
+[2019.10.22-01.44.17:191][436]LogIChat: [4:44] (Global) [999]ДевочкаТамико: С нарушением убили)
+[2019.10.22-01.44.27:843][756]LogIChat: [4:44] (Global) Sally Фейс: каким еще нарушением
+[2019.10.22-01.44.38:086][ 64]LogIChat: [4:44] (Global) [999]ДевочкаТамико: Провокация на межвид, провокация на байт
+[2019.10.22-01.44.48:274][369]LogIChat: [4:44] (Global) ((DN))✟ƊҾ℣įŁ✟: Ых
+[2019.10.22-01.44.49:410][403]LogIChat: [4:44] (Global) Sally Фейс: аа
+[2019.10.22-01.45.00:719][741]LogIChat: [4:45] (Global) =GH=FANK: хах
+[2019.10.22-01.45.06:404][911]LogIChat: [4:45] (Global) [999]ДевочкаТамико: Это если вкратце
+[2019.10.22-01.45.27:236][537]LogIChat: [4:45] (Global) Sally Фейс: я сама бы и рада межвидить но жаль что нельзя тут этого делать
+[2019.10.22-01.45.44:219][ 46]LogIChat: [4:45] (Global) ((DN))✟ƊҾ℣įŁ✟: Как же за такой тушкой трайка то не следить?
+[2019.10.22-01.46.06:290][710]LogIChat: [4:46] (Global) Sally Фейс: пипец кто тут голодный
+[2019.10.22-01.46.06:927][729]LogIChat: [4:46] (Global) ((DN))✟ƊҾ℣įŁ✟: Была бы ты свежей...
+[2019.10.22-01.46.13:457][925]LogIChat: [4:46] (Global) ((DN))✟ƊҾ℣įŁ✟: Я бы тя сразу закосил и убежал
+[2019.10.22-01.46.57:351][242]LogIChat: [4:46] (Global) kkashek1993i: дев тебе не только за межвид и за то место нахождение  свое и ее сказал)
+[2019.10.22-01.47.10:155][627]LogIChat: [4:47] (Global) ((DN))✟ƊҾ℣įŁ✟: Ммм
+[2019.10.22-01.47.13:572][730]LogIChat: [4:47] (Global) ((DN))✟ƊҾ℣įŁ✟: Я не говорил
+[2019.10.22-01.47.22:015][984]LogIChat: [4:47] (Global) =GH=FANK: + я не помню
+[2019.10.22-01.47.32:898][309]LogIChat: [4:47] (Global) kkashek1993i: говорил мне что на гейзерах
+[2019.10.22-01.47.41:084][555]LogIChat: [4:47] (Global) ((DN))✟ƊҾ℣įŁ✟: Мы вообще на близнецах были
+[2019.10.22-01.47.47:947][761]LogIChat: [4:47] (Global) ((DN))✟ƊҾ℣įŁ✟: Я сказал это дила из пати была на гейзах
+[2019.10.22-01.47.50:843][848]LogIChat: [4:47] (Global) ((DN))✟ƊҾ℣įŁ✟: Которую ты убил
+[2019.10.22-01.48.15:623][592]LogIChat: [4:48] (Global) kkashek1993i: так черная дила неты?
+[2019.10.22-01.48.25:021][874]LogIChat: [4:48] (Global) ((DN))✟ƊҾ℣įŁ✟: Я зелёный дила
+[2019.10.22-01.48.50:908][649]LogIChat: [4:48] (Global) kkashek1993i: блин тогда сорь)
+[2019.10.22-01.49.07:047][132]LogIChat: [4:49] (Global) ((DN))✟ƊҾ℣įŁ✟: Да нишо
+[2019.10.22-02.14.12:795][312]LogIChat: [5:14] (Global) InFlex: Ну здарова
+[2019.10.22-02.14.23:779][640]LogIChat: [5:14] (Global) kkashek1993i: а это ты)
+[2019.10.22-02.14.27:035][738]LogIChat: [5:14] (Global) InFlex: Ага
+[2019.10.22-02.14.47:394][346]LogIChat: [5:14] (Global) InFlex: Не кусаеся?
+[2019.10.22-02.15.00:194][729]LogIChat: [5:15] (Global) kkashek1993i: ок
+[2019.10.22-02.19.23:973][643]LogIChat: [5:19] (Global) kkashek1993i: ты тут?
+[2019.10.22-02.19.58:235][674]LogIChat: [5:19] (Global) InFlex: Ага
+[2019.10.22-02.20.11:122][ 62]LogIChat: [5:20] (Global) Fluffy: есть гали
+[2019.10.22-02.20.31:354][672]LogIChat: [5:20] (Global) InFlex: Кончились гальки)
+[2019.10.22-02.20.45:099][ 85]LogIChat: [5:20] (Global) Fluffy: я еще жива так что нет)
+[2019.10.22-02.21.28:036][377]LogIChat: [5:21] (Global) InFlex: Ну если жива ту не кончились,ошибся
+[2019.10.22-02.21.37:425][660]LogIChat: [5:21] (Global) InFlex: То*
+[2019.10.22-02.22.16:331][830]LogIChat: [5:22] (Global) Fluffy: даже трав нет?
+[2019.10.22-02.22.24:173][ 64]LogIChat: [5:22] (Global) Fluffy: все рексов ростят?
+[2019.10.22-02.22.34:126][361]LogIChat: [5:22] (Global) InFlex: Да не
+[2019.10.22-02.22.42:336][606]LogIChat: [5:22] (Global) InFlex: Тут только гига да алик)
+[2019.10.22-02.22.52:152][899]LogIChat: [5:22] (Global) Fluffy: ну гиг)
+[2019.10.22-02.22.52:354][905]LogIChat: [5:22] (Global) InFlex: А все вроде мелкотню)
+[2019.10.22-02.23.12:677][512]LogIChat: [5:23] (Global) Fluffy: обычно в это время можно и рексов по ростить
+[2019.10.22-02.23.45:122][488]LogIChat: [5:23] (Global) InFlex: Ну да
+[2019.10.22-02.23.46:796][538]LogIChat: [5:23] (Global) |Мальфа|: Спино есть?
+[2019.10.22-02.23.53:753][747]LogIChat: [5:23] (Global) Petr_Menshikov: да
+[2019.10.22-02.23.57:974][874]LogIChat: [5:23] (Global) InFlex: Нет тоже кончились)
+[2019.10.22-02.24.01:994][995]LogIChat: [5:24] (Global) InFlex: Да ладно
+[2019.10.22-02.24.07:706][166]LogIChat: [5:24] (Global) Petr_Menshikov: я сппино)
+[2019.10.22-02.24.25:501][701]LogIChat: [5:24] (Global) Fluffy: я походу тут мелкого самого рощу)
+[2019.10.22-02.24.27:258][754]LogIChat: [5:24] (Group-1) |Мальфа|: О, мы блихко
+[2019.10.22-02.24.29:579][824]LogIChat: [5:24] (Group-1) |Мальфа|: з*
+[2019.10.22-02.24.31:112][870]LogIChat: [5:24] (Global) InFlex: Откуда вас столько расплодилось то
+[2019.10.22-02.24.31:381][878]LogIChat: [5:24] (Group-1) Petr_Menshikov: ага
+[2019.10.22-02.24.38:533][ 93]LogIChat: [5:24] (Global) Fluffy: который за час выростит)
+[2019.10.22-02.24.46:087][320]LogIChat: [5:24] (Group-1) Petr_Menshikov: у меня тут река и две оры
+[2019.10.22-02.24.52:987][527]LogIChat: [5:24] (Global) InFlex: Самого противного диноса)
+[2019.10.22-02.25.03:050][828]LogIChat: [5:25] (Global) Fluffy: я?
+[2019.10.22-02.25.16:473][231]LogIChat: [5:25] (Global) InFlex: Нет ты не динозвр наверно
+[2019.10.22-02.25.19:377][318]LogIChat: [5:25] (Group-1) |Мальфа|: Щяс я приду, как раз хотела к водопаду
+[2019.10.22-02.25.22:533][413]LogIChat: [5:25] (Global) Fluffy: всм
+[2019.10.22-02.25.25:332][497]LogIChat: [5:25] (Global) InFlex: А галик очень даже противный)
+[2019.10.22-02.25.29:091][610]LogIChat: [5:25] (Global) Fluffy: я динозавр
+[2019.10.22-02.25.32:409][710]LogIChat: [5:25] (Global) InFlex: Аха
+[2019.10.22-02.25.35:599][806]LogIChat: [5:25] (Global) InFlex: Я так и понял
+[2019.10.22-02.25.45:608][107]LogIChat: [5:25] (Group-1) Petr_Menshikov: ок
+[2019.10.22-02.25.50:659][259]LogIChat: [5:25] (Global) Sally Фейс: я тоже галя
+[2019.10.22-02.25.54:021][360]LogIChat: [5:25] (Global) Fluffy: почему я противная
+[2019.10.22-02.26.04:565][677]LogIChat: [5:26] (Global) Fluffy: я еще маленькая)
+[2019.10.22-02.26.06:228][727]LogIChat: [5:26] (Global) maslikhin2011: все гали-_-
+[2019.10.22-02.26.09:117][814]LogIChat: [5:26] (Global) InFlex: Потому что галик)
+[2019.10.22-02.26.12:286][909]LogIChat: [5:26] (Global) Fluffy: меня слопать могут
+[2019.10.22-02.26.15:493][  5]LogIChat: [5:26] (Global) Sally Фейс: гали степановны?
+[2019.10.22-02.26.42:730][822]LogIChat: [5:26] (Global) Fluffy: не я галька Алина)
+[2019.10.22-02.26.56:187][226]LogIChat: [5:26] (Global) InFlex: Ну ладно
+[2019.10.22-02.27.05:721][513]LogIChat: [5:27] (Global) Sally Фейс: аа
+[2019.10.22-02.27.13:378][743]LogIChat: [5:27] (Global) InFlex: Так и быть буду звать Галькой)
+[2019.10.22-02.27.17:829][877]LogIChat: [5:27] (Global) Sally Фейс: алин хочешь в пати
+[2019.10.22-02.27.19:886][939]LogIChat: [5:27] (Global) Fluffy: ахах)
+[2019.10.22-02.27.26:461][137]LogIChat: [5:27] (Global) Fluffy: ты галя?
+[2019.10.22-02.27.31:965][302]LogIChat: [5:27] (Global) Sally Фейс: дя=)
+[2019.10.22-02.27.35:739][415]LogIChat: [5:27] (Global) Fluffy: давай
+[2019.10.22-02.27.49:255][821]LogIChat: [5:27] (Global) Fluffy: ой
+[2019.10.22-02.27.51:421][886]LogIChat: [5:27] (Global) Fluffy: еще
+[2019.10.22-02.27.56:739][ 46]LogIChat: [5:27] (Global) Fluffy: а
+[2019.10.22-02.27.58:276][ 92]LogIChat: [5:27] (Global) Fluffy: все
+[2019.10.22-02.27.58:343][ 94]LogIChat: [5:27] (Group-2) Sally Фейс: я тут в гнезде сижу
+[2019.10.22-02.28.04:055][265]LogIChat: [5:28] (Global) Sally Фейс: =З
+[2019.10.22-02.28.08:163][388]LogIChat: [5:28] (Group-2) Fluffy: аа
+[2019.10.22-02.28.17:855][678]LogIChat: [5:28] (Group-2) Fluffy: тут вчера табун был
+[2019.10.22-02.28.26:297][930]LogIChat: [5:28] (Group-2) Sally Фейс: представляю
+[2019.10.22-02.28.27:659][971]LogIChat: [5:28] (Group-2) Fluffy: по этому тут
+[2019.10.22-02.28.39:676][331]LogIChat: [5:28] (Group-2) Sally Фейс: а табун каво
+[2019.10.22-02.28.44:296][469]LogIChat: [5:28] (Group-2) Fluffy: ну стадо крч)
+[2019.10.22-02.28.47:649][569]LogIChat: [5:28] (Group-2) Sally Фейс: аа
+[2019.10.22-02.28.57:210][855]LogIChat: [5:28] (Group-2) Sally Фейс: здоровски
+[2019.10.22-02.29.06:787][141]LogIChat: [5:29] (Group-2) Fluffy: тут трайки пуэрто валили
+[2019.10.22-02.29.20:962][567]LogIChat: [5:29] (Group-2) Sally Фейс: оо жаль я редко стадо нахожу
+[2019.10.22-02.29.31:225][876]LogIChat: [5:29] (Global) InFlex: Гигушка ты там живой)
+[2019.10.22-02.29.32:661][919]LogIChat: [5:29] (Global) InFlex: ?
+[2019.10.22-02.29.39:936][137]LogIChat: [5:29] (Group-2) Fluffy: теперь я знаю 2 места где они могут быть
+[2019.10.22-02.29.49:920][436]LogIChat: [5:29] (Group-2) Sally Фейс: здоровски )
+[2019.10.22-02.30.08:922][  5]LogIChat: [5:30] (Group-2) Fluffy: у тебя яйки?
+[2019.10.22-02.30.08:988][  7]LogIChat: [5:30] (Global) InFlex: Нет всё таки тоже кончился)
+[2019.10.22-02.30.14:105][160]LogIChat: [5:30] (Group-2) Sally Фейс: есть
+[2019.10.22-02.30.20:304][346]LogIChat: [5:30] (Group-2) Fluffy: щас сек
+[2019.10.22-02.30.29:569][625]LogIChat: [5:30] (Group-2) Sally Фейс: поготь ты про какие яйки говоришь
+[2019.10.22-02.30.43:251][ 36]LogIChat: [5:30] (Group-2) Fluffy: про твои
+[2019.10.22-02.30.46:631][137]LogIChat: [5:30] (Group-2) Fluffy: в гнезде
+[2019.10.22-02.30.50:024][238]LogIChat: [5:30] (Group-2) Sally Фейс: ааа
+[2019.10.22-02.31.03:586][644]LogIChat: [5:31] (Group-2) Sally Фейс: я уже подумала лолхЗЗЗЗ
+[2019.10.22-02.31.08:234][783]LogIChat: [5:31] (Group-2) Fluffy: кинешь в гнездо?
+[2019.10.22-02.31.17:150][ 50]LogIChat: [5:31] (Group-2) Fluffy: а
+[2019.10.22-02.31.18:986][105]LogIChat: [5:31] (Group-2) Fluffy: хотя
+[2019.10.22-02.31.22:630][214]LogIChat: [5:31] (Group-2) Fluffy: я добегу)
+[2019.10.22-02.31.25:663][305]LogIChat: [5:31] (Group-2) Sally Фейс: а нежалко снова занового быть маленькойъ
+[2019.10.22-02.31.32:331][506]LogIChat: [5:31] (Group-2) Fluffy: пфф
+[2019.10.22-02.31.47:805][971]LogIChat: [5:31] (Group-2) Fluffy: я вчера 3 раза здохла, ни чего
+[2019.10.22-02.31.53:273][135]LogIChat: [5:31] (Group-2) Fluffy: они быстро ростут
+[2019.10.22-02.31.58:398][289]LogIChat: [5:31] (Group-2) Fluffy: я щас прибегу
+[2019.10.22-02.32.07:260][555]LogIChat: [5:32] (Group-1) |Мальфа|: Ч, может покричим?)
+[2019.10.22-02.32.15:302][796]LogIChat: [5:32] (Group-2) Fluffy: я адолт)
+[2019.10.22-02.32.19:380][918]LogIChat: [5:32] (Group-2) Sally Фейс: это печенькаа что иногда за них чаще помираешь
+[2019.10.22-02.32.22:665][ 17]LogIChat: [5:32] (Group-2) Fluffy: ток стала
+[2019.10.22-02.32.23:898][ 54]LogIChat: [5:32] (Group-2) Sally Фейс: я тоже
+[2019.10.22-02.32.30:713][258]LogIChat: [5:32] (Group-2) Sally Фейс: только давно)
+[2019.10.22-02.32.44:681][677]LogIChat: [5:32] (Group-2) Fluffy: да я вчера до трав добежать не смогла
+[2019.10.22-02.32.57:507][ 61]LogIChat: [5:32] (Group-2) Sally Фейс: жалко
+[2019.10.22-02.33.35:460][199]LogIChat: [5:33] (Group-2) Sally Фейс: надо найти поесть
+[2019.10.22-02.34.09:439][216]LogIChat: [5:34] (Global) maslikhin2011: хиши то есть?
+[2019.10.22-02.34.20:700][554]LogIChat: [5:34] (Global) InFlex: Есть есть
+[2019.10.22-02.37.27:687][157]LogIChat: [5:37] (Group-1) |Мальфа|: Аву поймала, будешь?
+[2019.10.22-02.37.32:411][299]LogIChat: [5:37] (Group-1) Petr_Menshikov: да
+[2019.10.22-02.39.58:121][669]LogIChat: [5:39] (Group-2) Sally Фейс: ты как там?
+[2019.10.22-02.40.16:101][209]LogIChat: [5:40] (Group-2) Fluffy: норм
+[2019.10.22-02.40.32:488][702]LogIChat: [5:40] (Group-2) Sally Фейс: =)
+[2019.10.22-02.40.40:458][942]LogIChat: [5:40] (Group-2) Fluffy: скоро добегу
+[2019.10.22-02.40.44:857][ 74]LogIChat: [5:40] (Group-1) |Мальфа|: О, я думала хоть ты адолт :0
+[2019.10.22-02.40.46:431][121]LogIChat: [5:40] (Group-2) Sally Фейс: здоровски=)
+[2019.10.22-02.40.54:263][356]LogIChat: [5:40] (Group-2) Fluffy: блин ппц я сколько пробежала
+[2019.10.22-02.40.54:765][371]LogIChat: [5:40] (Group-1) Petr_Menshikov: я с гнезда
+[2019.10.22-02.40.55:871][404]LogIChat: [5:40] (Group-2) Sally Фейс: жду недождусь
+[2019.10.22-02.41.06:749][730]LogIChat: [5:41] (Group-1) |Мальфа|: Я тоже
+[2019.10.22-02.41.08:918][795]LogIChat: [5:41] (Group-2) Sally Фейс: марафон да
+[2019.10.22-02.41.12:813][912]LogIChat: [5:41] (Group-2) Fluffy: ага
+[2019.10.22-02.41.22:081][190]LogIChat: [5:41] (Group-2) Sally Фейс: кхех=)
+[2019.10.22-02.41.26:181][313]LogIChat: [5:41] (Group-2) Fluffy: гальке только и бежать марафон
+[2019.10.22-02.41.31:762][480]LogIChat: [5:41] (Group-2) Sally Фейс: ага
+[2019.10.22-02.41.45:040][878]LogIChat: [5:41] (Group-2) Fluffy: я бы на нем на работу ездила
+[2019.10.22-02.41.45:538][893]LogIChat: [5:41] (Group-2) Sally Фейс: и переодически пинать неугодных
+[2019.10.22-02.42.01:260][365]LogIChat: [5:42] (Group-2) Sally Фейс: ну взрослая особь больше лошади
+[2019.10.22-02.42.14:079][748]LogIChat: [5:42] (Group-2) Fluffy: я видела по картинке)
+[2019.10.22-02.42.23:094][ 19]LogIChat: [5:42] (Group-2) Fluffy: страус крч
+[2019.10.22-02.42.37:426][450]LogIChat: [5:42] (Group-2) Sally Фейс: ага с гусиной головой и голосом
+[2019.10.22-02.43.22:905][817]LogIChat: [5:43] (Group-2) Fluffy: а тебе какие дино нравятся?
+[2019.10.22-02.43.45:337][492]LogIChat: [5:43] (Group-2) Sally Фейс: из каких имено фракций тебе интересны
+[2019.10.22-02.43.55:701][803]LogIChat: [5:43] (Group-2) Fluffy: из тех и этих
+[2019.10.22-02.44.16:256][420]LogIChat: [5:44] (Group-2) Fluffy: хм
+[2019.10.22-02.44.19:011][503]LogIChat: [5:44] (Group-1) |Мальфа|: Почему я не могу нюхать?
+[2019.10.22-02.44.21:005][563]LogIChat: [5:44] (Group-2) Fluffy: знакомое место
+[2019.10.22-02.44.26:119][716]LogIChat: [5:44] (Group-1) Petr_Menshikov: незнаю
+[2019.10.22-02.44.34:709][974]LogIChat: [5:44] (Group-1) Petr_Menshikov: у меня тоже самое
+[2019.10.22-02.44.46:117][316]LogIChat: [5:44] (Group-2) Sally Фейс: ну ладно из хищников нравятся больше ютки алики и редко гиги ну и дилки тоже милые
+[2019.10.22-02.45.15:839][207]LogIChat: [5:45] (Group-2) Fluffy: гиги
+[2019.10.22-02.45.28:858][596]LogIChat: [5:45] (Group-2) Fluffy: не очень люблю их
+[2019.10.22-02.45.43:585][ 38]LogIChat: [5:45] (Group-2) Sally Фейс: а из веганов пары  немного так майки
+[2019.10.22-02.45.56:880][437]LogIChat: [5:45] (Group-2) Fluffy: а галики?
+[2019.10.22-02.46.01:313][570]LogIChat: [5:46] (Group-2) Sally Фейс: ну я неочень уж настолько их люблю их долго растить
+[2019.10.22-02.46.50:277][ 37]LogIChat: [5:46] (Group-2) Sally Фейс: галика беру в том случае если много народа и много хищей от каторых надо уметь убигать вовремя и главное быстро тогда и выбираю гальку
+[2019.10.22-02.47.01:736][382]LogIChat: [5:47] (Group-1) |Мальфа|: 5% до адолта еще
+[2019.10.22-02.47.16:605][828]LogIChat: [5:47] (Group-1) Petr_Menshikov: 46
+[2019.10.22-02.47.19:453][913]LogIChat: [5:47] (Group-1) Petr_Menshikov: мне
+[2019.10.22-02.47.37:213][445]LogIChat: [5:47] (Group-2) Sally Фейс: а так если душа лежит поиграть за этого динозаврика то его и беру
+[2019.10.22-02.48.38:009][269]LogIChat: [5:48] (Group-2) Fluffy: блин щас в доту уйду
+[2019.10.22-02.49.33:891][944]LogIChat: [5:49] (Group-2) Sally Фейс: оооу ну ничего
+[2019.10.22-02.49.53:917][546]LogIChat: [5:49] (Group-2) Fluffy: тут обрыв какой то
+[2019.10.22-02.50.02:334][799]LogIChat: [5:50] (Group-2) Sally Фейс: каньон небольшой
+[2019.10.22-02.50.20:852][355]LogIChat: [5:50] (Group-2) Sally Фейс: хочешь прибегу к тебе и доведу до дома
+[2019.10.22-02.50.33:455][733]LogIChat: [5:50] (Group-2) Fluffy: ой
+[2019.10.22-02.50.37:225][846]LogIChat: [5:50] (Group-2) Fluffy: не я сама)
+[2019.10.22-02.50.41:537][975]LogIChat: [5:50] (Group-2) Fluffy: чуть не упала
+[2019.10.22-02.50.55:818][404]LogIChat: [5:50] (Group-2) Sally Фейс: окуратней так и улететь и помереть недолеко
+[2019.10.22-02.51.20:028][131]LogIChat: [5:51] (Group-2) Fluffy: я заблудилась
+[2019.10.22-02.51.38:405][681]LogIChat: [5:51] (Group-2) Sally Фейс: ты уже близко
+[2019.10.22-02.51.58:007][270]LogIChat: [5:51] (Group-2) Sally Фейс: тебе помочь?
+[2019.10.22-02.52.06:409][522]LogIChat: [5:52] (Group-2) Fluffy: ни хера не вижу
+[2019.10.22-02.52.22:509][  6]LogIChat: [5:52] (Group-2) Sally Фейс: да мы неособо хорошо видим
+[2019.10.22-02.52.32:230][297]LogIChat: [5:52] (Group-2) Sally Фейс: чертова икота
+[2019.10.22-02.52.50:629][848]LogIChat: [5:52] (Group-2) Fluffy: щас отдохну и до бегу
+[2019.10.22-02.53.50:418][642]LogIChat: [5:53] (Group-2) Fluffy: аааа
+[2019.10.22-02.53.55:221][786]LogIChat: [5:53] (Group-2) Fluffy: опять обрыв
+[2019.10.22-02.53.59:451][913]LogIChat: [5:53] (Group-2) Fluffy: блин
+[2019.10.22-02.54.34:109][955]LogIChat: [5:54] (Group-2) Sally Фейс: надеюсь все в поряде
+[2019.10.22-02.54.46:769][335]LogIChat: [5:54] (Group-2) Sally Фейс: особо небеги возле обрыва ночью
+[2019.10.22-02.54.54:494][567]LogIChat: [5:54] (Group-2) Fluffy: надейся) я хз тут дилы есть или нет
+[2019.10.22-02.54.55:325][592]LogIChat: [5:54] (Group-2) Sally Фейс: а то точно так улетишь
+[2019.10.22-02.55.08:483][987]LogIChat: [5:55] (Group-2) Sally Фейс: нет вроде никого тут невстречала
+[2019.10.22-02.55.41:049][966]LogIChat: [5:55] (Group-2) Fluffy: уф
+[2019.10.22-02.57.49:830][825]LogIChat: [5:57] (Group-2) Fluffy: тут не подалеку водопад где обычно стадо обитает
+[2019.10.22-02.57.55:589][998]LogIChat: [5:57] (Group-2) Sally Фейс: ура кокраз ночь закончилась
+[2019.10.22-02.58.18:153][675]LogIChat: [5:58] (Group-2) Sally Фейс: ооу здорово только его еще услышать надо
+[2019.10.22-02.58.26:966][940]LogIChat: [5:58] (Group-2) Fluffy: нет
+[2019.10.22-02.58.34:793][176]LogIChat: [5:58] (Group-2) Fluffy: их не услышишь)
+[2019.10.22-02.58.37:775][266]LogIChat: [5:58] (Group-2) Sally Фейс: ну по тругому я ненайду
+[2019.10.22-02.58.39:737][325]LogIChat: [5:58] (Group-2) Fluffy: но могу провести)
+[2019.10.22-02.58.54:603][772]LogIChat: [5:58] (Group-2) Sally Фейс: былобы здорово если повезет
+[2019.10.22-02.59.25:315][693]LogIChat: [5:59] (Group-1) |Мальфа|: У меня косточки, иди сюда)
+[2019.10.22-02.59.29:962][833]LogIChat: [5:59] (Group-1) Petr_Menshikov: ок
+[2019.10.22-02.59.31:865][890]LogIChat: [5:59] (Group-2) Sally Фейс: пойду за едой
+[2019.10.22-02.59.32:097][897]LogIChat: [5:59] (Group-2) Fluffy: щас по ем
+[2019.10.22-03.00.01:743][787]LogIChat: [6:0] (Group-2) Sally Фейс: а я тутя)))
+[2019.10.22-03.00.08:725][997]LogIChat: [6:0] (Group-2) Fluffy: ага)
+[2019.10.22-03.00.39:627][923]LogIChat: [6:0] (Group-2) Sally Фейс: ээх там где я нихрена еды нет блин
+[2019.10.22-03.00.48:389][186]LogIChat: [6:0] (Group-2) Fluffy: ну иди ко мнеъ
+[2019.10.22-03.01.36:497][629]LogIChat: [6:1] (Group-2) Fluffy: ну что, пойдем потом к травам?
+[2019.10.22-03.01.45:872][911]LogIChat: [6:1] (Group-2) Sally Фейс: можно а есть чтоле
+[2019.10.22-03.01.55:199][191]LogIChat: [6:1] (Group-2) Fluffy: ток их сейчас нет
+[2019.10.22-03.02.02:164][400]LogIChat: [6:2] (Group-2) Fluffy: онлайн мелкий)
+[2019.10.22-03.02.18:574][892]LogIChat: [6:2] (Group-2) Sally Фейс: тогда пока смысл?
+[2019.10.22-03.02.28:052][176]LogIChat: [6:2] (Group-1) Petr_Menshikov: ава
+[2019.10.22-03.02.30:410][247]LogIChat: [6:2] (Group-2) Fluffy: лан как хочешь\
+[2019.10.22-03.02.44:790][678]LogIChat: [6:2] (Group-2) Sally Фейс: еслиб были я бы пошла
+[2019.10.22-03.04.34:534][972]LogIChat: [6:4] (Group-2) Fluffy: почему то они ток с ягодками едят)
+[2019.10.22-03.05.06:748][938]LogIChat: [6:5] (Group-2) Fluffy: возле титана опасно гнездиться
+[2019.10.22-03.05.11:054][ 67]LogIChat: [6:5] (Group-2) Sally Фейс: так все травы почему то едят только ягодный куст
+[2019.10.22-03.05.26:446][529]LogIChat: [6:5] (Group-2) Sally Фейс: ну как видишь я нашла укромное место
+[2019.10.22-03.05.35:584][802]LogIChat: [6:5] (Group-2) Fluffy: ага
+[2019.10.22-03.05.36:351][825]LogIChat: [6:5] (Group-2) Sally Фейс: пока никого вообще невстечела
+[2019.10.22-03.05.52:669][315]LogIChat: [6:5] (Group-2) Fluffy: так нет ни кого пока
+[2019.10.22-03.06.41:165][770]LogIChat: [6:6] (Group-2) Fluffy: здесь меня 2 гиги убили
+[2019.10.22-03.06.41:231][772]LogIChat: [6:6] (Group-2) Sally Фейс: ага
+[2019.10.22-03.07.12:064][697]LogIChat: [6:7] (Group-2) Fluffy: лан я в доту
+[2019.10.22-03.07.18:774][899]LogIChat: [6:7] (Group-2) Sally Фейс: осталось доинкубировать последне и можно потом бросить
+[2019.10.22-03.07.19:204][912]LogIChat: [6:7] (Group-2) Fluffy: пока
+[2019.10.22-03.07.26:746][139]LogIChat: [6:7] (Group-2) Fluffy: зачем
+[2019.10.22-03.07.30:540][253]LogIChat: [6:7] (Group-2) Sally Фейс: удачки жаль что сейчас уходищь
+[2019.10.22-03.07.42:708][618]LogIChat: [6:7] (Group-2) Fluffy: \позже зайду)
+[2019.10.22-03.07.44:151][661]LogIChat: [6:7] (Group-2) Sally Фейс: ну потом прибежать и позвать каво то
+[2019.10.22-03.07.58:971][106]LogIChat: [6:7] (Group-2) Sally Фейс: в нездо
+[2019.10.22-03.08.04:970][286]LogIChat: [6:8] (Group-2) Fluffy: аа
+[2019.10.22-03.08.10:878][463]LogIChat: [6:8] (Group-2) Sally Фейс: ага=З
+[2019.10.22-03.10.31:007][668]LogIChat: [6:10] (Group-1) Petr_Menshikov: мне идти надо
+[2019.10.22-03.10.46:409][130]LogIChat: [6:10] (Group-1) |Мальфа|: Окей
+[2019.10.22-03.10.50:529][253]LogIChat: [6:10] (Group-1) Petr_Menshikov: пока
+[2019.10.22-03.10.55:425][400]LogIChat: [6:10] (Group-1) |Мальфа|: Пока)
+[2019.10.22-03.12.47:782][778]LogIDatabase: Error: CharRowName was None for Pinkmon12 despite having valid save data, starting new character creation
+[2019.10.22-03.12.47:782][778]LogIDatabase: Warning: Cancelling spawning character for Pinkmon12
+[2019.10.22-03.15.53:895][359]LogIDatabase: Error: CharRowName was None for ZigZag despite having valid save data, starting new character creation
+[2019.10.22-03.15.53:895][359]LogIDatabase: Warning: Cancelling spawning character for ZigZag
+[2019.10.22-03.16.35:183][596]LogIChat: [6:16] (Global) [999] Naavo: Тамико рекс ?
+[2019.10.22-03.18.06:272][329]LogIChat: [6:18] (Global) [999]ДевочкаТамико: Нет
+[2019.10.22-03.18.08:364][392]LogIChat: [6:18] (Global) [999]ДевочкаТамико: Утка)
+[2019.10.22-03.18.12:055][503]LogIChat: [6:18] (Global) [999] Naavo: ясно
+[2019.10.22-03.18.17:541][668]LogIChat: [6:18] (Global) [999] Naavo: я тоже ютка
+[2019.10.22-03.18.29:955][ 41]LogIChat: [6:18] (Global) [999]ДевочкаТамико: Да тут убили меня за Трайчика с нарушением))
+[2019.10.22-03.18.31:661][ 92]LogIChat: [6:18] (Global) [999] Naavo: а что с рексом  сатло аа  ?
+[2019.10.22-03.18.38:247][289]LogIChat: [6:18] (Global) [999] Naavo: Ясно
+[2019.10.22-03.18.43:766][455]LogIChat: [6:18] (Global) [999]ДевочкаТамико: СМК слил
+[2019.10.22-03.18.54:088][764]LogIChat: [6:18] (Global) [999] Naavo: ясно
+[2019.10.22-03.19.01:250][979]LogIChat: [6:19] (Global) [999]ДевочкаТамико: Пати?
+[2019.10.22-03.19.05:697][112]LogIChat: [6:19] (Global) [999] Naavo: давай
+[2019.10.22-03.19.23:303][640]LogIChat: [6:19] (Global) [999] Naavo: как мы далеко
+[2019.10.22-03.19.37:458][ 65]LogIChat: [6:19] (Global) Левиафан: я тоже рекс без пати(
+[2019.10.22-03.21.24:314][268]LogIChat: [6:21] (Global) Sally Фейс: ААЙ РЕБЯТ МОЖЕТЕ АДМИНА ПОЗВАТЬ
+[2019.10.22-03.21.33:227][535]LogIChat: [6:21] (Global) [999]ДевочкаТамико: Нету админов
+[2019.10.22-03.21.39:294][717]LogIChat: [6:21] (Global) Sally Фейс: как нет?*?
+[2019.10.22-03.21.43:014][828]LogIChat: [6:21] (Global) [999]ДевочкаТамико: А че?
+[2019.10.22-03.21.47:852][973]LogIChat: [6:21] (Global) Sally Фейс: у меня проблема
+[2019.10.22-03.22.05:810][512]LogIChat: [6:22] (Global) Sally Фейс: меня камень не пускает
+[2019.10.22-03.22.12:096][700]LogIChat: [6:22] (Global) [999]ДевочкаТамико: хд
+[2019.10.22-03.22.15:844][812]LogIChat: [6:22] (Global) Sally Фейс: я залезла на него и упала в него
+[2019.10.22-03.22.32:348][308]LogIChat: [6:22] (Global) [999]ДевочкаТамико: Дис есть?
+[2019.10.22-03.22.36:493][432]LogIChat: [6:22] (Global) Sally Фейс: блин((((
+[2019.10.22-03.22.44:711][678]LogIChat: [6:22] (Global) Sally Фейс: неу т__т
+[2019.10.22-03.23.19:384][718]LogIChat: [6:23] (Global) Sally Фейс: помогите пожалуйста
+[2019.10.22-03.23.56:822][841]LogIChat: [6:23] (Global) Sally Фейс: уууу...хнык
+[2019.10.22-03.25.20:406][349]LogIChat: [6:25] (Global) Sally Фейс: надеюся мне помогут или если пока не до ково недостучаться то потом зайти когда админ будет
+[2019.10.22-03.25.38:755][900]LogIChat: [6:25] (Local) Pinkmon12: how do i see my health and water
+[2019.10.22-03.26.15:022][990]LogIChat: [6:26] (Global) Sally Фейс: эти белые камешки это обманки ребят несоветую на них взбераться пипец как так могло произойти х-
+[2019.10.22-03.26.25:924][317]LogIChat: [6:26] (Global) [999]ДевочкаТамико: Пустой
+[2019.10.22-03.26.28:162][384]LogIChat: [6:26] (Global) [999]ДевочкаТамико: Ты за кого?
+[2019.10.22-03.26.36:640][639]LogIChat: [6:26] (Global) ~ПУСТОЙ~: спина
+[2019.10.22-03.26.38:837][705]LogIChat: [6:26] (Global) Sally Фейс: галик =(
+[2019.10.22-03.26.50:190][ 45]LogIChat: [6:26] (Global) [999]ДевочкаТамико: Не, за спино не пойду
+[2019.10.22-03.26.57:959][278]LogIChat: [6:26] (Global) [999]ДевочкаТамико: А если и пойду, то занимаю 2 яйца
+[2019.10.22-03.27.46:599][735]LogIChat: [6:27] (Global) Sally Фейс: УРА У МЕНЯ ВЫШЛО
+[2019.10.22-03.27.56:927][ 45]LogIChat: [6:27] (Global) Sally Фейс: КТО МЕНЯ В ГНЕЗДО ПРЕГЛАШАЕТ
+[2019.10.22-03.28.02:918][225]LogIChat: [6:28] (Global) Sally Фейс: я вышла
+[2019.10.22-03.28.04:146][262]LogIChat: [6:28] (Global) ~ПУСТОЙ~: я
+[2019.10.22-03.28.08:318][387]LogIChat: [6:28] (Global) Sally Фейс: а ты кто
+[2019.10.22-03.28.13:110][531]LogIChat: [6:28] (Global) ~ПУСТОЙ~: спино
+[2019.10.22-03.28.13:573][545]LogIChat: [6:28] (Global) [999]ДевочкаТамико: Гиги есть?
+[2019.10.22-03.28.17:278][656]LogIChat: [6:28] (Global) Sally Фейс: а ну давай
+[2019.10.22-03.28.32:080][100]LogIChat: [6:28] (Global) [999]ДевочкаТамико: Пустой
+[2019.10.22-03.28.39:901][334]LogIChat: [6:28] (Global) ~ПУСТОЙ~: а
+[2019.10.22-03.28.40:468][351]LogIChat: [6:28] (Global) [999]ДевочкаТамико: Занимаю 4 яйца, для себя и соклана
+[2019.10.22-03.28.48:203][583]LogIChat: [6:28] (Group-4) Sally Фейс: боже какие лаги
+[2019.10.22-03.29.05:032][ 88]LogIChat: [6:29] (Group-4) ~ПУСТОЙ~: самка?
+[2019.10.22-03.29.06:701][138]LogIChat: [6:29] (Group-4) Sally Фейс: оо я мальчик
+[2019.10.22-03.29.12:496][312]LogIChat: [6:29] (Local) Pinkmon12: fine
+[2019.10.22-03.29.28:610][796]LogIChat: [6:29] (Local) Pinkmon12: if you help me find water i wont kill u
+[2019.10.22-03.29.42:195][204]LogIChat: [6:29] (Group-4) Sally Фейс: надеюсь меня никто неслопает а то однажды в гнездо к стеге попала я так была счастлива)
+[2019.10.22-03.29.53:001][528]LogIChat: [6:29] (Group-4) ~ПУСТОЙ~: я тебя до 7 40 по московскому времени по рощу
+[2019.10.22-03.30.02:639][818]LogIChat: [6:30] (Group-4) Sally Фейс: а патом пришол спиносик и просто убил всех и нескушал никого
+[2019.10.22-03.30.13:421][142]LogIChat: [6:30] (Group-4) Sally Фейс: ооу(
+[2019.10.22-03.30.20:114][343]LogIChat: [6:30] (Group-4) Sally Фейс: мало времени осталось
+[2019.10.22-03.30.45:481][104]LogIChat: [6:30] (Group-4) ~ПУСТОЙ~: еды я тебе оставлю
+[2019.10.22-03.30.49:354][220]LogIChat: [6:30] (Group-4) ~ПУСТОЙ~: не бойся
+[2019.10.22-03.31.03:539][644]LogIChat: [6:31] (Global) [999]ДевочкаТамико: Ну че пустой, как там по яйцам?_
+[2019.10.22-03.31.04:812][682]LogIChat: [6:31] (Global) [999]ДевочкаТамико: )
+[2019.10.22-03.31.10:507][853]LogIChat: [6:31] (Group-4) Sally Фейс: а хоросе спасибо мам
+[2019.10.22-03.31.58:011][278]LogIChat: [6:31] (Group-4) Sally Фейс: надеюсь потом смогу вырастить себя
+[2019.10.22-03.32.05:558][505]LogIChat: [6:32] (Group-4) Sally Фейс: если никто нескушает
+[2019.10.22-03.32.59:524][123]LogIChat: [6:32] (Group-4) ~ПУСТОЙ~: если скушают то я тебя вечером снова загнездю
+[2019.10.22-03.33.20:552][754]LogIChat: [6:33] (Group-4) Sally Фейс: если я зайду конечно
+[2019.10.22-03.34.34:976][985]LogIChat: [6:34] (Global) [999]ДевочкаТамико: Пустоой
+[2019.10.22-03.34.36:112][ 19]LogIChat: [6:34] (Global) [999]ДевочкаТамико: )0
+[2019.10.22-03.34.44:091][258]LogIChat: [6:34] (Group-4) Sally Фейс: охотится ушол
+[2019.10.22-03.35.03:075][828]LogIChat: [6:35] (Group-4) Sally Фейс: ?
+[2019.10.22-03.35.08:160][981]LogIChat: [6:35] (Group-4) ~ПУСТОЙ~: да
+[2019.10.22-03.35.15:584][204]LogIChat: [6:35] (Group-4) ~ПУСТОЙ~: ты поменьше пиши
+[2019.10.22-03.35.16:352][227]LogIChat: [6:35] (Group-4) Sally Фейс: ясненько буть осторожен
+[2019.10.22-03.35.26:374][527]LogIChat: [6:35] (Group-4) ~ПУСТОЙ~: тебя слышно хорошо
+[2019.10.22-03.35.51:914][292]LogIChat: [6:35] (Group-4) Sally Фейс: ооу да это все потому что детенышу спино непроработали пещание
+[2019.10.22-03.38.24:502][874]LogIChat: [6:38] (Local) Pinkmon12: i need water if you help me look for some i will leave u be
+[2019.10.22-03.40.09:765][ 31]LogIChat: [6:40] (Local) Pinkmon12: the lag
+[2019.10.22-03.40.20:852][364]LogIChat: [6:40] (Global) [BS] Brother: хай всем
+[2019.10.22-03.40.26:123][522]LogIChat: [6:40] (Global) [999]ДевочкаТамико: Салли
+[2019.10.22-03.40.27:257][556]LogIChat: [6:40] (Global) [999] Naavo: хай
+[2019.10.22-03.40.30:162][643]LogIChat: [6:40] (Global) [999]ДевочкаТамико: Ку
+[2019.10.22-03.40.40:656][957]LogIChat: [6:40] (Global) [BS] Brother: как дела ?
+[2019.10.22-03.40.45:946][116]LogIChat: [6:40] (Global) [999]ДевочкаТамико: Норм
+[2019.10.22-03.41.02:214][604]LogIChat: [6:41] (Global) [999]ДевочкаТамико: Салли, Пустой
+[2019.10.22-03.41.10:881][864]LogIChat: [6:41] (Local) Pinkmon12: im dead
+[2019.10.22-03.41.54:343][166]LogIChat: [6:41] (Local) Pinkmon12: do you wanna play together
+[2019.10.22-03.41.56:738][238]LogIChat: [6:41] (Global) [BS] Brother: кто загнездить может ?
+[2019.10.22-03.41.59:414][318]LogIChat: [6:41] (Local) Pinkmon12: answer me
+[2019.10.22-03.42.06:898][542]LogIChat: [6:42] (Global) [999]ДевочкаТамико: Пустой, но я уже заняла 4 яйца
+[2019.10.22-03.42.27:761][166]LogIChat: [6:42] (Local) Pinkmon12: i need you to chat with me on this
+[2019.10.22-03.42.27:998][173]LogIChat: [6:42] (Global) [BS] Brother: а он кто ?
+[2019.10.22-03.42.31:757][286]LogIChat: [6:42] (Global) [999]ДевочкаТамико: Спино
+[2019.10.22-03.42.36:445][427]LogIChat: [6:42] (Global) [BS] Brother: ок
+[2019.10.22-03.42.43:083][626]LogIChat: [6:42] (Global) [BS] Brother: я херрера
+[2019.10.22-03.42.52:166][898]LogIChat: [6:42] (Group-4) ~ПУСТОЙ~: водыЯ?
+[2019.10.22-03.43.03:924][251]LogIChat: [6:43] (Group-4) Sally Фейс: да пока все хорошо
+[2019.10.22-03.43.08:605][391]LogIChat: [6:43] (Group-4) Sally Фейс: пока хватает
+[2019.10.22-03.44.58:433][684]LogIChat: [6:44] (Group-4) Sally Фейс: о тут авка
+[2019.10.22-03.45.45:375][ 93]LogIChat: [6:45] (Global) [999]ДевочкаТамико: Sally Фейс
+[2019.10.22-03.47.34:879][378]LogIChat: [6:47] (Global) [999]ДевочкаТамико: Пустой
+[2019.10.22-03.49.23:257][628]LogIChat: [6:49] (Global) [999]ДевочкаТамико: Спинычи е мае
+[2019.10.22-03.49.38:065][ 71]LogIChat: [6:49] (Global) [BS] Brother: бл*
+[2019.10.22-03.49.46:877][335]LogIChat: [6:49] (Global) [999]ДевочкаТамико: ?
+[2019.10.22-03.50.05:788][902]LogIChat: [6:50] (Group-4) ~ПУСТОЙ~: хочешь сестру или брата?
+[2019.10.22-03.50.51:252][266]LogIChat: [6:50] (Group-4) ~ПУСТОЙ~: ау сын
+[2019.10.22-03.50.53:284][327]LogIChat: [6:50] (Group-4) Sally Фейс: ну можно былобы
+[2019.10.22-03.50.57:188][444]LogIChat: [6:50] (Local) Pinkmon12: i need food
+[2019.10.22-03.51.09:275][807]LogIChat: [6:51] (Group-4) Sally Фейс: главное чтобы все было в поряде
+[2019.10.22-03.51.16:905][ 36]LogIChat: [6:51] (Global) ~ПУСТОЙ~: кто в гнездо спино 1 яйцо
+[2019.10.22-03.51.20:244][136]LogIChat: [6:51] (Global) [999]ДевочкаТамико: Я
+[2019.10.22-03.51.20:378][140]LogIChat: [6:51] (Global) Byakkonii: z
+[2019.10.22-03.51.22:314][198]LogIChat: [6:51] (Global) [999]ДевочкаТамико: ))
+[2019.10.22-03.51.28:885][395]LogIChat: [6:51] (Global) Byakkonii: я*
+[2019.10.22-03.51.35:660][598]LogIChat: [6:51] (Global) [999]ДевочкаТамико: Я первее, бро
+[2019.10.22-03.51.47:183][943]LogIChat: [6:51] (Group-4) Sally Фейс: о нуи ну
+[2019.10.22-03.51.59:193][303]LogIChat: [6:51] (Group-4) ~ПУСТОЙ~: самка или самец?
+[2019.10.22-03.52.00:896][354]LogIChat: [6:52] (Group-4) Sally Фейс: привети
+[2019.10.22-03.52.01:262][365]LogIChat: [6:52] (Global) Byakkonii: Я z вместо я написала
+[2019.10.22-03.52.03:728][439]LogIChat: [6:52] (Group-4) [999]ДевочкаТамико: Самка
+[2019.10.22-03.52.08:156][572]LogIChat: [6:52] (Group-4) Sally Фейс: сесра
+[2019.10.22-03.52.08:223][574]LogIChat: [6:52] (Global) Byakkonii: Ну ок
+[2019.10.22-03.52.11:024][658]LogIChat: [6:52] (Group-4) Sally Фейс: т
+[2019.10.22-03.52.46:810][732]LogIChat: [6:52] (Global) Byakkonii: Еще будет место к спинычам, зовите
+[2019.10.22-03.52.57:161][ 42]LogIChat: [6:52] (Group-4) [999]ДевочкаТамико: Для соклана еще яичко можно оставить?
+[2019.10.22-03.52.59:829][122]LogIChat: [6:52] (Group-4) [999]ДевочкаТамико: Одно
+[2019.10.22-03.53.10:087][430]LogIChat: [6:53] (Group-4) ~ПУСТОЙ~: сын скок роста %?
+[2019.10.22-03.53.20:094][730]LogIChat: [6:53] (Group-4) ~ПУСТОЙ~: лимит будет
+[2019.10.22-03.53.23:498][832]LogIChat: [6:53] (Group-4) Sally Фейс: 27 процентов
+[2019.10.22-03.53.30:817][ 51]LogIChat: [6:53] (Group-4) ~ПУСТОЙ~: у нас уже лимит
+[2019.10.22-03.53.33:282][125]LogIChat: [6:53] (Group-4) Sally Фейс: так пока себе
+[2019.10.22-03.53.37:985][266]LogIChat: [6:53] (Group-4) ~ПУСТОЙ~: больше 2 нельзя
+[2019.10.22-03.53.43:109][419]LogIChat: [6:53] (Group-4) Sally Фейс: ээх(
+[2019.10.22-03.53.47:113][539]LogIChat: [6:53] (Group-4) [999]ДевочкаТамико: Дис хоть есть?)
+[2019.10.22-03.53.53:739][738]LogIChat: [6:53] (Group-4) ~ПУСТОЙ~: да
+[2019.10.22-03.53.58:033][867]LogIChat: [6:53] (Group-4) Sally Фейс: нет непользуюсь
+[2019.10.22-03.54.01:653][976]LogIChat: [6:54] (Group-4) [999]ДевочкаТамико: Залетай в Утки, я там сижу
+[2019.10.22-03.56.24:546][264]LogIChat: [6:56] (Group-4) Sally Фейс: тут нямка
+[2019.10.22-03.56.34:652][568]LogIChat: [6:56] (Group-4) [999]ДевочкаТамико: По делу лучше писать
+[2019.10.22-03.57.38:491][483]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-514800.000 Y=236224.891 Z=-47026.367] for [BP_AIAvaceratops_C]
+[2019.10.22-04.04.50:299][409]LogIChat: [7:4] (Group-4) [999]ДевочкаТамико: Салли, го ты будешь от нас расстоянии?
+[2019.10.22-04.04.56:540][596]LogIChat: [7:4] (Group-4) [999]ДевочкаТамико: Я с сокланом буду расти
+[2019.10.22-04.05.04:471][834]LogIChat: [7:5] (Group-4) Sally Фейс: смысле
+[2019.10.22-04.05.09:380][981]LogIChat: [7:5] (Group-4) [999]ДевочкаТамико: В прямом
+[2019.10.22-04.05.16:042][181]LogIChat: [7:5] (Group-4) Sally Фейс: я как то нехочу
+[2019.10.22-04.05.26:102][483]LogIChat: [7:5] (Group-4) [999]ДевочкаТамико: От меня с Сокланом, а не от адолта
+[2019.10.22-04.05.52:827][285]LogIChat: [7:5] (Group-4) Sally Фейс: погоди что ты имеешь в виду я хочу с родичами быть
+[2019.10.22-04.06.06:540][697]LogIChat: [7:6] (Group-4) [999]ДевочкаТамико: Лол
+[2019.10.22-04.06.13:057][893]LogIChat: [7:6] (Group-4) [999]ДевочкаТамико: Ты будешь с адолтом
+[2019.10.22-04.06.17:860][ 37]LogIChat: [7:6] (Group-4) [999]ДевочкаТамико: А я со своим джувом
+[2019.10.22-04.06.18:760][ 64]LogIChat: [7:6] (Group-4) Sally Фейс: а ты?
+[2019.10.22-04.06.23:315][201]LogIChat: [7:6] (Group-4) Sally Фейс: а
+[2019.10.22-04.06.36:508][597]LogIChat: [7:6] (Group-4) Sally Фейс: а что мы кавото планируем пригласить?
+[2019.10.22-04.06.50:857][ 28]LogIChat: [7:6] (Group-4) Sally Фейс: ооу
+[2019.10.22-04.06.53:831][117]LogIChat: [7:6] (Group-4) Sally Фейс: 0-0
+[2019.10.22-04.07.06:181][488]LogIChat: [7:7] (Group-4) Sally Фейс: неожидала
+[2019.10.22-04.12.47:234][716]LogIChat: [7:12] (Group-4) [999]ДевочкаТамико: Сали, не подходи к нам, ок?
+[2019.10.22-04.12.52:029][860]LogIChat: [7:12] (Group-4) Sally Фейс: хорошо
+[2019.10.22-04.13.14:636][538]LogIChat: [7:13] (Group-4) ~ПУСТОЙ~: скок проц роста
+[2019.10.22-04.13.22:433][772]LogIChat: [7:13] (Group-4) Sally Фейс: у меня?
+[2019.10.22-04.13.30:597][ 17]LogIChat: [7:13] (Group-4) ~ПУСТОЙ~: да
+[2019.10.22-04.13.41:211][336]LogIChat: [7:13] (Group-4) Sally Фейс: 37
+[2019.10.22-04.21.23:432][198]LogIChat: [7:21] (Group-4) Sally Фейс: ооу а что с гнездоим
+[2019.10.22-04.21.38:352][646]LogIChat: [7:21] (Group-4) [999] Naavo: пустой в игру презаходит
+[2019.10.22-04.21.49:147][969]LogIChat: [7:21] (Group-4) Sally Фейс: ооу у него вылет?
+[2019.10.22-04.21.56:362][185]LogIChat: [7:21] (Global) dmitrii.netesov: Соня Привет! Ты где?)))
+[2019.10.22-04.22.05:476][459]LogIChat: [7:22] (Global) [999] Naavo: Она ща афк
+[2019.10.22-04.22.19:568][882]LogIChat: [7:22] (Global) [999] Naavo: мы за спино растимся
+[2019.10.22-04.22.25:994][ 75]LogINest: Warning: Removing nest from the game due to it being destroyed
+[2019.10.22-04.24.44:061][217]LogIChat: [7:24] (Group-4) [999]ДевочкаТамико: Это наша, жрать хотим :р
+[2019.10.22-04.24.52:963][484]LogIChat: [7:24] (Group-4) Sally Фейс: я вас ушгощю
+[2019.10.22-04.24.57:041][606]LogIChat: [7:24] (Group-4) [999]ДевочкаТамико: Окей
+[2019.10.22-04.25.07:083][907]LogIChat: [7:25] (Group-4) Sally Фейс: вот тут лежит
+[2019.10.22-04.25.48:335][144]LogIChat: [7:25] (Group-4) Sally Фейс: приятного
+[2019.10.22-04.25.55:126][348]LogIChat: [7:25] (Group-4) [999]ДевочкаТамико: Пасеп)
+[2019.10.22-04.26.01:231][531]LogIChat: [7:26] (Group-4) Sally Фейс: =)
+[2019.10.22-04.26.23:567][202]LogIChat: [7:26] (Group-4) Sally Фейс: пичально что вылет произашол
+[2019.10.22-04.31.35:001][543]LogIChat: [7:31] (Group-4) ~ПУСТОЙ~: скок у тебя роста
+[2019.10.22-04.31.41:644][742]LogIChat: [7:31] (Group-4) Sally Фейс: 45
+[2019.10.22-04.34.26:964][698]LogIChat: [7:34] (Global) MAXON136: пр
+[2019.10.22-04.34.28:436][742]LogIDatabase: Error: CharRowName was None for Кириешка despite having valid save data, starting new character creation
+[2019.10.22-04.34.28:436][742]LogIDatabase: Warning: Cancelling spawning character for Кириешка
+[2019.10.22-04.34.41:926][146]LogIChat: [7:34] (Global) [999] Naavo: Привет
+[2019.10.22-04.34.49:868][384]LogIChat: [7:34] (Global) MAXON136: че так нас мало??
+[2019.10.22-04.35.12:356][ 58]LogIChat: [7:35] (Global) [999] Naavo: утро у кого-то учеба работа или спит
+[2019.10.22-04.35.25:354][449]LogIChat: [7:35] (Global) MAXON136: ти за кого играеш??
+[2019.10.22-04.35.36:220][775]LogIChat: [7:35] (Global) [999] Naavo: А это уже Сикрет
+[2019.10.22-04.35.54:570][326]LogIChat: [7:35] (Global) MAXON136: еу скажи а я тебе скажу
+[2019.10.22-04.36.00:197][495]LogIChat: [7:36] (Global) MAXON136: ну
+[2019.10.22-04.36.07:697][720]LogIChat: [7:36] (Global) [999] Naavo: Мне не льзя
+[2019.10.22-04.36.19:817][ 84]LogIChat: [7:36] (Global) kkashek1993i: они спино
+[2019.10.22-04.38.03:149][184]LogIChat: [7:38] (Group-4) Sally Фейс: ребят если что если еды нет то можете поесть я отойду для этого
+[2019.10.22-04.39.17:730][421]LogIChat: [7:39] (Global) wildmike: спино киньте пати
+[2019.10.22-04.40.13:322][ 87]LogIChat: [7:40] (Global) wildmike: диабло ты кто?
+[2019.10.22-04.40.52:202][252]LogIChat: [7:40] (Global) wildmike: уходи я тебя боюсь
+[2019.10.22-04.42.58:757][ 49]LogINest: Warning: Removing nest from the game due to it being destroyed
+[2019.10.22-04.46.15:730][959]LogIChat: [7:46] (Group-4) Sally Фейс: все пустой вышел
+[2019.10.22-04.46.19:461][ 71]LogIChat: [7:46] (Group-4) Sally Фейс: ?
+[2019.10.22-04.46.37:598][615]LogIChat: [7:46] (Group-4) Sally Фейс: а не все впорядке)
+[2019.10.22-04.48.19:892][684]LogIChat: [7:48] (Group-4) [999]ДевочкаТамико: Скок % роста, Салли?
+[2019.10.22-04.48.29:244][964]LogIChat: [7:48] (Group-4) Sally Фейс: 53
+[2019.10.22-04.48.37:163][202]LogIChat: [7:48] (Group-4) [999]ДевочкаТамико: Ок
+[2019.10.22-04.48.59:058][859]LogIChat: [7:48] (Group-4) Sally Фейс: эм он снова вышел?
+[2019.10.22-04.49.54:968][538]LogIChat: [7:49] (Global) wildmike: спино + в чат
+[2019.10.22-04.50.19:310][267]LogIChat: [7:50] (Group-4) Sally Фейс: тут еда если что
+[2019.10.22-04.50.41:632][937]LogIChat: [7:50] (Global) [999] Naavo: Зачем тебе
+[2019.10.22-04.51.22:634][165]LogIChat: [7:51] (Global) wildmike: эй диабло я ж тебе нечего не зделал :с
+[2019.10.22-04.51.32:929][473]LogIChat: [7:51] (Group-4) Sally Фейс: вот тут
+[2019.10.22-04.51.39:478][669]LogIChat: [7:51] (Global) MAXON136: єто била моя територия сори
+[2019.10.22-04.51.52:248][ 53]LogIChat: [7:51] (Global) wildmike: :с
+[2019.10.22-04.52.05:581][452]LogIChat: [7:52] (Global) MAXON136: играй тоже за дибало
+[2019.10.22-04.52.19:582][871]LogIChat: [7:52] (Global) wildmike: я тебе атамстю зя мои 350 рюблей :с
+[2019.10.22-04.52.35:781][356]LogIChat: [7:52] (Global) MAXON136: ти че не можеш вернуть спино??
+[2019.10.22-04.52.47:748][716]LogIChat: [7:52] (Global) wildmike: нть :с
+[2019.10.22-04.53.06:562][281]LogIChat: [7:53] (Global) MAXON136: моє била територия
+[2019.10.22-04.53.31:278][ 22]LogIChat: [7:53] (Global) wildmike: не поюдю я зя тьвоего воньючего диябло :с
+[2019.10.22-04.53.47:998][523]LogIChat: [7:53] (Global) MAXON136: як хочеш
+[2019.10.22-04.53.56:309][772]LogIChat: [7:53] (Global) [999] Naavo: + бан оскорбление в чате
+[2019.10.22-04.54.01:976][942]LogIChat: [7:54] (Global) MAXON136: да
+[2019.10.22-04.54.15:791][356]LogIChat: [7:54] (Global) wildmike: мог би сказать пей и уходи а ты просто напал :с
+[2019.10.22-04.54.26:063][664]LogIChat: [7:54] (Group-4) [999]ДевочкаТамико: Фенкс
+[2019.10.22-04.54.48:099][325]LogIChat: [7:54] (Group-4) [999]ДевочкаТамико: Это акро
+[2019.10.22-04.54.50:665][402]LogIChat: [7:54] (Group-4) [999]ДевочкаТамико: Все ок
+[2019.10.22-04.54.52:500][457]LogIChat: [7:54] (Group-4) Sally Фейс: блять0-0
+[2019.10.22-04.55.05:869][858]LogIChat: [7:55] (Global) MAXON136: єто била моя територия и ще ти меня напугал бо я того заспавнився так и не вини ти меня ти мог убежать
+[2019.10.22-04.55.21:258][320]LogIChat: [7:55] (Group-4) Sally Фейс: дпа ненад 0-0
+[2019.10.22-04.55.21:360][323]LogIChat: [7:55] (Group-4) [999]ДевочкаТамико: Это наш акро, все ок
+[2019.10.22-04.55.24:663][422]LogIChat: [7:55] (Group-4) [999]ДевочкаТамико: В дисе
+[2019.10.22-04.55.29:472][566]LogIChat: [7:55] (Group-4) Sally Фейс: разве??0-0
+[2019.10.22-04.55.31:905][639]LogIChat: [7:55] (Group-4) [999]ДевочкаТамико: Да
+[2019.10.22-04.55.34:465][716]LogIChat: [7:55] (Group-4) Sally Фейс: мне стремно
+[2019.10.22-04.55.36:228][769]LogIChat: [7:55] (Group-4) [999]ДевочкаТамико: Это дмитрий нетесов
+[2019.10.22-04.55.40:625][901]LogIChat: [7:55] (Global) wildmike: даа на джюва ты не побоялси напасть а воть на одолтя не напаль би :с
+[2019.10.22-04.56.21:862][138]LogIChat: [7:56] (Group-4) Sally Фейс: а мы что к нему идем
+[2019.10.22-04.56.30:759][405]LogIChat: [7:56] (Group-4) [999]ДевочкаТамико: Я да, жрать пошла
+[2019.10.22-04.56.35:882][559]LogIChat: [7:56] (Group-4) Sally Фейс: там еда?
+[2019.10.22-04.56.37:916][620]LogIChat: [7:56] (Group-4) [999]ДевочкаТамико: Да
+[2019.10.22-04.56.38:884][649]LogIChat: [7:56] (Group-4) [999]ДевочкаТамико: Ава
+[2019.10.22-04.56.57:880][219]LogIChat: [7:56] (Group-4) [999]ДевочкаТамико: Моя еда
+[2019.10.22-04.57.00:245][290]LogIChat: [7:57] (Group-4) [999]ДевочкаТамико: т.к. желудка нет
+[2019.10.22-04.57.03:444][386]LogIChat: [7:57] (Global) MAXON136: тут моя мама убида спино але моя мама поиерла від кровотечи так я не люблю спино!
+[2019.10.22-04.57.21:910][940]LogIChat: [7:57] (Group-4) Sally Фейс: я неголодна еште если захочу поесть дам знать
+[2019.10.22-04.57.26:311][ 72]LogIChat: [7:57] (Group-4) [999]ДевочкаТамико: Окей
+[2019.10.22-04.58.14:209][507]LogIChat: [7:58] (Global) wildmike: я би и не жьряль тибя ня адёльте я ем игроков тойко в крайнем случае (когда мщю им) 6с
+[2019.10.22-04.58.23:365][781]LogIChat: [7:58] (Global) wildmike: :с
+[2019.10.22-04.58.34:246][107]LogIChat: [7:58] (Global) MAXON136: ти мог вирости и меня убить!
+[2019.10.22-04.58.51:425][621]LogIChat: [7:58] (Global) wildmike: зятем ти мне? я би ущёль
+[2019.10.22-04.58.58:100][821]LogIChat: [7:58] (Global) wildmike: там ботёв неть
+[2019.10.22-04.59.02:823][963]LogIChat: [7:59] (Global) wildmike: и хищи
+[2019.10.22-04.59.18:683][438]LogIChat: [7:59] (Global) MAXON136: але травоядние есть
+[2019.10.22-04.59.30:470][792]LogIChat: [7:59] (Global) USB_PrEdAtOr³²²: да
+[2019.10.22-04.59.58:335][628]LogIChat: [7:59] (Global) Sally Фейс: интересная мова
+[2019.10.22-05.01.31:192][413]LogIChat: [8:1] (Global) MAXON136: пока всем
+[2019.10.22-05.01.50:968][  5]LogNet: Warning: UNetConnection::Tick: Connection closing during pending destroy, not all shutdown traffic may have been negotiated. Elapsed: 9.53, Real: 9.53, Good: 9.53, DriverTime: 14441.99, Threshold: 2.00, [UNetConnection] RemoteAddr: 76561198975947200:27025, Name: SteamNetConnection_42, Driver: GameNetDriver SteamNetDriver_0, IsServer: YES, PC: BP_PlayerController_C_42, Owner: BP_PlayerController_C_42, UniqueId: Steam:UNKNOWN [0x11000013C8A11C0]
+[2019.10.22-05.02.06:687][477]LogIChat: [8:2] (Group-4) Sally Фейс: вы собираетесь путешевствовать?
+[2019.10.22-05.02.32:420][249]LogIChat: [8:2] (Group-4) Sally Фейс: я вижу бота
+[2019.10.22-05.02.34:954][325]LogIChat: [8:2] (Global) wildmike: рэксы пати
+[2019.10.22-05.02.57:913][ 13]LogIChat: [8:2] (Group-4) [999]ДевочкаТамико: Окей
+[2019.10.22-05.03.10:048][377]LogIChat: [8:3] (Group-4) [999]ДевочкаТамико: Не будем мешать, кушай
+[2019.10.22-05.03.11:249][413]LogIChat: [8:3] (Group-4) Sally Фейс: он тут если что
+[2019.10.22-05.03.14:429][508]LogIChat: [8:3] (Group-4) [999]ДевочкаТамико: Вижу
+[2019.10.22-05.03.18:794][639]LogIChat: [8:3] (Group-4) Sally Фейс: я его вам одаю
+[2019.10.22-05.03.27:064][887]LogIChat: [8:3] (Group-4) [999]ДевочкаТамико: Да ешь ^^
+[2019.10.22-05.03.32:998][ 65]LogIChat: [8:3] (Group-4) Sally Фейс: а вы?
+[2019.10.22-05.03.33:099][ 68]LogIChat: [8:3] (Group-4) [999]ДевочкаТамико: Мы сытые
+[2019.10.22-05.03.37:799][209]LogIChat: [8:3] (Group-4) [999] Naavo: мы сыты
+[2019.10.22-05.03.42:969][364]LogIChat: [8:3] (Group-4) Sally Фейс: о родсвениках надо заботится))
+[2019.10.22-05.03.44:603][413]LogIChat: [8:3] (Group-4) [999] Naavo: сытые
+[2019.10.22-05.04.33:921][891]LogIDatabase: Error: CharRowName was None for Raykuzou despite having valid save data, starting new character creation
+[2019.10.22-05.04.33:921][891]LogIDatabase: Warning: Cancelling spawning character for Raykuzou
+[2019.10.22-05.10.44:013][984]LogIChat: [8:10] (Global) DED: терезы есть
+[2019.10.22-05.14.16:747][361]LogIChat: [8:14] (Global) Byakkonii: Я рекс
+[2019.10.22-05.14.24:403][591]LogIChat: [8:14] (Global) MAXON136: FLJKN&&
+[2019.10.22-05.14.33:378][860]LogIChat: [8:14] (Global) MAXON136: АДОЛТ??
+[2019.10.22-05.14.58:082][601]LogIChat: [8:14] (Group-6) Byakkonii: Привет
+[2019.10.22-05.15.38:079][800]LogIChat: [8:15] (Group-6) wildmike: привет иди ко мне тут хорошо правдо иногда хищи приходят (я не на близнецах
+[2019.10.22-05.16.21:751][109]LogIChat: [8:16] (Group-6) wildmike: а ты адолт?
+[2019.10.22-05.16.35:058][508]LogIChat: [8:16] (Group-6) Byakkonii: Нет
+[2019.10.22-05.17.11:365][597]LogIChat: [8:17] (Global) DED: шанта ты тут
+[2019.10.22-05.17.35:676][325]LogIChat: [8:17] (Group-6) Byakkonii: Я сейчас скоро выросту, и направлюсь к тебе
+[2019.10.22-05.17.51:235][791]LogIChat: [8:17] (Group-6) Byakkonii: 10%
+[2019.10.22-05.18.20:246][661]LogIChat: [8:18] (Group-4) Sally Фейс: наави тут если что еда
+[2019.10.22-05.18.40:595][271]LogIChat: [8:18] (Group-4) [999] Naavo: нет я сам нашол
+[2019.10.22-05.18.51:261][591]LogIChat: [8:18] (Group-4) Sally Фейс: ну хорошо я так на случай
+[2019.10.22-05.18.57:705][784]LogIChat: [8:18] (Group-4) [999] Naavo: ну ок
+[2019.10.22-05.20.02:067][713]LogIChat: [8:20] (Group-6) wildmike: я немного споткнулся х)
+[2019.10.22-05.20.13:355][ 51]LogIChat: [8:20] (Group-6) wildmike: \
+[2019.10.22-05.20.24:069][372]LogIChat: [8:20] (Group-6) Byakkonii: Смотри не умри)
+[2019.10.22-05.20.33:911][667]LogIChat: [8:20] (Group-6) Byakkonii: Ты кстати не адолт?
+[2019.10.22-05.20.53:489][254]LogIChat: [8:20] (Group-4) [999] Naavo: дяблик
+[2019.10.22-05.20.55:840][324]LogIChat: [8:20] (Group-6) wildmike: нее
+[2019.10.22-05.21.06:412][641]LogIChat: [8:21] (Group-4) Sally Фейс: где
+[2019.10.22-05.21.07:715][680]LogIChat: [8:21] (Global) MAXON136: спино??
+[2019.10.22-05.21.12:318][818]LogIChat: [8:21] (Group-4) [999] Naavo: у озера
+[2019.10.22-05.21.19:131][ 22]LogIChat: [8:21] (Group-4) Sally Фейс: ооо
+[2019.10.22-05.21.20:233][ 55]LogIChat: [8:21] (Global) [999]ДевочкаТамико: Але
+[2019.10.22-05.21.21:605][ 96]LogIChat: [8:21] (Global) [999]ДевочкаТамико: Дьябло
+[2019.10.22-05.21.24:274][176]LogIChat: [8:21] (Global) [999]ДевочкаТамико: Че пришел?
+[2019.10.22-05.21.28:150][292]LogIChat: [8:21] (Group-4) Sally Фейс: интересно скушать ли его
+[2019.10.22-05.21.29:082][320]LogIChat: [8:21] (Global) MAXON136: попить
+[2019.10.22-05.21.35:917][525]LogIChat: [8:21] (Global) [999]ДевочкаТамико: Пей в другом месте
+[2019.10.22-05.21.37:817][582]LogIChat: [8:21] (Group-4) [999] Naavo: он адлот
+[2019.10.22-05.21.44:153][772]LogIChat: [8:21] (Group-4) [999]ДевочкаТамико: Не выходи
+[2019.10.22-05.21.45:287][806]LogIChat: [8:21] (Group-4) Sally Фейс: да знаю
+[2019.10.22-05.21.47:225][864]LogIChat: [8:21] (Global) MAXON136: хочеш батл??
+[2019.10.22-05.21.57:686][178]LogIChat: [8:21] (Global) [999]ДевочкаТамико: И в бан за убийство без агрессии?)
+[2019.10.22-05.22.00:493][262]LogIChat: [8:22] (Global) [999]ДевочкаТамико: Хочешь этого?)
+[2019.10.22-05.22.10:032][548]LogIChat: [8:22] (Global) [999] Naavo: чел ты уже седне спорил
+[2019.10.22-05.22.12:466][621]LogIChat: [8:22] (Global) MAXON136: не я жду когда ти нападеш
+[2019.10.22-05.22.13:436][650]LogIChat: [8:22] (Global) wildmike: меня он убил там без агресии
+[2019.10.22-05.22.17:244][764]LogIChat: [8:22] (Global) [999] Naavo: сегодне
+[2019.10.22-05.22.22:436][920]LogIChat: [8:22] (Global) [999]ДевочкаТамико: Репорт пиши, Вайлд
+[2019.10.22-05.22.24:942][995]LogIChat: [8:22] (Global) Sally Фейс: да ненападу
+[2019.10.22-05.22.29:718][138]LogIChat: [8:22] (Global) MAXON136: ващето моя територия била
+[2019.10.22-05.22.33:020][236]LogIChat: [8:22] (Global) MAXON136: там
+[2019.10.22-05.22.35:419][308]LogIChat: [8:22] (Global) [999]ДевочкаТамико: Нет
+[2019.10.22-05.22.36:119][329]LogIChat: [8:22] (Global) Sally Фейс: мне просто интересно было посматреть
+[2019.10.22-05.22.36:519][341]LogIChat: [8:22] (Global) [999]ДевочкаТамико: Соси
+[2019.10.22-05.22.36:684][346]LogIChat: [8:22] (Global) [999] Naavo: у меня репорт идет хочешь бан
+[2019.10.22-05.22.38:353][396]LogIChat: [8:22] (Global) [999]ДевочкаТамико: Это наша
+[2019.10.22-05.23.00:672][ 65]LogIChat: [8:23] (Global) Sally Фейс: люблю расматривать раскрас дино
+[2019.10.22-05.23.11:512][390]LogIChat: [8:23] (Global) MAXON136: у меня била територия ти пришел на мою територию!!
+[2019.10.22-05.23.13:644][454]LogIChat: [8:23] (Global) [999]ДевочкаТамико: Либо ты уходишь
+[2019.10.22-05.23.18:019][585]LogIChat: [8:23] (Global) Sally Фейс: так что буть спакоен и пей и кушай травку
+[2019.10.22-05.23.18:154][589]LogIChat: [8:23] (Global) [999]ДевочкаТамико: Либо я не пишу на тебя репорт
+[2019.10.22-05.23.27:836][879]LogIChat: [8:23] (Global) wildmike: я был спино джув ушёл в дис и он меня вальнул без придуприждения и агресии с моей стороны
+[2019.10.22-05.23.28:140][888]LogIChat: [8:23] (Global) MAXON136: за шо??
+[2019.10.22-05.23.29:471][928]LogIChat: [8:23] (Global) [999] Naavo: мы тут на 3-2 часа раньше
+[2019.10.22-05.23.48:899][511]LogIChat: [8:23] (Global) MAXON136: ок попю и уйду
+[2019.10.22-05.23.52:273][612]LogIChat: [8:23] (Global) Sally Фейс: если что мы тут обитаем так что смысл отбирать наше
+[2019.10.22-05.23.59:419][826]LogIChat: [8:23] (Global) [999]ДевочкаТамико: Вайлд, реплей есть?
+[2019.10.22-05.24.09:986][143]LogIChat: [8:24] (Global) wildmike: пока нет
+[2019.10.22-05.24.15:756][316]LogIChat: [8:24] (Global) [999]ДевочкаТамико: Тебе бы вернули
+[2019.10.22-05.24.18:088][386]LogIChat: [8:24] (Global) MAXON136: за что бан??
+[2019.10.22-05.24.20:619][462]LogIChat: [8:24] (Global) [999]ДевочкаТамико: Если бы реплей был
+[2019.10.22-05.24.31:874][799]LogIChat: [8:24] (Global) [999]ДевочкаТамико: За нарушение правил травоядных на сервере
+[2019.10.22-05.24.44:548][179]LogIChat: [8:24] (Global) wildmike: не успел за снять этого наглёша
+[2019.10.22-05.24.51:781][396]LogIChat: [8:24] (Global) Sally Фейс: уменя реплей
+[2019.10.22-05.24.55:229][499]LogIChat: [8:24] (Global) MAXON136: ващето там писало за територию убивать можна первим
+[2019.10.22-05.25.05:813][817]LogIChat: [8:25] (Global) [999]ДевочкаТамико: Нет
+[2019.10.22-05.25.08:974][912]LogIChat: [8:25] (Global) MAXON136: дя
+[2019.10.22-05.25.12:511][ 18]LogIChat: [8:25] (Global) [999]ДевочкаТамико: Нет
+[2019.10.22-05.25.14:745][ 85]LogIChat: [8:25] (Global) Sally Фейс: уверен?
+[2019.10.22-05.25.17:042][154]LogIChat: [8:25] (Global) wildmike: имелась в виду територрия гнёзд
+[2019.10.22-05.25.27:753][474]LogIChat: [8:25] (Global) Sally Фейс: но тут нет гнезда
+[2019.10.22-05.25.32:327][611]LogIDatabase: Error: CharRowName was None for BroNaut despite having valid save data, starting new character creation
+[2019.10.22-05.25.32:327][611]LogIDatabase: Warning: Cancelling spawning character for BroNaut
+[2019.10.22-05.25.34:324][671]LogIChat: [8:25] (Global) MAXON136: у меня гнездо там било в деревях
+[2019.10.22-05.25.34:655][681]LogIChat: [8:25] (Global) [999]ДевочкаТамико: У нас тут наше гнездо стоит
+[2019.10.22-05.25.38:019][782]LogIChat: [8:25] (Global) [999]ДевочкаТамико: Нет
+[2019.10.22-05.25.44:321][971]LogIChat: [8:25] (Global) Sally Фейс: ну было гнездо
+[2019.10.22-05.26.08:679][701]LogIChat: [8:26] (Global) [999]ДевочкаТамико: И че ты ждешь?
+[2019.10.22-05.26.11:217][777]LogIChat: [8:26] (Global) [999]ДевочкаТамико: Репорт писать?
+[2019.10.22-05.26.13:494][845]LogIChat: [8:26] (Global) MAXON136: 3 спино??
+[2019.10.22-05.26.31:972][399]LogIChat: [8:26] (Global) wildmike: он убил без предупреждения и гнёзда были от меня очень долеко
+[2019.10.22-05.26.32:238][407]LogIChat: [8:26] (Global) [999]ДевочкаТамико: Салли не с нами в пати
+[2019.10.22-05.26.38:267][588]LogIChat: [8:26] (Group-4) [999]ДевочкаТамико: Это для вида
+[2019.10.22-05.26.39:166][615]LogIChat: [8:26] (Group-4) [999]ДевочкаТамико: Ок?
+[2019.10.22-05.26.49:695][931]LogIChat: [8:26] (Global) [999]ДевочкаТамико: Дьябло
+[2019.10.22-05.26.53:945][ 58]LogIChat: [8:26] (Global) [999]ДевочкаТамико: Либо ты уходишь
+[2019.10.22-05.27.00:661][260]LogIChat: [8:27] (Global) MAXON136: либо??
+[2019.10.22-05.27.02:398][312]LogIChat: [8:27] (Global) [999]ДевочкаТамико: Либо мы тебя не убиваем
+[2019.10.22-05.27.06:793][444]LogIChat: [8:27] (Global) [999]ДевочкаТамико: И не зовем админов
+[2019.10.22-05.27.07:731][472]LogIChat: [8:27] (Global) Sally Фейс: главное чтоб неагресировал
+[2019.10.22-05.27.18:704][801]LogIChat: [8:27] (Global) MAXON136: ну ок
+[2019.10.22-05.27.23:482][944]LogIChat: [8:27] (Global) [999]ДевочкаТамико: Уходи
+[2019.10.22-05.27.44:859][585]LogIChat: [8:27] (Global) MAXON136: куда??
+[2019.10.22-05.27.53:027][830]LogIChat: [8:27] (Global) [999]ДевочкаТамико: На близнецы
+[2019.10.22-05.28.00:536][ 55]LogIChat: [8:28] (Global) Sally Фейс: да ладно вам он же немешает намЩ)
+[2019.10.22-05.28.09:440][322]LogIChat: [8:28] (Global) [999]ДевочкаТамико: Он нарушает правила
+[2019.10.22-05.28.12:376][410]LogIChat: [8:28] (Global) MAXON136: не пока
+[2019.10.22-05.28.15:443][502]LogIChat: [8:28] (Global) [999]ДевочкаТамико: Да
+[2019.10.22-05.28.20:208][645]LogIChat: [8:28] (Global) [999]ДевочкаТамико: Нарушаешь
+[2019.10.22-05.28.20:509][654]LogIChat: [8:28] (Global) BroNaut: any raptor pack  or egg?
+[2019.10.22-05.28.22:074][701]LogIChat: [8:28] (Global) _May_: там с рексами спорить будешь) нафиг тебе спино?)
+[2019.10.22-05.28.22:275][707]LogIChat: [8:28] (Global) Sally Фейс: правила? а какое правило
+[2019.10.22-05.28.32:985][ 28]LogIChat: [8:28] (Global) [999] Naavo: дябло харе дистанцию сокрашать
+[2019.10.22-05.28.35:667][108]LogIChat: [8:28] (Global) MAXON136: будете за мной ходить убю
+[2019.10.22-05.28.47:422][461]LogIChat: [8:28] (Global) [999]ДевочкаТамико: Придешь - убьем
+[2019.10.22-05.28.50:820][563]LogIChat: [8:28] (Global) [999]ДевочкаТамико: И админов позовем
+[2019.10.22-05.28.57:888][774]LogIChat: [8:28] (Global) Sally Фейс: так ты неподходи к нам
+[2019.10.22-05.29.04:286][966]LogIChat: [8:29] (Global) MAXON136: ну пока
+[2019.10.22-05.29.06:581][ 35]LogIChat: [8:29] (Global) Sally Фейс: или специально нарываешся
+[2019.10.22-05.29.16:657][337]LogIChat: [8:29] (Global) [999]ДевочкаТамико: Ты специально нарываешься?
+[2019.10.22-05.29.20:694][458]LogIChat: [8:29] (Global) MAXON136: не
+[2019.10.22-05.29.36:751][939]LogIChat: [8:29] (Global) [999]ДевочкаТамико: Вот и уходи
+[2019.10.22-05.30.49:795][128]LogIDatabase: Error: CharRowName was None for ✝ҜošMoś✝ despite having valid save data, starting new character creation
+[2019.10.22-05.30.49:795][128]LogIDatabase: Warning: Cancelling spawning character for ✝ҜošMoś✝
+[2019.10.22-05.30.58:251][381]LogIDatabase: Error: CharRowName was None for Saitiro despite having valid save data, starting new character creation
+[2019.10.22-05.30.58:251][381]LogIDatabase: Warning: Cancelling spawning character for Saitiro
+[2019.10.22-05.31.37:797][566]LogIChat: [8:31] (Group-6) wildmike: буду адолтом зделаю тут гнездо (я самка)
+[2019.10.22-05.31.49:558][919]LogIChat: [8:31] (Global) DED: терезины есть
+[2019.10.22-05.31.50:659][952]LogIChat: [8:31] (Group-6) Byakkonii: Я тоже самка
+[2019.10.22-05.32.07:845][467]LogIChat: [8:32] (Global) aaa: hi DED
+[2019.10.22-05.32.12:643][611]LogIChat: [8:32] (Global) DED: привет
+[2019.10.22-05.32.20:183][837]LogIChat: [8:32] (Group-6) wildmike: тут просто еды достаточно
+[2019.10.22-05.33.13:800][445]LogIChat: [8:33] (Group-6) Byakkonii: У меня тоже нормально
+[2019.10.22-05.33.18:867][597]LogIChat: [8:33] (Global) Saitiro: привет всем
+[2019.10.22-05.33.25:609][799]LogIChat: [8:33] (Global) wildmike: ку
+[2019.10.22-05.33.31:446][974]LogIChat: [8:33] (Global) Курлык курлык: дароу
+[2019.10.22-05.33.31:912][988]LogIChat: [8:33] (Group-6) Byakkonii: Скоро двинусь в твою сторону
+[2019.10.22-05.33.49:389][512]LogIChat: [8:33] (Global) wildmike: курлык ты щя кто?
+[2019.10.22-05.33.50:688][551]LogIChat: [8:33] (Global) Saitiro: церы есть?
+[2019.10.22-05.34.22:390][502]LogIChat: [8:34] (Global) wildmike: рэксы кому пати + в чат
+[2019.10.22-05.35.01:770][682]LogIChat: [8:35] (Global) ✝ҜošMoś✝: привет
+[2019.10.22-05.35.07:505][854]LogIChat: [8:35] (Global) ✝ҜošMoś✝: всем
+[2019.10.22-05.35.10:098][932]LogIChat: [8:35] (Global) wildmike: ку
+[2019.10.22-05.35.16:383][121]LogIChat: [8:35] (Global) ✝ҜošMoś✝: ало есть
+[2019.10.22-05.35.23:990][349]LogIChat: [8:35] (Global) wildmike: кос мос ты кто щя7
+[2019.10.22-05.35.27:858][465]LogIChat: [8:35] (Global) ✝ҜošMoś✝: ало
+[2019.10.22-05.35.34:611][667]LogIChat: [8:35] (Global) wildmike: я рэкс
+[2019.10.22-05.35.35:314][688]LogIChat: [8:35] (Global) ✝ҜošMoś✝: я терезину как даун вчера слил
+[2019.10.22-05.35.55:088][281]LogIChat: [8:35] (Global) ✝ҜošMoś✝: хм... моедт тоже рекса выростить
+[2019.10.22-05.36.10:372][739]LogIChat: [8:36] (Global) wildmike: я уже в пати с 1 человеком
+[2019.10.22-05.36.23:304][127]LogIChat: [8:36] (Global) wildmike: ещё 1 человек в пати и лимит
+[2019.10.22-05.36.38:714][589]LogIChat: [8:36] (Global) ✝ҜošMoś✝: да не буду ало ростить)
+[2019.10.22-05.36.42:487][702]LogIChat: [8:36] (Global) wildmike: так что скорее думай :D
+[2019.10.22-05.36.45:686][798]LogIChat: [8:36] (Global) ✝ҜošMoś✝: давно на нём просто не играл
+[2019.10.22-05.37.08:414][480]LogIChat: [8:37] (Global) wildmike: а ужё год как на нём не играл
+[2019.10.22-05.37.08:513][483]LogIChat: [8:37] (Group-7) Torinka3: есть дис?
+[2019.10.22-05.37.27:219][ 44]LogIChat: [8:37] (Global) ✝ҜošMoś✝: на ком
+[2019.10.22-05.37.30:094][130]LogIChat: [8:37] (Global) ✝ҜošMoś✝: на алике
+[2019.10.22-05.37.33:193][223]LogIChat: [8:37] (Global) wildmike: на рэксе
+[2019.10.22-05.37.36:528][323]LogIChat: [8:37] (Global) ✝ҜošMoś✝: аааааааааа
+[2019.10.22-05.37.36:693][328]LogIChat: [8:37] (Global) Курлык курлык: ютки есть?
+[2019.10.22-05.37.51:089][759]LogIChat: [8:37] (Global) [999]ДевочкаТамико: Че тут забыл
+[2019.10.22-05.37.51:791][780]LogIChat: [8:37] (Global) [999]ДевочкаТамико: ?
+[2019.10.22-05.37.59:599][ 14]LogIChat: [8:37] (Global) wildmike: я?
+[2019.10.22-05.38.02:393][ 98]LogIChat: [8:38] (Global) [999]ДевочкаТамико: Нет
+[2019.10.22-05.38.05:101][179]LogIChat: [8:38] (Global) [999]ДевочкаТамико: Максон этот
+[2019.10.22-05.38.15:314][485]LogIChat: [8:38] (Group-7) ✝ҜošMoś✝: да
+[2019.10.22-05.38.16:580][523]LogIChat: [8:38] (Global) MAXON136: я воду найти не могу
+[2019.10.22-05.38.18:680][586]LogIChat: [8:38] (Global) [999]ДевочкаТамико: Дьябло
+[2019.10.22-05.38.19:013][596]LogIChat: [8:38] (Group-7) ✝ҜošMoś✝: ты в группе ало
+[2019.10.22-05.38.21:043][657]LogIChat: [8:38] (Global) [999]ДевочкаТамико: Уходи
+[2019.10.22-05.38.31:745][978]LogIChat: [8:38] (Global) [999]ДевочкаТамико: Либо в бан улетишь
+[2019.10.22-05.38.37:589][153]LogIChat: [8:38] (Group-4) Sally Фейс: мне сидеть тут как буто вас 2?
+[2019.10.22-05.38.40:692][246]LogIChat: [8:38] (Global) wildmike: девочка возродиш меня за спино по возможности?
+[2019.10.22-05.38.41:530][271]LogIChat: [8:38] (Global) MAXON136: я вас не бю
+[2019.10.22-05.38.50:022][526]LogIChat: [8:38] (Global) wildmike: он меня убил
+[2019.10.22-05.38.50:254][533]LogIChat: [8:38] (Global) [999]ДевочкаТамико: Хз, как получится
+[2019.10.22-05.38.53:498][630]LogIChat: [8:38] (Global) [999]ДевочкаТамико: Я еще мелочь\
+[2019.10.22-05.38.56:662][725]LogIChat: [8:38] (Group-7) Torinka3: да
+[2019.10.22-05.38.57:262][743]LogIChat: [8:38] (Global) [999]ДевочкаТамико: Иди отсюда
+[2019.10.22-05.39.00:424][838]LogIChat: [8:39] (Group-7) ✝ҜošMoś✝: щас зайду
+[2019.10.22-05.39.02:030][886]LogIChat: [8:39] (Global) [999]ДевочкаТамико: Дьябло хренов
+[2019.10.22-05.39.09:210][101]LogIChat: [8:39] (Group-4) [999] Naavo: да
+[2019.10.22-05.39.16:647][324]LogIChat: [8:39] (Group-4) [999]ДевочкаТамико: Да
+[2019.10.22-05.39.18:108][368]LogIChat: [8:39] (Global) MAXON136: бан оскрабления
+[2019.10.22-05.39.19:736][417]LogIDatabase: Error: CharRowName was None for Rick despite having valid save data, starting new character creation
+[2019.10.22-05.39.19:736][417]LogIDatabase: Warning: Cancelling spawning character for Rick
+[2019.10.22-05.39.22:642][504]LogIChat: [8:39] (Group-4) [999]ДевочкаТамико: Опять этот пидор пришел
+[2019.10.22-05.39.28:941][693]LogIChat: [8:39] (Global) [999]ДевочкаТамико: Это не оск
+[2019.10.22-05.39.30:275][733]LogIChat: [8:39] (Global) ✝ҜošMoś✝: какое оскорбление
+[2019.10.22-05.39.37:938][963]LogIChat: [8:39] (Global) [999]ДевочкаТамико: Иди отсюда
+[2019.10.22-05.39.55:311][483]LogIChat: [8:39] (Global) Saitiro: XD
+[2019.10.22-05.39.57:947][562]LogIChat: [8:39] (Global) MAXON136: оскрабления бан
+[2019.10.22-05.40.03:148][718]LogIChat: [8:40] (Global) [999]ДевочкаТамико: Это тебе бан
+[2019.10.22-05.40.07:446][847]LogIChat: [8:40] (Global) [999]ДевочкаТамико: За скоращение дистанции
+[2019.10.22-05.40.10:847][949]LogIChat: [8:40] (Global) Sally Фейс: оо началося
+[2019.10.22-05.40.14:513][ 59]LogIChat: [8:40] (Global) wildmike: во первых она не написала твоего ника когда писала "хренов"
+[2019.10.22-05.40.19:676][214]LogIChat: [8:40] (Global) Torinka3: пхах)
+[2019.10.22-05.40.27:068][436]LogIChat: [8:40] (Global) ✝ҜošMoś✝: MAXON136  иди правила учи
+[2019.10.22-05.40.33:732][636]LogIChat: [8:40] (Global) MAXON136: я деябло єто обидно
+[2019.10.22-05.40.37:756][757]LogIChat: [8:40] (Global) [999]ДевочкаТамико: И?
+[2019.10.22-05.40.46:961][ 33]LogIChat: [8:40] (Global) MAXON136: обидно
+[2019.10.22-05.40.55:152][278]LogIChat: [8:40] (Global) [999]ДевочкаТамико: Иди отсюда
+[2019.10.22-05.41.00:017][423]LogIChat: [8:41] (Global) Sally Фейс: иза игры обижаться бред
+[2019.10.22-05.41.03:253][520]LogIChat: [8:41] (Global) MAXON136: ти иди от сюда
+[2019.10.22-05.41.10:256][730]LogIChat: [8:41] (Global) [999]ДевочкаТамико: Это наша территория
+[2019.10.22-05.41.14:119][846]LogIChat: [8:41] (Global) Sally Фейс: иди от сюда
+[2019.10.22-05.41.23:092][115]LogIChat: [8:41] (Global) MAXON136: ого
+[2019.10.22-05.41.28:350][273]LogIChat: [8:41] (Global) [999]ДевочкаТамико: Иди отсюда
+[2019.10.22-05.41.38:659][582]LogIChat: [8:41] (Global) InFlex: Алики есть?
+[2019.10.22-05.41.40:322][632]LogIChat: [8:41] (Global) [999]ДевочкаТамико: Салли, качай дис
+[2019.10.22-05.41.42:597][700]LogIChat: [8:41] (Global) Rick: травам первым нападать разрешено?
+[2019.10.22-05.41.46:932][830]LogIChat: [8:41] (Group-8) Fanatik: здарова
+[2019.10.22-05.41.50:341][932]LogIChat: [8:41] (Global) [999]ДевочкаТамико: Нет
+[2019.10.22-05.41.51:240][959]LogIChat: [8:41] (Global) [999] Naavo: Нет
+[2019.10.22-05.41.52:640][  1]LogIChat: [8:41] (Global) ✝ҜošMoś✝: нет
+[2019.10.22-05.41.52:773][  5]LogIChat: [8:41] (Global) wildmike: нет
+[2019.10.22-05.41.54:119][ 45]LogIChat: [8:41] (Global) Sally Фейс: тебе делать нечего
+[2019.10.22-05.41.59:050][193]LogIChat: [8:41] (Global) [999]ДевочкаТамико: И агрессировать специально нельзя
+[2019.10.22-05.42.05:872][397]LogIChat: [8:42] (Global) _May_: Лучше тебе об этом в правилах почитать, есть некоторые нюансы
+[2019.10.22-05.42.07:575][448]LogIChat: [8:42] (Group-8) Saitiro: здоров
+[2019.10.22-05.42.11:704][572]LogIChat: [8:42] (Global) Sally Фейс: он ко мне близко подошол
+[2019.10.22-05.42.12:879][607]LogIChat: [8:42] (Global) Rick: то есть травы это дичь
+[2019.10.22-05.42.18:853][786]LogIChat: [8:42] (Global) [999]ДевочкаТамико: Это мелкий школьник, он ничего читать не будет
+[2019.10.22-05.42.22:187][886]LogIChat: [8:42] (Global) MAXON136: че??
+[2019.10.22-05.42.35:613][289]LogIChat: [8:42] (Global) MAXON136: ви меня агресироваете??
+[2019.10.22-05.42.38:548][377]LogIChat: [8:42] (Global) Sally Фейс: махон давай по нормальному мы тебе невраги
+[2019.10.22-05.42.39:255][398]LogIChat: [8:42] (Global) Rick: иди нахуй а девочка
+[2019.10.22-05.42.43:522][526]LogIChat: [8:42] (Global) [999]ДевочкаТамико: Это ты агрессируешь
+[2019.10.22-05.42.47:486][645]LogIChat: [8:42] (Global) [999]ДевочкаТамико: Рик
+[2019.10.22-05.42.52:451][794]LogIChat: [8:42] (Global) Rick: ты еблан?
+[2019.10.22-05.42.53:129][814]LogIChat: [8:42] (Global) [999]ДевочкаТамико: В бан хочешь за оск и маты?)
+[2019.10.22-05.43.01:421][ 63]LogIChat: [8:43] (Global) Sally Фейс: если что я испугалась когда он подошол
+[2019.10.22-05.43.08:685][281]LogIChat: [8:43] (Global) Sally Фейс: не в абиду агресии
+[2019.10.22-05.43.14:426][453]LogIChat: [8:43] (Global) MAXON136: спинм такие маленькие
+[2019.10.22-05.43.15:259][478]LogIChat: [8:43] (Global) wildmike: рик уже откровенно матюкается х)
+[2019.10.22-05.43.24:980][769]LogIChat: [8:43] (Global) [999]ДевочкаТамико: Дьябло уходи
+[2019.10.22-05.43.25:047][771]LogIChat: [8:43] (Global) Rick: я всего лишь спросил а ты начала за школу пиздеть?
+[2019.10.22-05.43.27:394][841]LogIChat: [8:43] (Global) USB_PrEdAtOr³²²: трайки есть?
+[2019.10.22-05.43.34:850][ 64]LogIChat: [8:43] (Global) DED: онеа не тебе
+[2019.10.22-05.43.37:348][138]LogIChat: [8:43] (Global) Rick: причем тут школа блять?
+[2019.10.22-05.43.42:918][305]LogIChat: [8:43] (Global) [999]ДевочкаТамико: Иди в бан , РИк)
+[2019.10.22-05.43.50:092][520]LogIChat: [8:43] (Global) Tau: Админы есть?
+[2019.10.22-05.43.50:192][523]LogIChat: [8:43] (Global) Rick: мне похуй
+[2019.10.22-05.43.52:661][597]LogIChat: [8:43] (Global) DED: рик она не тебе говорила
+[2019.10.22-05.44.00:123][820]LogIChat: [8:44] (Global) wertrop: привет народ
+[2019.10.22-05.44.08:134][ 60]LogIChat: [8:44] (Global) [999]ДевочкаТамико: Дьябло
+[2019.10.22-05.44.09:726][108]LogIChat: [8:44] (Global) [999]ДевочкаТамико: Уходи
+[2019.10.22-05.44.10:523][132]LogIChat: [8:44] (Global) [999]ДевочкаТамико: Але
+[2019.10.22-05.44.14:426][249]LogIChat: [8:44] (Global) Sally Фейс: пипец ребята вы совсем разошлись
+[2019.10.22-05.44.34:127][840]LogIChat: [8:44] (Global) [999] Naavo: -рик удачи репорт уже летитъ
+[2019.10.22-05.44.37:131][930]LogIChat: [8:44] (Global) wertrop: слушай курлык ты на титане
+[2019.10.22-05.44.44:598][154]LogIChat: [8:44] (Global) Rick: просто на разных серверах разные правила
+[2019.10.22-05.44.55:829][490]LogIChat: [8:44] (Global) Rick: нахуй идите клан 999
+[2019.10.22-05.45.01:161][650]LogIChat: [8:45] (Global) Rick: обоссыши ебаные
+[2019.10.22-05.45.07:156][830]LogIChat: [8:45] (Global) Sally Фейс: эй не хами моим а
+[2019.10.22-05.45.09:389][897]LogIChat: [8:45] (Global) [999]ДевочкаТамико: Иди туда же)
+[2019.10.22-05.45.11:523][961]LogIChat: [8:45] (Global) wertrop: рик ты за кого
+[2019.10.22-05.45.16:496][110]LogIChat: [8:45] (Global) Sally Фейс: совсем страх потерял
+[2019.10.22-05.45.27:068][427]LogIChat: [8:45] (Global) Rick: по жизни не имею страха
+[2019.10.22-05.45.28:302][464]LogIChat: [8:45] (Global) DED: бан ему
+[2019.10.22-05.45.28:768][478]LogIChat: [8:45] (Global) Курлык курлык: да я на титане
+[2019.10.22-05.45.30:174][520]LogIChat: [8:45] (Global) Rick: щегол
+[2019.10.22-05.45.32:346][585]LogIChat: [8:45] (Global) wildmike: рик и от моего лица на тя щя репорт полетит)
+[2019.10.22-05.45.33:345][615]LogIChat: [8:45] (Global) Курлык курлык: идите сожрите меня
+[2019.10.22-05.45.33:446][618]LogIChat: [8:45] (Global) Rick: завались
+[2019.10.22-05.45.38:377][766]LogIChat: [8:45] (Global) Sally Фейс: видно жизнь еще тебя непинала
+[2019.10.22-05.45.41:044][846]LogIChat: [8:45] (Global) wertrop: я тож на алло и на титане
+[2019.10.22-05.45.46:812][ 19]LogIDatabase: Error: CharRowName was None for [BS].:Laimon:. despite having valid save data, starting new character creation
+[2019.10.22-05.45.46:812][ 19]LogIDatabase: Warning: Cancelling spawning character for [BS].:Laimon:.
+[2019.10.22-05.45.48:576][ 72]LogIChat: [8:45] (Global) Rick: пинаю я
+[2019.10.22-05.45.50:279][123]LogIChat: [8:45] (Global) wertrop: причём на фулл
+[2019.10.22-05.45.52:487][189]LogIChat: [8:45] (Global) Rick: таких как вы
+[2019.10.22-05.46.00:173][419]LogIChat: [8:46] (Global) Sally Фейс: пинают тебя по попке кеххехе
+[2019.10.22-05.46.04:045][535]LogIChat: [8:46] (Group-7) ✝ҜošMoś✝: убей аву
+[2019.10.22-05.46.13:081][806]LogIChat: [8:46] (Global) [999]ДевочкаТамико: Пожизненно бан
+[2019.10.22-05.46.13:515][819]LogIChat: [8:46] (Global) Rick: обоссаный клан 999
+[2019.10.22-05.46.13:783][827]LogIChat: [8:46] (Global) [999] Naavo: чел тут на тебя репорт уже кинули тебя норм
+[2019.10.22-05.46.26:935][221]LogIChat: [8:46] (Global) Rick: мне похер на репорт
+[2019.10.22-05.46.27:100][226]LogIChat: [8:46] (Global) wildmike: 2 репорта
+[2019.10.22-05.46.29:877][309]LogIChat: [8:46] (Global) [999] Naavo: Ща тебя наик научит манером
+[2019.10.22-05.46.30:714][334]LogIChat: [8:46] (Group-8) Fanatik: дкй камне
+[2019.10.22-05.46.33:698][424]LogIChat: [8:46] (Global) Sally Фейс: слышь ты обосышь иди от сюда если жить надоело
+[2019.10.22-05.46.37:399][535]LogIChat: [8:46] (Global) Rick: серверов адекватных достаточно
+[2019.10.22-05.46.43:720][725]LogIChat: [8:46] (Group-8) Fanatik: иди камне
+[2019.10.22-05.46.45:317][773]LogIChat: [8:46] (Global) Rick: бхахахаха
+[2019.10.22-05.46.50:314][923]LogIChat: [8:46] (Global) Rick: жить надоело?
+[2019.10.22-05.46.51:215][950]LogIChat: [8:46] (Global) USB_PrEdAtOr³²²: дело не в серверах, а в людях
+[2019.10.22-05.46.53:703][ 24]LogIChat: [8:46] (Global) Rick: ты еблан
+[2019.10.22-05.46.55:527][ 79]LogIChat: [8:46] (Global) Sally Фейс: тебе точно
+[2019.10.22-05.47.04:220][340]LogIChat: [8:47] (Global) Rick: разбрасыватся такими словечками
+[2019.10.22-05.47.12:261][581]LogIChat: [8:47] (Global) [999]ДевочкаТамико: Хватит
+[2019.10.22-05.47.12:428][586]LogIChat: [8:47] (Global) Rick: петух в себя приди
+[2019.10.22-05.47.17:629][742]LogIChat: [8:47] (Global) Sally Фейс: еблан один ты ты на всех тут говном как обезьяна кидаешся
+[2019.10.22-05.47.18:431][766]LogIChat: [8:47] (Global) [999]ДевочкаТамико: Ты уже в бане считай
+[2019.10.22-05.47.26:953][ 22]LogIChat: [8:47] (Global) [999] Naavo: наик выехал
+[2019.10.22-05.47.36:467][307]LogIChat: [8:47] (Global) Rick: пишет жить надоело бхахахах
+[2019.10.22-05.47.40:236][420]LogIChat: [8:47] (Global) [999] Naavo: по твою грешную душу
+[2019.10.22-05.47.44:008][533]LogIChat: [8:47] (Global) Sally Фейс: верно
+[2019.10.22-05.47.47:109][626]LogIChat: [8:47] (Global) Rick: киллером возомнил себя утырок
+[2019.10.22-05.47.52:727][794]LogIChat: [8:47] (Global) [999]ДевочкаТамико: Э
+[2019.10.22-05.47.55:779][885]LogIChat: [8:47] (Global) [999]ДевочкаТамико: Завали рот свой
+[2019.10.22-05.48.02:752][ 94]LogIChat: [8:48] (Global) Sally Фейс: пипец ну и дигродант на сервере
+[2019.10.22-05.48.05:722][183]LogIChat: [8:48] (Global) [999]ДевочкаТамико: +
+[2019.10.22-05.48.09:507][296]LogIChat: [8:48] (Global) Rick: тамико иди ебись конем
+[2019.10.22-05.48.14:288][439]LogIChat: [8:48] (Global) [999]ДевочкаТамико: Золотые слова, братан
+[2019.10.22-05.48.14:488][445]LogIChat: [8:48] (Global) wertrop: голубь не убивай плиз я на том самом острове
+[2019.10.22-05.48.15:857][486]LogIChat: [8:48] (Group-8) Fanatik: ты где щас
+[2019.10.22-05.48.26:634][809]LogIChat: [8:48] (Global) Sally Фейс: кажись рик у тебя недотроах раз так агришся
+[2019.10.22-05.48.33:866][ 26]LogIChat: [8:48] (Group-8) Saitiro: на охоте
+[2019.10.22-05.48.34:632][ 49]LogIChat: [8:48] (Global) InFlex: Детишки спокойствие)
+[2019.10.22-05.48.41:975][269]LogIChat: [8:48] (Global) Rick: сами начали пиздеть
+[2019.10.22-05.48.49:535][496]LogIChat: [8:48] (Global) Sally Фейс: мы неначинали
+[2019.10.22-05.48.54:060][631]LogIChat: [8:48] (Group-8) Fanatik: в каком раене
+[2019.10.22-05.48.55:294][668]LogIChat: [8:48] (Global) Rick: вот и мой ответ таков
+[2019.10.22-05.48.56:158][694]LogIChat: [8:48] (Global) [999] Naavo: Мы гворили даже не с тобой
+[2019.10.22-05.48.57:295][728]LogIChat: [8:48] (Global) ♦Motivchik♦: ало есть пати ?
+[2019.10.22-05.48.58:527][765]LogIChat: [8:48] (Global) Rick: придурки
+[2019.10.22-05.48.58:593][767]LogIChat: [8:48] (Global) Sally Фейс: ты сам начал оскорблять
+[2019.10.22-05.49.00:393][821]LogIChat: [8:49] (Global) DED: у терезины есть ночнюха или у меня баг такой?
+[2019.10.22-05.49.01:226][846]LogIChat: [8:49] (Global) [999]ДевочкаТамико: ИнФлекс, это скорее Рик малолеточка)
+[2019.10.22-05.49.01:993][869]LogIChat: [8:49] (Global) ARES: что за срач в глобале
+[2019.10.22-05.49.16:365][300]LogIChat: [8:49] (Global) Rick: лютый срач
+[2019.10.22-05.49.21:779][462]LogIChat: [8:49] (Global) Sally Фейс: ага
+[2019.10.22-05.49.22:351][479]LogIChat: [8:49] (Global) [BS].:Laimon:.: рик
+[2019.10.22-05.49.22:683][489]LogIChat: [8:49] (Global) wildmike: рик решил в бан пойти
+[2019.10.22-05.49.24:346][539]LogIChat: [8:49] (Global) [999]ДевочкаТамико: Ахах
+[2019.10.22-05.49.28:167][654]LogIChat: [8:49] (Global) [999]ДевочкаТамико: Рик решил в бан уйти
+[2019.10.22-05.49.28:535][665]LogIChat: [8:49] (Global) [BS].:Laimon:.: успокойся
+[2019.10.22-05.49.30:772][732]LogIChat: [8:49] (Global) [999]ДевочкаТамико: На 48ч
+[2019.10.22-05.49.37:540][935]LogIChat: [8:49] (Global) Rick: зашел значит на сервак спросил о правилах и меня начинают хейтить
+[2019.10.22-05.49.37:607][937]LogIChat: [8:49] (Global) Sally Фейс: я согласна с вилдмайком
+[2019.10.22-05.49.38:446][962]LogIChat: [8:49] (Global) [999]ДевочкаТамико: Уже репорт кинули на него
+[2019.10.22-05.49.42:231][ 74]LogIChat: [8:49] (Global) Rick: ебланы
+[2019.10.22-05.49.45:367][168]LogIChat: [8:49] (Global) [999]ДевочкаТамико: Да конечно
+[2019.10.22-05.49.51:424][349]LogIChat: [8:49] (Global) [999]ДевочкаТамико: + 6ч за кливету
+[2019.10.22-05.49.56:280][494]LogIChat: [8:49] (Global) Rick: срать на репорт
+[2019.10.22-05.49.59:274][584]LogIChat: [8:49] (Global) wildmike: я тож реп кинул
+[2019.10.22-05.50.02:068][668]LogIChat: [8:50] (Global) Sally Фейс: до до поплачь еще рик
+[2019.10.22-05.50.05:395][768]LogIChat: [8:50] (Global) Rick: сервер то не 1
+[2019.10.22-05.50.12:999][995]LogIChat: [8:50] (Global) Rick: так что завалитесь
+[2019.10.22-05.50.32:249][572]LogIChat: [8:50] (Global) Sally Фейс: а какое право ты нам приказываешь
+[2019.10.22-05.50.32:317][574]LogIChat: [8:50] (Global) Rick: ты ведь у нас петух
+[2019.10.22-05.50.35:669][674]LogIChat: [8:50] (Global) Rick: неебатся
+[2019.10.22-05.50.38:541][760]LogIChat: [8:50] (Global) Rick: салли
+[2019.10.22-05.50.41:487][847]LogIChat: [8:50] (Global) DED: привет галя
+[2019.10.22-05.50.43:349][903]LogIChat: [8:50] (Group-8) Fanatik: где ты находишся
+[2019.10.22-05.51.00:876][427]LogIChat: [8:51] (Global) Sally Фейс: пипец спермотоксикоз
+[2019.10.22-05.51.02:306][470]LogIChat: [8:51] (Global) [999]ДевочкаТамико: Какое право ты имеешь нас поливать говном, Рик?
+[2019.10.22-05.51.04:643][540]LogIChat: [8:51] (Group-8) Saitiro: да хз темно
+[2019.10.22-05.51.13:277][799]LogIChat: [8:51] (Global) Rick: ты еблан?
+[2019.10.22-05.51.20:138][  5]LogIChat: [8:51] (Global) Rick: это в ответ на твой срач
+[2019.10.22-05.51.22:508][ 76]LogIChat: [8:51] (Global) [999]ДевочкаТамико: А ты?
+[2019.10.22-05.51.23:873][117]LogIChat: [8:51] (Global) Rick: в мою сторону
+[2019.10.22-05.51.24:638][140]LogIChat: [8:51] (Global) Sally Фейс: о видите он начал снова
+[2019.10.22-05.51.26:335][191]LogIChat: [8:51] (Group-8) Fanatik: ок
+[2019.10.22-05.51.33:205][397]LogIChat: [8:51] (Global) Rick: вот именно твой срач
+[2019.10.22-05.51.34:647][440]LogIChat: [8:51] (Global) Sally Фейс: это бы заскринить
+[2019.10.22-05.51.38:913][568]LogIChat: [8:51] (Global) [999] Naavo: Есть пруфы что мы оскорбляли
+[2019.10.22-05.51.46:806][805]LogIChat: [8:51] (Global) komarik10: привет терезина
+[2019.10.22-05.51.52:037][961]LogIChat: [8:51] (Global) Rick: нахер иди с пруфами сына
+[2019.10.22-05.51.52:569][977]LogIChat: [8:51] (Global) DED: привет
+[2019.10.22-05.51.57:422][122]LogIChat: [8:51] (Global) Sally Фейс: ты первый на нас паносом обливаться стал
+[2019.10.22-05.52.06:076][381]LogIChat: [8:52] (Global) DED: у меня начнуха лагает
+[2019.10.22-05.52.07:680][429]LogIChat: [8:52] (Global) [999] Naavo: хахахаха пруфоф нет даже
+[2019.10.22-05.52.07:846][434]LogIChat: [8:52] (Global) Sally Фейс: охренелка
+[2019.10.22-05.52.11:992][558]LogIChat: [8:52] (Global) wildmike: боюсь рик болен заболеванием "матерщик" оно психическое и его можно вылечеть только баном!
+[2019.10.22-05.52.16:001][678]LogIChat: [8:52] (Global) Rick: пруфоф бхухуахахах
+[2019.10.22-05.52.20:549][814]LogIChat: [8:52] (Global) Rick: ебанат
+[2019.10.22-05.52.20:582][815]LogIChat: [8:52] (Global) Sally Фейс: ага
+[2019.10.22-05.52.27:925][ 35]LogIChat: [8:52] (Global) wildmike: )
+[2019.10.22-05.52.29:964][ 96]LogIChat: [8:52] (Global) Rick: деграданты
+[2019.10.22-05.52.32:764][180]LogIChat: [8:52] (Global) Sally Фейс: да он троль
+[2019.10.22-05.52.43:845][512]LogIChat: [8:52] (Global) Sally Фейс: не ведитесь на его понос
+[2019.10.22-05.52.50:817][721]LogIChat: [8:52] (Global) [999]ДевочкаТамико: Жди бана на 96ч
+[2019.10.22-05.52.59:723][987]LogIChat: [8:52] (Global) Rick: мне похуй на бан повторяю
+[2019.10.22-05.53.04:894][142]LogIChat: [8:53] (Global) Rick: похер на бан
+[2019.10.22-05.53.07:733][227]LogIChat: [8:53] (Global) [BS].:Laimon:.: рик
+[2019.10.22-05.53.11:565][342]LogIChat: [8:53] (Global) [BS].:Laimon:.: успокойся пж
+[2019.10.22-05.53.17:163][510]LogIChat: [8:53] (Global) Rick: нахер мне этот сервак где ебланы вокруг?
+[2019.10.22-05.53.20:564][612]LogIChat: [8:53] (Global) Sally Фейс: ну тогда необимжайся если ты вообще сюда незайдешь
+[2019.10.22-05.53.21:736][647]LogIChat: [8:53] (Global) [BS].:Laimon:.: мне играть хочется а не смотреть на твой  мат
+[2019.10.22-05.53.38:808][159]LogIChat: [8:53] (Global) DED: бан пожизнено и все
+[2019.10.22-05.53.39:753][187]LogIChat: [8:53] (Global) Rick: Laimon окей
+[2019.10.22-05.53.45:150][349]LogIChat: [8:53] (Global) Sally Фейс: =э
+[2019.10.22-05.53.50:647][514]LogIChat: [8:53] (Global) [BS].:Laimon:.: урааа
+[2019.10.22-05.53.58:128][738]LogIChat: [8:53] (Global) Sally Фейс: вот и пришли к мирному согласию
+[2019.10.22-05.53.59:871][790]LogIChat: [8:53] (Group-8) Saitiro: ты адолт
+[2019.10.22-05.54.01:137][828]LogIChat: [8:54] (Global) [999]ДевочкаТамико: Наконец
+[2019.10.22-05.54.14:103][216]LogIChat: [8:54] (Global) [999]ДевочкаТамико: Этот провокатор перестанет оскорблять всех
+[2019.10.22-05.54.19:643][382]LogIChat: [8:54] (Global) Sally Фейс: верно
+[2019.10.22-05.54.22:410][465]LogIChat: [8:54] (Global) wildmike: естли тебе рик, не угождают правила этого сервера будь добр иди на другой и и грай с такими же как ты\
+[2019.10.22-05.54.40:908][ 19]LogIChat: [8:54] (Global) USB_PrEdAtOr³²²: вы сами ведетесь на его провокации
+[2019.10.22-05.54.41:837][ 47]LogIChat: [8:54] (Global) Rick: вот написал ведь окей
+[2019.10.22-05.54.50:599][310]LogIChat: [8:54] (Global) Rick: а вы начинаете заново
+[2019.10.22-05.54.52:428][365]LogIChat: [8:54] (Global) Rick: окей
+[2019.10.22-05.54.56:280][480]LogIChat: [8:54] (Global) Rick: как хотите
+[2019.10.22-05.54.56:918][499]LogIChat: [8:54] (Global) Sally Фейс: ну вообщето если ты читал все от начала и до конца он нам угрожал
+[2019.10.22-05.55.00:344][602]LogIChat: [8:55] (Global) [999]ДевочкаТамико: Сначало началось все с агро-дьябло
+[2019.10.22-05.55.04:107][715]LogIChat: [8:55] (Global) [999]ДевочкаТамико: А потом пошло
+[2019.10.22-05.55.07:350][812]LogIChat: [8:55] (Global) Sally Фейс: ага
+[2019.10.22-05.55.08:749][854]LogIChat: [8:55] (Global) Rick: бляяяяя
+[2019.10.22-05.55.10:818][916]LogIChat: [8:55] (Global) [999]ДевочкаТамико: Мы "ебанаты"
+[2019.10.22-05.55.11:990][951]LogIChat: [8:55] (Global) [999]ДевочкаТамико: И все
+[2019.10.22-05.55.12:855][977]LogIChat: [8:55] (Global) Rick: тупые бляди
+[2019.10.22-05.55.18:450][145]LogIChat: [8:55] (Group-8) Fanatik: нет
+[2019.10.22-05.55.21:385][233]LogIChat: [8:55] (Global) komarik10: и довно это,тери?
+[2019.10.22-05.55.22:418][264]LogIChat: [8:55] (Global) Rick: вы утырки?
+[2019.10.22-05.55.29:484][476]LogIChat: [8:55] (Global) Rick: вот вопрос вы утырки?
+[2019.10.22-05.55.31:052][523]LogIChat: [8:55] (Global) Sally Фейс: а ебобо?
+[2019.10.22-05.55.39:089][764]LogIChat: [8:55] (Global) Rick: нет бы сука завалится дальше пиздите
+[2019.10.22-05.55.39:399][773]LogIChat: [8:55] (Global) [999]ДевочкаТамико: Вот вопрос
+[2019.10.22-05.55.54:617][228]LogIChat: [8:55] (Global) [BS].:Laimon:.: девочка и салли не пишите ему нечего!
+[2019.10.22-05.55.55:249][247]LogIChat: [8:55] (Global) DED: хватит вам уже репорт есть есть бан будет будет необращайте внимание и все
+[2019.10.22-05.55.58:206][336]LogIChat: [8:55] (Global) Sally Фейс: ты задал вапрос мы тебе задали
+[2019.10.22-05.56.04:279][518]LogIChat: [8:56] (Group-8) Saitiro: хорошо я иду
+[2019.10.22-05.56.12:638][769]LogIChat: [8:56] (Group-8) Fanatik: ок
+[2019.10.22-05.56.19:171][965]LogIChat: [8:56] (Global) Sally Фейс: ладно ладно все расходимся
+[2019.10.22-05.56.19:572][977]LogIChat: [8:56] (Global) Rick: завалитесь а
+[2019.10.22-05.56.28:160][235]LogIChat: [8:56] (Global) [999]ДевочкаТамико: Сначала ты завались
+[2019.10.22-05.56.32:071][352]LogIChat: [8:56] (Global) [BS].:Laimon:.: девочка!
+[2019.10.22-05.56.33:908][407]LogIChat: [8:56] (Global) Sally Фейс: пипец рик всеже неодекват
+[2019.10.22-05.56.35:973][469]LogIChat: [8:56] (Global) [BS].:Laimon:.: не провоцируй его
+[2019.10.22-05.56.36:776][493]LogIChat: [8:56] (Global) Rick: мдааа
+[2019.10.22-05.56.39:281][568]LogIChat: [8:56] (Group-8) Fanatik: ща скора падрасту
+[2019.10.22-05.56.45:441][753]LogIChat: [8:56] (Global) [999]ДевочкаТамико: Я спокойна))0
+[2019.10.22-05.56.59:181][164]LogIChat: [8:56] (Global) [BS].:Laimon:.: я уже скрин сделал как ты провоцируешь его
+[2019.10.22-05.57.02:615][267]LogIChat: [8:57] (Group-4) Sally Фейс: мдаааа
+[2019.10.22-05.57.10:771][511]LogIChat: [8:57] (Global) [999]ДевочкаТамико: Так а у меня есть скрины, что он начал
+[2019.10.22-05.57.12:806][572]LogIChat: [8:57] (Group-8) Fanatik: 75 росту
+[2019.10.22-05.57.16:204][674]LogIChat: [8:57] (Global) [999]ДевочкаТамико: 20 скринов, хватит?
+[2019.10.22-05.57.19:804][782]LogIChat: [8:57] (Global) [BS].:Laimon:.: а ты продолжаешь
+[2019.10.22-05.57.20:600][806]LogIChat: [8:57] (Global) ♦Motivchik♦: ало есть пати?
+[2019.10.22-05.57.28:468][ 42]LogIChat: [8:57] (Global) [BS].:Laimon:.: его провоцировать
+[2019.10.22-05.57.39:446][370]LogIChat: [8:57] (Global) Sally Фейс: может тихо и мирно разойдемся ребят хватит
+[2019.10.22-05.57.42:316][456]LogIChat: [8:57] (Global) [999]ДевочкаТамико: 6
+[2019.10.22-05.57.48:778][650]LogIChat: [8:57] (Global) [999]ДевочкаТамико: 666999)
+[2019.10.22-05.57.52:080][749]LogIChat: [8:57] (Global) Rick: 30 скринов
+[2019.10.22-05.57.56:500][881]LogIChat: [8:57] (Global) komarik10: дед,а тут есть ещё кто-нибудб7
+[2019.10.22-05.58.00:576][  3]LogIChat: [8:58] (Global) Sally Фейс: ребята я вас умоляю
+[2019.10.22-05.58.06:290][174]LogIChat: [8:58] (Global) [999]ДевочкаТамико: Так я все, я то че?
+[2019.10.22-05.58.06:458][179]LogIChat: [8:58] (Global) DED: шанта гдето бегала
+[2019.10.22-05.58.12:706][366]LogIChat: [8:58] (Global) komarik10: ПОНЯТНО
+[2019.10.22-05.58.17:312][504]LogIChat: [8:58] (Global) komarik10: ой
+[2019.10.22-05.58.40:243][192]LogIChat: [8:58] (Global) komarik10: ты джув?
+[2019.10.22-05.58.43:117][278]LogIChat: [8:58] (Global) DED: да
+[2019.10.22-05.59.08:846][ 48]LogIChat: [8:59] (Group-6) wildmike: ты обойдёш или поплывёш?
+[2019.10.22-05.59.31:430][725]LogIChat: [8:59] (Group-6) Byakkonii: Поплыву
+[2019.10.22-05.59.53:102][374]LogIChat: [8:59] (Global) DED: она вышла
+[2019.10.22-06.02.01:846][231]LogIChat: [9:2] (Group-4) Sally Фейс: наави а где наша подруга
+[2019.10.22-06.03.05:620][142]LogIChat: [9:3] (Global) komarik10: скок роста7
+[2019.10.22-06.03.10:383][284]LogIChat: [9:3] (Global) DED: 87
+[2019.10.22-06.03.27:577][800]LogIChat: [9:3] (Group-6) wildmike: мне надо выйти из игры на 5 минут скоро вернусь
+[2019.10.22-06.03.45:393][334]LogIChat: [9:3] (Group-8) Saitiro: река есть?
+[2019.10.22-06.03.55:344][631]LogIChat: [9:3] (Group-8) Fanatik: да
+[2019.10.22-06.03.57:313][690]LogIChat: [9:3] (Global) komarik10: ты на тапкине кто?
+[2019.10.22-06.04.03:222][867]LogIChat: [9:4] (Global) DED: трайк
+[2019.10.22-06.04.13:003][160]LogIChat: [9:4] (Group-8) Saitiro: иди по течению
+[2019.10.22-06.04.13:944][188]LogIChat: [9:4] (Global) komarik10: тут же где мы сейчас?
+[2019.10.22-06.04.17:716][301]LogIChat: [9:4] (Global) DED: да
+[2019.10.22-06.04.25:843][545]LogIChat: [9:4] (Global) komarik10: а я тут шанта
+[2019.10.22-06.04.29:450][653]LogIChat: [9:4] (Global) komarik10: там*
+[2019.10.22-06.04.30:511][685]LogIChat: [9:4] (Global) ♦Motivchik♦: ало есть пати?
+[2019.10.22-06.04.49:931][267]LogIChat: [9:4] (Global) DED: ты там с маей бегала
+[2019.10.22-06.04.53:143][363]LogIChat: [9:4] (Global) wertrop: курлык
+[2019.10.22-06.04.56:691][469]LogIChat: [9:4] (Global) komarik10: ага
+[2019.10.22-06.05.04:749][711]LogIChat: [9:5] (Global) wertrop: там к тебе в пати просятся
+[2019.10.22-06.05.17:308][ 87]LogIChat: [9:5] (Global) DED: мы еще там гиг били да
+[2019.10.22-06.05.17:509][ 93]LogIChat: [9:5] (Group-8) Fanatik: ок
+[2019.10.22-06.05.23:880][284]LogIChat: [9:5] (Global) wertrop: можешь со мной
+[2019.10.22-06.05.25:577][335]LogIChat: [9:5] (Global) komarik10: нет
+[2019.10.22-06.05.30:002][468]LogIChat: [9:5] (Global) wertrop: в пати с одиноким
+[2019.10.22-06.05.30:571][485]LogIChat: [9:5] (Global) komarik10: я не бил гиги
+[2019.10.22-06.05.32:834][553]LogIChat: [9:5] (Global) |SXP| Luna Max: трайки есть?
+[2019.10.22-06.05.33:399][570]LogIChat: [9:5] (Global) komarik10: гиг*
+[2019.10.22-06.05.46:739][970]LogIChat: [9:5] (Global) komarik10: я вечером играл
+[2019.10.22-06.05.49:168][ 43]LogIChat: [9:5] (Global) Sally Фейс: интересно есть еще спино
+[2019.10.22-06.06.08:676][627]LogIChat: [9:6] (Group-10) wertrop: привет
+[2019.10.22-06.06.15:803][841]LogIChat: [9:6] (Group-10) ♦Motivchik♦: ку)
+[2019.10.22-06.06.26:598][165]LogIChat: [9:6] (Group-10) ♦Motivchik♦: мне к тебе идти ?
+[2019.10.22-06.06.28:102][210]LogIChat: [9:6] (Group-10) wertrop: если не против го по дису
+[2019.10.22-06.06.34:269][394]LogIChat: [9:6] (Global) komarik10: лан я пойду на тапкин
+[2019.10.22-06.06.38:271][514]LogIChat: [9:6] (Global) DED: ок
+[2019.10.22-06.06.40:036][567]LogIChat: [9:6] (Group-10) wertrop: да давай у меня гнездо
+[2019.10.22-06.06.40:268][574]LogIChat: [9:6] (Global) komarik10: пока
+[2019.10.22-06.06.41:768][619]LogIChat: [9:6] (Group-10) ♦Motivchik♦: ок ток мин через 10 ок ?
+[2019.10.22-06.06.43:535][672]LogIChat: [9:6] (Global) DED: пока
+[2019.10.22-06.06.46:836][771]LogIChat: [9:6] (Group-10) wertrop: окей
+[2019.10.22-06.06.57:615][ 94]LogIChat: [9:6] (Group-10) ♦Motivchik♦: как раз до тебя пока дойду
+[2019.10.22-06.07.01:612][214]LogIChat: [9:7] (Group-10) wertrop: )
+[2019.10.22-06.07.11:221][502]LogIChat: [9:7] (Group-10) wertrop: я фулл адолт
+[2019.10.22-06.07.32:262][133]LogIChat: [9:7] (Group-10) ♦Motivchik♦: адолт 90%
+[2019.10.22-06.07.34:305][194]LogIChat: [9:7] (Global) wertrop: + в чат кто хочет в гнездо к алло
+[2019.10.22-06.07.36:276][253]LogIDatabase: Error: CharRowName was None for Pussy despite having valid save data, starting new character creation
+[2019.10.22-06.07.36:276][253]LogIDatabase: Warning: Cancelling spawning character for Pussy
+[2019.10.22-06.07.43:014][455]LogIChat: [9:7] (Group-10) wertrop: )
+[2019.10.22-06.08.51:274][502]LogIChat: [9:8] (Group-8) Fanatik: лапу сломал
+[2019.10.22-06.09.10:532][ 79]LogIChat: [9:9] (Group-8) Fanatik: двигай камне
+[2019.10.22-06.09.17:985][303]LogIChat: [9:9] (Global) wertrop: сори курлык но у меня будет своя империя алло
+[2019.10.22-06.09.35:704][835]LogIChat: [9:9] (Global) wertrop: удачи тебе там
+[2019.10.22-06.10.21:621][212]LogIChat: [9:10] (Global) wertrop: 1 яйцо в гнезде алло присуствует
+[2019.10.22-06.11.01:110][396]LogIChat: [9:11] (Group-8) Fanatik: пайдем где я был
+[2019.10.22-06.11.29:605][251]LogIChat: [9:11] (Group-8) Saitiro: тут два дино
+[2019.10.22-06.11.42:091][626]LogIChat: [9:11] (Group-8) Fanatik: ок
+[2019.10.22-06.12.01:088][195]LogIChat: [9:12] (Group-10) ♦Motivchik♦: далековато до тебя))
+[2019.10.22-06.12.08:121][406]LogIChat: [9:12] (Group-8) Saitiro: с лово и с право
+[2019.10.22-06.12.08:121][406]LogIChat: [9:12] (Group-8) Fanatik: сиди тихо
+[2019.10.22-06.14.09:224][ 33]LogIChat: [9:14] (Group-10) wertrop: ну да))
+[2019.10.22-06.14.28:573][613]LogIChat: [9:14] (Global) wertrop: предложение всё ещё действует
+[2019.10.22-06.14.43:637][ 64]LogIChat: [9:14] (Global) Sally Фейс: ты как рекламу предлогаешь))
+[2019.10.22-06.14.49:711][246]LogIChat: [9:14] (Global) wertrop: ))
+[2019.10.22-06.15.45:763][926]LogIChat: [9:15] (Global) Sally Фейс: привет
+[2019.10.22-06.15.54:360][184]LogIChat: [9:15] (Global) Sally Фейс: джарова
+[2019.10.22-06.16.06:548][550]LogIChat: [9:16] (Global) Sally Фейс: ты кто
+[2019.10.22-06.16.11:627][702]LogIChat: [9:16] (Global) wertrop: ты кому
+[2019.10.22-06.16.18:267][901]LogIChat: [9:16] (Global) Sally Фейс: это ты
+[2019.10.22-06.16.23:792][ 67]LogIChat: [9:16] (Global) wertrop: где
+[2019.10.22-06.16.25:025][104]LogIChat: [9:16] (Global) Sally Фейс: вер
+[2019.10.22-06.16.40:762][576]LogIChat: [9:16] (Global) wertrop: где я
+[2019.10.22-06.17.02:901][239]LogIChat: [9:17] (Global) wertrop: хотябы скажи за кого ты играешь
+[2019.10.22-06.17.06:874][358]LogIChat: [9:17] (Global) wertrop: я мирный
+[2019.10.22-06.17.27:326][971]LogIChat: [9:17] (Global) Pussy: Гиги пати
+[2019.10.22-06.17.40:115][355]LogIChat: [9:17] (Global) wertrop: нет гиг есть толпа алло
+[2019.10.22-06.17.49:057][623]LogIChat: [9:17] (Global) Pussy: жаль
+[2019.10.22-06.17.57:249][868]LogIChat: [9:17] (Global) wertrop: могу в гнездо кинуть
+[2019.10.22-06.18.03:569][ 57]LogIChat: [9:18] (Global) Pussy: нет, спасибо
+[2019.10.22-06.18.05:901][127]LogIChat: [9:18] (Global) wertrop: )
+[2019.10.22-06.18.12:196][316]LogIChat: [9:18] (Global) [BS].:Laimon:.: пусси привет
+[2019.10.22-06.18.17:261][468]LogIChat: [9:18] (Global) Pussy: привет
+[2019.10.22-06.18.24:266][678]LogIChat: [9:18] (Global) [BS].:Laimon:.: поминшь меня?
+[2019.10.22-06.18.27:096][763]LogIChat: [9:18] (Global) Pussy: да
+[2019.10.22-06.18.32:373][921]LogIChat: [9:18] (Global) Byakkonii: Рексы пати
+[2019.10.22-06.18.59:689][739]LogIChat: [9:18] (Global) Pussy: Лаймон, ты сейчас кем играешь?
+[2019.10.22-06.19.03:282][847]LogIChat: [9:19] (Global) [BS].:Laimon:.: рекс
+[2019.10.22-06.19.05:946][927]LogIChat: [9:19] (Group-8) Fanatik: ты где
+[2019.10.22-06.19.05:979][928]LogIChat: [9:19] (Group-7) Torinka3: ну чё чё
+[2019.10.22-06.19.28:499][603]LogIChat: [9:19] (Global) [BS].:Laimon:.: а ты?
+[2019.10.22-06.19.28:599][606]LogIChat: [9:19] (Group-8) Fanatik: я его завалил
+[2019.10.22-06.19.34:526][784]LogIChat: [9:19] (Global) Pussy: гига, джув
+[2019.10.22-06.20.05:181][703]LogIChat: [9:20] (Group-8) Fanatik: первый раз такова убил
+[2019.10.22-06.20.37:956][686]LogINest: Warning: Removing nest from the game due to it being destroyed
+[2019.10.22-06.21.05:418][509]LogIChat: [9:21] (Group-8) Saitiro: ну а я 4 карно и рекса
+[2019.10.22-06.21.21:635][995]LogIChat: [9:21] (Group-8) Fanatik: я церой рекса раз убил и он меня тоесть он истек кровью
+[2019.10.22-06.21.25:230][103]LogIChat: [9:21] (Global) wertrop: + в чат кто хочет в гнездо к алло
+[2019.10.22-06.21.35:527][412]LogIChat: [9:21] (Global) [BS].:Laimon:.: верт троп
+[2019.10.22-06.21.42:305][615]LogIChat: [9:21] (Global) wertrop: что
+[2019.10.22-06.21.47:570][773]LogIChat: [9:21] (Group-8) Saitiro: один
+[2019.10.22-06.21.59:334][124]LogIChat: [9:21] (Global) [BS].:Laimon:.: ты рано слишком зовёшь в гнездо надо под вечер звать час народу мало
+[2019.10.22-06.22.00:565][161]LogIDatabase: Error: CharRowName was None for SKORPION despite having valid save data, starting new character creation
+[2019.10.22-06.22.00:565][161]LogIDatabase: Warning: Cancelling spawning character for SKORPION
+[2019.10.22-06.22.07:936][382]LogIChat: [9:22] (Global) wertrop: я в курсе
+[2019.10.22-06.22.33:957][162]LogIChat: [9:22] (Group-8) Fanatik: стего паранел еслибы лапу несломал убилбы
+[2019.10.22-06.22.48:973][612]LogIChat: [9:22] (Global) wertrop: я просто играю теперь только утром
+[2019.10.22-06.23.12:779][324]LogIChat: [9:23] (Group-12) BroNaut: y
+[2019.10.22-06.23.14:151][365]LogIChat: [9:23] (Group-12) BroNaut: yo
+[2019.10.22-06.23.28:206][786]LogIChat: [9:23] (Global) SKORPION: ку
+[2019.10.22-06.23.29:141][814]LogIChat: [9:23] (Group-12) GRIC: привет
+[2019.10.22-06.23.44:547][276]LogIChat: [9:23] (Global) SKORPION: я тоже играю токо утром
+[2019.10.22-06.23.49:549][426]LogIChat: [9:23] (Group-12) SKORPION: ку
+[2019.10.22-06.23.55:505][604]LogIChat: [9:23] (Group-8) Fanatik: да
+[2019.10.22-06.24.00:272][747]LogIChat: [9:24] (Group-8) Saitiro: в твоём направлении ркес
+[2019.10.22-06.24.00:471][753]LogIChat: [9:24] (Group-12) SKORPION: грик а ты фулл?
+[2019.10.22-06.24.10:200][ 44]LogIChat: [9:24] (Global) USB_PrEdAtOr³²²: стего ку
+[2019.10.22-06.24.10:868][ 64]LogIChat: [9:24] (Global) wertrop: ))
+[2019.10.22-06.24.13:873][154]LogIChat: [9:24] (Global) wertrop: ку
+[2019.10.22-06.24.15:004][188]LogIChat: [9:24] (Global) ARES: привет
+[2019.10.22-06.24.23:767][451]LogIChat: [9:24] (Global) USB_PrEdAtOr³²²: куда идешь?
+[2019.10.22-06.24.25:430][501]LogIChat: [9:24] (Group-12) SKORPION: бро иди к омне
+[2019.10.22-06.24.26:693][539]LogIChat: [9:24] (Group-12) GRIC: нет джувик
+[2019.10.22-06.24.27:193][554]LogIChat: [9:24] (Global) ARES: к еде
+[2019.10.22-06.24.28:162][583]LogIChat: [9:24] (Global) wertrop: хочешь в гнездо к алло
+[2019.10.22-06.24.28:797][602]LogIChat: [9:24] (Global) Pussy: Арес, ты самка?
+[2019.10.22-06.24.31:697][689]LogIChat: [9:24] (Group-12) SKORPION: я медкий джуф
+[2019.10.22-06.24.37:102][851]LogIChat: [9:24] (Global) USB_PrEdAtOr³²²: стада нет?
+[2019.10.22-06.24.38:502][893]LogIChat: [9:24] (Global) ARES: нет)
+[2019.10.22-06.24.39:333][917]LogIChat: [9:24] (Group-12) SKORPION: иди к нам
+[2019.10.22-06.24.41:333][977]LogIChat: [9:24] (Global) ARES: и нет
+[2019.10.22-06.24.47:366][158]LogIChat: [9:24] (Global) Pussy: жаль
+[2019.10.22-06.24.48:500][192]LogIChat: [9:24] (Global) ARES: фига вас
+[2019.10.22-06.25.04:055][657]LogIChat: [9:25] (Global) wertrop: алло?
+[2019.10.22-06.25.08:789][799]LogIChat: [9:25] (Global) ARES: труков
+[2019.10.22-06.25.12:699][916]LogIChat: [9:25] (Group-12) SKORPION: а ко самка?
+[2019.10.22-06.25.15:606][  3]LogIChat: [9:25] (Group-8) Fanatik: напарник ныкался на маеке забор сетка рексу памешала
+[2019.10.22-06.25.18:103][ 78]LogIChat: [9:25] (Group-12) SKORPION: я самка
+[2019.10.22-06.25.22:077][197]LogIChat: [9:25] (Global) USB_PrEdAtOr³²²: го с нами)
+[2019.10.22-06.25.30:339][444]LogIChat: [9:25] (Global) ARES: мне бы дорасти
+[2019.10.22-06.25.45:577][901]LogIChat: [9:25] (Group-12) SKORPION: у меня джуф рэкс
+[2019.10.22-06.25.54:830][178]LogIChat: [9:25] (Group-12) SKORPION: и у него еда
+[2019.10.22-06.26.04:474][467]LogIChat: [9:26] (Group-12) SKORPION: много еды
+[2019.10.22-06.26.05:538][499]LogIChat: [9:26] (Group-8) Fanatik: ок
+[2019.10.22-06.26.06:805][537]LogIChat: [9:26] (Local) USB_PrEdAtOr³²²: пати?
+[2019.10.22-06.26.24:127][ 56]LogIChat: [9:26] (Local) MaRs0n: я на 1 час только
+[2019.10.22-06.26.38:454][486]LogIChat: [9:26] (Group-12) SKORPION: бро ко мне быстро!
+[2019.10.22-06.26.44:629][671]LogIChat: [9:26] (Group-8) Fanatik: я его жду
+[2019.10.22-06.26.56:218][ 18]LogIChat: [9:26] (Group-12) GRIC: щя его сожрём
+[2019.10.22-06.27.00:557][148]LogIChat: [9:27] (Group-5) USB_PrEdAtOr³²²: рост?
+[2019.10.22-06.27.01:856][187]LogIChat: [9:27] (Group-12) SKORPION: тут еды много токо защищает мелкий джуф
+[2019.10.22-06.27.22:038][791]LogIChat: [9:27] (Group-5) MaRs0n: 88%
+[2019.10.22-06.27.22:571][807]LogIChat: [9:27] (Group-12) SKORPION: тут у него кто-то большой труп
+[2019.10.22-06.27.49:743][621]LogIChat: [9:27] (Group-8) Fanatik: я пакурить
+[2019.10.22-06.27.53:437][732]LogIChat: [9:27] (Global) ARES: приходится места где кусты наизусть запоминать
+[2019.10.22-06.28.03:829][ 43]LogIChat: [9:28] (Global) USB_PrEdAtOr³²²: стего мощный?
+[2019.10.22-06.28.12:521][303]LogIChat: [9:28] (Global) ARES: относительно
+[2019.10.22-06.28.15:388][389]LogIChat: [9:28] (Group-12) SKORPION: кожись рэксик ушёл
+[2019.10.22-06.28.17:790][461]LogIChat: [9:28] (Global) Pussy: Предатор, ты кто?
+[2019.10.22-06.28.21:859][582]LogIChat: [9:28] (Global) USB_PrEdAtOr³²²: трайк
+[2019.10.22-06.28.45:639][295]LogIChat: [9:28] (Global) ARES: тут карно был
+[2019.10.22-06.28.49:319][405]LogIChat: [9:28] (Global) USB_PrEdAtOr³²²: видели
+[2019.10.22-06.29.15:954][203]LogIChat: [9:29] (Global) _May_: ушел уже карно, далеко.
+[2019.10.22-06.29.18:524][280]LogIChat: [9:29] (Global) wertrop: + в чат кто хочет в гнездо к алло
+[2019.10.22-06.29.25:784][498]LogIChat: [9:29] (Global) ARES: вот и хорошо
+[2019.10.22-06.29.50:758][246]LogIChat: [9:29] (Group-8) Saitiro: водопат видешь?
+[2019.10.22-06.29.54:473][357]LogIChat: [9:29] (Global) SKORPION: рэксы пати
+[2019.10.22-06.30.07:869][759]LogIChat: [9:30] (Group-12) BroNaut: where is skorpion
+[2019.10.22-06.30.16:892][ 29]LogIChat: [9:30] (Global) DED: скорпион привет
+[2019.10.22-06.30.18:544][ 78]LogIChat: [9:30] (Group-6) SKORPION: у тя естть ава?
+[2019.10.22-06.30.25:335][280]LogIChat: [9:30] (Global) Суицид: привет всем
+[2019.10.22-06.30.32:671][500]LogIChat: [9:30] (Group-6) Byakkonii: Авы нет, сижу жду
+[2019.10.22-06.30.34:274][548]LogIChat: [9:30] (Global) DED: ку
+[2019.10.22-06.30.37:845][655]LogIChat: [9:30] (Group-6) Byakkonii: у меня вода
+[2019.10.22-06.30.38:111][663]LogIChat: [9:30] (Global) _May_: Доброго
+[2019.10.22-06.30.44:187][845]LogIChat: [9:30] (Group-6) SKORPION: ты убил ютку?
+[2019.10.22-06.30.47:618][948]LogIChat: [9:30] (Global) skazi: привет
+[2019.10.22-06.30.53:600][127]LogIChat: [9:30] (Group-6) SKORPION: а ты адолт или саб или джуф?
+[2019.10.22-06.31.07:986][557]LogIChat: [9:31] (Global) Суицид: убей
+[2019.10.22-06.31.13:283][716]LogIChat: [9:31] (Global) DED: ты где
+[2019.10.22-06.31.14:351][748]LogIChat: [9:31] (Global) SKORPION: рэксы пати
+[2019.10.22-06.31.16:820][822]LogIChat: [9:31] (Global) ARES: суицидник пришел
+[2019.10.22-06.31.18:084][860]LogIChat: [9:31] (Global) Суицид: под тобой
+[2019.10.22-06.31.18:115][861]LogIChat: [9:31] (Global) SKORPION: о дед
+[2019.10.22-06.31.26:981][127]LogIChat: [9:31] (Global) SKORPION: ты кто,
+[2019.10.22-06.31.36:551][414]LogIChat: [9:31] (Global) DED: тереза
+[2019.10.22-06.31.49:765][810]LogIChat: [9:31] (Global) SKORPION: самка?
+[2019.10.22-06.31.56:249][  4]LogIChat: [9:31] (Group-8) Fanatik: нет
+[2019.10.22-06.31.57:348][ 37]LogIChat: [9:31] (Global) Byakkonii: wertrop давай к алло
+[2019.10.22-06.32.00:613][135]LogIChat: [9:32] (Global) DED: нет
+[2019.10.22-06.32.06:936][325]LogIChat: [9:32] (Global) SKORPION: бля
+[2019.10.22-06.32.09:382][398]LogIChat: [9:32] (Global) wertrop: в гнездо
+[2019.10.22-06.32.15:080][569]LogIChat: [9:32] (Global) wertrop: ?
+[2019.10.22-06.32.20:277][724]LogIChat: [9:32] (Global) SKORPION: рэксы пати
+[2019.10.22-06.32.20:377][727]LogIChat: [9:32] (Global) Byakkonii: да
+[2019.10.22-06.32.35:218][170]LogIChat: [9:32] (Group-10) wertrop: привет
+[2019.10.22-06.32.37:379][235]LogIChat: [9:32] (Global) SKORPION: кто рэкс + в чат
+[2019.10.22-06.32.48:122][557]LogIChat: [9:32] (Group-10) Byakkonii: Привет
+[2019.10.22-06.32.52:492][688]LogIChat: [9:32] (Group-10) wertrop: заходи в дис 1 серв
+[2019.10.22-06.32.58:111][856]LogIChat: [9:32] (Global) [BS].:Laimon:.: ищу пати рексы что бы умели играть и смогли другому рексу противостоять
+[2019.10.22-06.33.10:373][224]LogIChat: [9:33] (Group-8) Fanatik: дуй камне
+[2019.10.22-06.33.11:967][272]LogIChat: [9:33] (Global) SKORPION: я могу я хорошо охочусь
+[2019.10.22-06.33.19:835][508]LogIChat: [9:33] (Group-10) Byakkonii: В первый?
+[2019.10.22-06.33.24:872][659]LogIChat: [9:33] (Global) ✝ҜošMoś✝: АААААААААААААААААААААААААААААААААААААА
+[2019.10.22-06.33.36:528][  8]LogIChat: [9:33] (Global) SKORPION: неееее капсиииии
+[2019.10.22-06.33.44:498][247]LogIChat: [9:33] (Global) Pussy: не стукайте
+[2019.10.22-06.33.51:369][452]LogIChat: [9:33] (Global) SKORPION: рэксы пат
+[2019.10.22-06.33.55:534][576]LogIChat: [9:33] (Global) SKORPION: рэксы пати
+[2019.10.22-06.33.59:740][702]LogIChat: [9:33] (Global) Pussy: я попить и уйду
+[2019.10.22-06.34.32:100][672]LogIChat: [9:34] (Group-6) SKORPION: дарова
+[2019.10.22-06.34.34:032][730]LogIChat: [9:34] (Group-10) wertrop: lf ofc nelf gthtqle
+[2019.10.22-06.34.35:532][775]LogIChat: [9:34] (Group-6) SKORPION: ты адолт?
+[2019.10.22-06.34.37:328][828]LogIChat: [9:34] (Group-10) wertrop: ла
+[2019.10.22-06.34.39:701][899]LogIChat: [9:34] (Group-10) wertrop: да
+[2019.10.22-06.34.47:105][121]LogIChat: [9:34] (Group-10) wertrop: щас туда перейду
+[2019.10.22-06.34.52:797][292]LogIChat: [9:34] (Group-10) Byakkonii: ок
+[2019.10.22-06.35.37:888][642]LogIChat: [9:35] (Group-8) Fanatik: таво я сьел одни ребра и твой труп целый
+[2019.10.22-06.35.52:090][ 68]LogIChat: [9:35] (Group-6) SKORPION: лаймон
+[2019.10.22-06.36.09:679][595]LogIChat: [9:36] (Group-5) USB_PrEdAtOr³²²: трайк тут юта
+[2019.10.22-06.36.11:944][663]LogIChat: [9:36] (Group-5) USB_PrEdAtOr³²²: аккуратнее
+[2019.10.22-06.36.18:648][864]LogIChat: [9:36] (Group-5) MaRs0n: ок
+[2019.10.22-06.36.21:097][937]LogIChat: [9:36] (Group-8) Fanatik: западло тебя есть
+[2019.10.22-06.36.31:019][233]LogIChat: [9:36] (Group-6) SKORPION: у меня еда
+[2019.10.22-06.37.26:905][908]LogIChat: [9:37] (Group-6) [BS].:Laimon:.: я саб
+[2019.10.22-06.37.30:310][ 10]LogIChat: [9:37] (Group-6) [BS].:Laimon:.: почти
+[2019.10.22-06.37.30:608][ 19]LogIChat: [9:37] (Group-6) SKORPION: аа
+[2019.10.22-06.38.08:145][144]LogIChat: [9:38] (Group-8) Saitiro: дуй ко мне место хорошое нашел
+[2019.10.22-06.38.08:910][167]LogIChat: [9:38] (Global) Byakkonii: Кто хочет в гнездо алло + в чат
+[2019.10.22-06.38.14:259][327]LogIChat: [9:38] (Group-10) wertrop: мотив если что заходи в 1 серв алло
+[2019.10.22-06.38.26:549][695]LogIChat: [9:38] (Group-8) Fanatik: надош спина очутился до этога его небыло
+[2019.10.22-06.39.08:097][940]LogIChat: [9:39] (Group-8) Fanatik: паначалу думал тагже
+[2019.10.22-06.40.03:605][603]LogIChat: [9:40] (Group-8) Fanatik: тут уже перебили давай камне
+[2019.10.22-06.41.07:651][521]LogIChat: [9:41] (Group-8) Fanatik: это было случайность
+[2019.10.22-06.41.14:613][730]LogIChat: [9:41] (Group-8) Saitiro: дуй ко мне
+[2019.10.22-06.41.43:106][584]LogIChat: [9:41] (Group-8) Fanatik: ну блин бегу нарвемся
+[2019.10.22-06.43.21:759][539]LogIChat: [9:43] (Local) VIYLTRA: пати кинь
+[2019.10.22-06.43.39:605][ 74]LogIChat: [9:43] (Global) |GO|SXP| Shloyd :3: ты кто
+[2019.10.22-06.43.48:844][351]LogIChat: [9:43] (Global) VIYLTRA: тери
+[2019.10.22-06.44.33:952][703]LogIChat: [9:44] (Global) wertrop: + вчат кто хочепа или в гнездо к алло
+[2019.10.22-06.45.25:756][256]LogIChat: [9:45] (Global) wertrop: + в чат кто хечет пати или в гнездо к алло*
+[2019.10.22-06.46.14:679][723]LogIChat: [9:46] (Group-10) wertrop: ава
+[2019.10.22-06.46.18:907][850]LogIChat: [9:46] (Group-10) wertrop: привет
+[2019.10.22-06.46.22:219][949]LogIChat: [9:46] (Group-10) ♦Motivchik♦: угу
+[2019.10.22-06.46.26:679][ 83]LogIChat: [9:46] (Global) MaRs0n: нееееее
+[2019.10.22-06.46.42:108][546]LogIChat: [9:46] (Global) ✝ҜošMoś✝: о мать привет
+[2019.10.22-06.46.49:875][779]LogIChat: [9:46] (Group-10) ♦Motivchik♦: тут
+[2019.10.22-06.46.55:752][955]LogIChat: [9:46] (Global) ✝ҜošMoś✝: я вчера трезину слил)
+[2019.10.22-06.47.08:520][338]LogIChat: [9:47] (Global) Byakkonii: К алло в гнездо кто хочет?
+[2019.10.22-06.47.28:954][949]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=156581.641 Y=-382808.344 Z=-30738.430] for [BP_AIAvaceratops_C]
+[2019.10.22-06.47.44:563][418]LogIChat: [9:47] (Group-13) VIYLTRA: гнездится будем?
+[2019.10.22-06.47.55:752][753]LogIChat: [9:47] (Group-13) |GO|SXP| Shloyd :3: уже поставил
+[2019.10.22-06.48.08:142][125]LogIChat: [9:48] (Group-13) VIYLTRA: ну я тогда тоже поставлю
+[2019.10.22-06.48.26:060][662]LogIDatabase: Error: CharRowName was None for BlackDeerX despite having valid save data, starting new character creation
+[2019.10.22-06.48.26:060][662]LogIDatabase: Warning: Cancelling spawning character for BlackDeerX
+[2019.10.22-06.48.44:609][218]LogIChat: [9:48] (Group-10) ♦Motivchik♦: какой дис у сервера ? как называется?
+[2019.10.22-06.49.04:155][804]LogIChat: [9:49] (Group-13) VIYLTRA: где еда?
+[2019.10.22-06.49.10:927][  7]LogIChat: [9:49] (Group-5) MaRs0n: стегу юта убил
+[2019.10.22-06.49.11:397][ 21]LogIChat: [9:49] (Group-10) wertrop: он называется мезозой нью эра
+[2019.10.22-06.49.16:808][183]LogIChat: [9:49] (Group-13) |GO|SXP| Shloyd :3: вон кусты
+[2019.10.22-06.49.20:644][298]LogIChat: [9:49] (Group-13) |GO|SXP| Shloyd :3: прямо
+[2019.10.22-06.49.22:976][368]LogIChat: [9:49] (Group-5) USB_PrEdAtOr³²²: где?
+[2019.10.22-06.49.33:494][684]LogIChat: [9:49] (Group-5) MaRs0n: в кустах у нас
+[2019.10.22-06.49.45:196][ 35]LogIChat: [9:49] (Group-10) wertrop: можешь сылку в чат попросить
+[2019.10.22-06.50.23:449][181]LogIChat: [9:50] (Global) SKORPION: рэксы пати
+[2019.10.22-06.50.42:290][746]LogIChat: [9:50] (Global) [BS].:Laimon:.: скорпион ты адолт?
+[2019.10.22-06.50.50:521][993]LogIChat: [9:50] (Global) SKORPION: нет я джуф но полезный
+[2019.10.22-06.50.56:808][181]LogIChat: [9:50] (Global) [BS].:Laimon:.: ахаха
+[2019.10.22-06.50.59:879][273]LogIChat: [9:50] (Group-10) wertrop: напиши что-то типо кинте сылку на дискорд
+[2019.10.22-06.51.01:074][309]LogIChat: [9:51] (Global) [BS].:Laimon:.: а чо из пати вышел?
+[2019.10.22-06.51.07:273][495]LogIChat: [9:51] (Global) [BS].:Laimon:.: хотел адолта? да
+[2019.10.22-06.51.09:676][567]LogIChat: [9:51] (Global) SKORPION: у меня ылетело
+[2019.10.22-06.51.13:374][678]LogIChat: [9:51] (Global) [BS].:Laimon:.: что бы вырастили
+[2019.10.22-06.51.13:807][691]LogIChat: [9:51] (Global) SKORPION: нет
+[2019.10.22-06.51.18:014][817]LogIChat: [9:51] (Global) SKORPION: нет
+[2019.10.22-06.51.29:329][156]LogIChat: [9:51] (Global) [BS].:Laimon:.: а что опять пати не кинешь?
+[2019.10.22-06.51.35:832][351]LogIChat: [9:51] (Global) SKORPION: я же скозал что вылетело у меня инт лагает жостко
+[2019.10.22-06.51.40:771][499]LogIChat: [9:51] (Group-5) USB_PrEdAtOr³²²: пошли за едой
+[2019.10.22-06.51.48:874][742]LogIChat: [9:51] (Global) [BS].:Laimon:.: так пати кинь
+[2019.10.22-06.52.01:058][107]LogIDatabase: Error: CharRowName was None for ian4283 despite having valid save data, starting new character creation
+[2019.10.22-06.52.01:058][107]LogIDatabase: Warning: Cancelling spawning character for ian4283
+[2019.10.22-06.52.42:843][360]LogIChat: [9:52] (Global) Кириешка: юты пати я джув
+[2019.10.22-06.53.03:381][974]LogIChat: [9:53] (Global) wertrop: ютка
+[2019.10.22-06.53.08:255][120]LogIChat: [9:53] (Global) wertrop: иди на титан
+[2019.10.22-06.53.16:996][382]LogIChat: [9:53] (Group-14) SKORPION: у тя попить есть?
+[2019.10.22-06.53.24:712][613]LogIChat: [9:53] (Global) Кириешка: я?
+[2019.10.22-06.53.28:673][732]LogIChat: [9:53] (Global) wertrop: да ты
+[2019.10.22-06.53.31:503][817]LogIChat: [9:53] (Global) Кириешка: зачем
+[2019.10.22-06.53.41:869][127]LogIChat: [9:53] (Group-5) USB_PrEdAtOr³²²: поели?
+[2019.10.22-06.53.43:962][190]LogIChat: [9:53] (Global) wertrop: пвп устроем
+[2019.10.22-06.53.48:585][329]LogIChat: [9:53] (Group-5) MaRs0n: нее
+[2019.10.22-06.53.51:296][410]LogIChat: [9:53] (Global) wertrop: 1 на 1
+[2019.10.22-06.54.00:932][698]LogIChat: [9:54] (Group-10) Byakkonii: https://discordapp.com/invite/aDXecD
+[2019.10.22-06.54.03:064][762]LogIChat: [9:54] (Global) Кириешка: а ты кто?
+[2019.10.22-06.54.19:382][251]LogIChat: [9:54] (Group-10) wertrop: мотивчик вот тебе сылка
+[2019.10.22-06.54.19:815][264]LogIChat: [9:54] (Group-13) VIYLTRA: кто это орёт?
+[2019.10.22-06.54.21:277][308]LogIChat: [9:54] (Group-14) SKORPION: у меня алло орут
+[2019.10.22-06.54.21:875][326]LogIChat: [9:54] (Group-13) |GO|SXP| Shloyd :3: щапридем
+[2019.10.22-06.54.30:274][578]LogIChat: [9:54] (Group-14) [BS].:Laimon:.: да есть и вода и еда
+[2019.10.22-06.54.35:602][738]LogIChat: [9:54] (Group-5) MaRs0n: да
+[2019.10.22-06.54.37:505][795]LogIChat: [9:54] (Global) |Go|SXP| Emma: идите на близнецы
+[2019.10.22-06.54.44:363][  0]LogIChat: [9:54] (Global) |Go|SXP| Emma: второй день ищу боя
+[2019.10.22-06.54.44:961][ 18]LogIChat: [9:54] (Group-5) MaRs0n: или
+[2019.10.22-06.54.46:598][ 67]LogIChat: [9:54] (Group-14) SKORPION: хорошо я сытый покушал токо что
+[2019.10.22-06.54.52:271][237]LogIChat: [9:54] (Group-10) Byakkonii: Доступ к каналам нужно еще получить
+[2019.10.22-06.54.53:869][285]LogIChat: [9:54] (Group-13) |GO|SXP| Shloyd :3: смотри по сторонам если что  к нм беги
+[2019.10.22-06.54.55:148][322]LogINest: Warning: Removing nest from the game due to it being destroyed
+[2019.10.22-06.54.57:531][394]LogIChat: [9:54] (Global) InFlex: Емма ты эт трав?
+[2019.10.22-06.55.00:700][489]LogIChat: [9:55] (Group-10) Byakkonii: Это не сложно
+[2019.10.22-06.55.01:403][510]LogIChat: [9:55] (Group-14) SKORPION: но бля я пить хачу
+[2019.10.22-06.55.02:669][548]LogIChat: [9:55] (Global) |Go|SXP| Emma: я трайк
+[2019.10.22-06.55.04:376][599]LogIChat: [9:55] (Global) wertrop: друг
+[2019.10.22-06.55.11:148][802]LogIChat: [9:55] (Global) wertrop: 300 урона
+[2019.10.22-06.55.20:851][ 93]LogIChat: [9:55] (Global) Кириешка: я мелкий ещё
+[2019.10.22-06.55.27:841][303]LogIChat: [9:55] (Global) wertrop: иди ты же
+[2019.10.22-06.55.37:765][601]LogIChat: [9:55] (Group-10) Byakkonii: Нужно написать ник, ID стима и то что с правилами ознакомлен
+[2019.10.22-06.55.37:903][605]LogIChat: [9:55] (Global) wertrop: победишь
+[2019.10.22-06.55.49:170][942]LogIChat: [9:55] (Group-14) SKORPION: у меня жажда
+[2019.10.22-06.56.01:315][306]LogIChat: [9:56] (Group-10) Byakkonii: Ну и правила естественно прочитать
+[2019.10.22-06.56.01:817][321]LogIChat: [9:56] (Group-14) SKORPION: 0 процентов питя
+[2019.10.22-06.56.22:257][933]LogIChat: [9:56] (Global) SKORPION: кто рэкс + в чат
+[2019.10.22-06.56.31:465][209]LogIChat: [9:56] (Global) [BS].:Laimon:.: привет
+[2019.10.22-06.56.31:798][219]LogIChat: [9:56] (Group-5) USB_PrEdAtOr³²²: не беги
+[2019.10.22-06.56.33:830][280]LogIChat: [9:56] (Global) -Фестиваль-: привет
+[2019.10.22-06.56.36:099][348]LogIChat: [9:56] (Global) ✝ҜošMoś✝: мать привет
+[2019.10.22-06.56.37:830][400]LogIChat: [9:56] (Group-10) ♦Motivchik♦: оставил заявку на доступ
+[2019.10.22-06.56.42:467][539]LogIChat: [9:56] (Global) -Фестиваль-: а я думал, кто тут страшный
+[2019.10.22-06.56.49:593][753]LogIChat: [9:56] (Group-10) wertrop: окей
+[2019.10.22-06.56.50:724][787]LogIChat: [9:56] (Global) [BS].:Laimon:.: ясно
+[2019.10.22-06.56.55:434][927]LogIChat: [9:56] (Global) -Фестиваль-: я драться не хочу)
+[2019.10.22-06.56.58:368][ 15]LogIChat: [9:56] (Group-10) Byakkonii: Там быстро принимают
+[2019.10.22-06.56.58:968][ 33]LogIChat: [9:56] (Global) [BS].:Laimon:.: ты меня увидел в кустах?
+[2019.10.22-06.57.02:076][126]LogIChat: [9:57] (Global) Курлык курлык: зина спаси меня до меня там домогаются
+[2019.10.22-06.57.09:585][351]LogIChat: [9:57] (Global) -Фестиваль-: да, заметил, по голосу шёл
+[2019.10.22-06.57.13:011][454]LogIChat: [9:57] (Global) |GO|SXP| Shloyd :3: ахаха
+[2019.10.22-06.57.15:947][542]LogIChat: [9:57] (Global) [BS].:Laimon:.: ясно
+[2019.10.22-06.57.17:878][600]LogIChat: [9:57] (Global) SKORPION: лаймон у тя жесть произходит?
+[2019.10.22-06.57.18:279][612]LogIChat: [9:57] (Global) [BS].:Laimon:.: мирно?
+[2019.10.22-06.57.18:542][620]LogIChat: [9:57] (Global) |GO|SXP| Shloyd :3: иди сюда внучок
+[2019.10.22-06.57.27:444][886]LogIChat: [9:57] (Global) -Фестиваль-: да, мирно
+[2019.10.22-06.57.32:648][ 42]LogIChat: [9:57] (Global) [BS].:Laimon:.: ок
+[2019.10.22-06.57.36:912][170]LogIChat: [9:57] (Global) [BS].:Laimon:.: проходи
+[2019.10.22-06.57.38:718][224]LogIChat: [9:57] (Global) SKORPION: а ты кто?
+[2019.10.22-06.57.39:619][251]LogIChat: [9:57] (Global) ✝ҜošMoś✝: терезина
+[2019.10.22-06.57.48:958][531]LogIChat: [9:57] (Global) -Фестиваль-: и ты тут не грусти)
+[2019.10.22-06.57.54:233][689]LogIChat: [9:57] (Global) [BS].:Laimon:.: хорошо
+[2019.10.22-06.57.56:716][763]LogIChat: [9:57] (Global) ARES: кирик а ты где
+[2019.10.22-06.57.58:149][806]LogIChat: [9:57] (Global) |GO|SXP| Shloyd :3: тронишь убью
+[2019.10.22-06.58.03:578][969]LogIChat: [9:58] (Group-14) [BS].:Laimon:.: ищи водоём
+[2019.10.22-06.58.04:346][992]LogIChat: [9:58] (Global) |GO|SXP| Shloyd :3: не ори
+[2019.10.22-06.58.12:319][231]LogIChat: [9:58] (Global) [MH] Eblobivec: ладно, растите)
+[2019.10.22-06.58.13:486][266]LogIChat: [9:58] (Group-14) [BS].:Laimon:.: дождь остановит смерть от воды
+[2019.10.22-06.58.33:220][857]LogIChat: [9:58] (Global) |GO|SXP| Shloyd :3: иди сюда
+[2019.10.22-06.58.37:051][972]LogIChat: [9:58] (Global) ✝ҜošMoś✝: кто
+[2019.10.22-06.58.39:725][ 52]LogIChat: [9:58] (Global) |GO|SXP| Shloyd :3: я поглажу тебя
+[2019.10.22-06.58.48:293][309]LogIChat: [9:58] (Global) |GO|SXP| Shloyd :3: вы втроем я один
+[2019.10.22-06.58.48:697][321]LogIChat: [9:58] (Group-14) SKORPION: я знаю
+[2019.10.22-06.58.56:100][542]LogIChat: [9:58] (Group-14) SKORPION: я к тебе и бегу
+[2019.10.22-06.58.58:296][608]LogIChat: [9:58] (Global) ✝ҜošMoś✝: да да да
+[2019.10.22-06.59.03:561][766]LogIChat: [9:59] (Global) |GO|SXP| Shloyd :3: давай?
+[2019.10.22-06.59.05:988][839]LogIChat: [9:59] (Global) InFlex: Ты терезина а мы алики)
+[2019.10.22-06.59.13:253][ 57]LogIChat: [9:59] (Global) |GO|SXP| Shloyd :3: и че
+[2019.10.22-06.59.18:319][209]LogIChat: [9:59] (Global) |GO|SXP| Shloyd :3: боишься
+[2019.10.22-06.59.20:422][271]LogIChat: [9:59] (Global) InFlex: Ага
+[2019.10.22-06.59.20:690][279]LogIChat: [9:59] (Global) ✝ҜošMoś✝: сровнил жопу с пальцем)
+[2019.10.22-06.59.22:155][323]LogIChat: [9:59] (Group-14) SKORPION: я бегаю и воду ищу
+[2019.10.22-06.59.26:715][460]LogIChat: [9:59] (Global) |GO|SXP| Shloyd :3: ну ладно
+[2019.10.22-06.59.36:318][748]LogIChat: [9:59] (Global) InFlex: Лучше трайка дай нам)
+[2019.10.22-06.59.37:016][769]LogIChat: [9:59] (Global) |GO|SXP| Shloyd :3: я обиделся на вас
+[2019.10.22-06.59.41:619][907]LogIChat: [9:59] (Global) |Go|SXP| Emma: Оо
+[2019.10.22-06.59.43:320][958]LogIChat: [9:59] (Global) |GO|SXP| Shloyd :3: иди возьми
+[2019.10.22-06.59.44:185][984]LogIChat: [9:59] (Global) |Go|SXP| Emma: д
+[2019.10.22-06.59.46:787][ 62]LogIChat: [9:59] (Global) |Go|SXP| Emma: давайте
+[2019.10.22-06.59.47:556][ 85]LogIChat: [9:59] (Global) |Go|SXP| Emma: кек
+[2019.10.22-06.59.47:922][ 96]LogIChat: [9:59] (Global) |GO|SXP| Shloyd :3: я не полезу
+[2019.10.22-06.59.49:190][133]LogIChat: [9:59] (Group-14) SKORPION: о я рядом с водой
+[2019.10.22-06.59.51:653][207]LogIChat: [9:59] (Global) |Go|SXP| Emma: хахаха
+[2019.10.22-07.00.02:375][528]LogIChat: [10:0] (Global) Byakkonii: Кто хочет в гнездо Алло?
+[2019.10.22-07.00.06:604][655]LogIChat: [10:0] (Global) |GO|SXP| Shloyd :3: трайк и алики мы не лезим
+[2019.10.22-07.00.11:444][800]LogIChat: [10:0] (Global) SKORPION: -
+[2019.10.22-07.00.33:504][461]LogIChat: [10:0] (Global) |GO|SXP| Shloyd :3: че все чтоли???аххаах
+[2019.10.22-07.00.35:745][528]LogIChat: [10:0] (Global) |Go|SXP| Emma: 1 словил уже?
+[2019.10.22-07.00.41:788][709]LogIChat: [10:0] (Global) |Go|SXP| Emma: ))
+[2019.10.22-07.01.18:953][821]LogIChat: [10:1] (Global) Torinka3: F
+[2019.10.22-07.01.31:193][188]LogIChat: [10:1] (Global) Sweek ♂: юты есть ?
+[2019.10.22-07.01.36:458][346]LogIChat: [10:1] (Global) Кириешка: да
+[2019.10.22-07.01.43:719][564]LogIChat: [10:1] (Global) kkashek1993i: гиги пати?
+[2019.10.22-07.01.50:560][769]LogIChat: [10:1] (Global) ARES: кириешка куда ты делась я думал мы подружимся
+[2019.10.22-07.02.08:133][296]LogIChat: [10:2] (Global) Кириешка: ?
+[2019.10.22-07.02.29:519][937]LogIChat: [10:2] (Global) ARES: я тебя ночью преследовал
+[2019.10.22-07.02.45:164][406]LogIChat: [10:2] (Global) |GO|SXP| Shloyd :3: так не интересно
+[2019.10.22-07.02.46:294][440]LogIChat: [10:2] (Global) |Go|SXP| Emma: всне
+[2019.10.22-07.02.49:511][536]LogIChat: [10:2] (Global) |Go|SXP| Emma: бой окончен
+[2019.10.22-07.02.51:579][598]LogIChat: [10:2] (Global) |Go|SXP| Emma: :[
+[2019.10.22-07.02.59:141][824]LogIChat: [10:2] (Global) Кириешка: я не видел даже
+[2019.10.22-07.03.00:203][856]LogIChat: [10:3] (Global) |GO|SXP| Shloyd :3: надо покрупнее кого нибудь!
+[2019.10.22-07.03.02:446][923]LogIChat: [10:3] (Global) SKORPION: кто рэкс + в чат
+[2019.10.22-07.03.05:312][  9]LogIChat: [10:3] (Global) Byakkonii: Кто хочет к Алло в гнездо?
+[2019.10.22-07.03.09:985][149]LogIChat: [10:3] (Global) wertrop: + в чат кто хочет в гнездо к алло
+[2019.10.22-07.03.24:285][578]LogIChat: [10:3] (Group-13) VIYLTRA: ну рас всё я тогда к гнезду пошла
+[2019.10.22-07.03.27:809][683]LogIChat: [10:3] (Global) |Go|SXP| Emma: мелкий алло
+[2019.10.22-07.03.29:279][727]LogIChat: [10:3] (Group-14) SKORPION: тут и авы
+[2019.10.22-07.03.31:716][800]LogIChat: [10:3] (Global) |GO|SXP| Shloyd :3: пельмень стой
+[2019.10.22-07.03.33:353][849]LogIChat: [10:3] (Global) |Go|SXP| Emma: там в кустах еда
+[2019.10.22-07.03.38:488][  3]LogIChat: [10:3] (Global) Курлык курлык: де
+[2019.10.22-07.03.41:222][ 85]LogIChat: [10:3] (Global) |Go|SXP| Emma: идем покажу
+[2019.10.22-07.03.41:988][108]LogIChat: [10:3] (Global) |GO|SXP| Shloyd :3: там труппы лежат пойдем покажу
+[2019.10.22-07.03.45:619][217]LogIChat: [10:3] (Group-14) SKORPION: у меня галик
+[2019.10.22-07.04.03:124][739]LogIChat: [10:4] (Group-14) SKORPION: он меня может запинать
+[2019.10.22-07.05.31:232][378]LogIChat: [10:5] (Global) Sweek ♂: онитебя сожрут , не лезь ХД
+[2019.10.22-07.05.45:408][803]LogIChat: [10:5] (Group-5) MaRs0n: я пока всё, удачи
+[2019.10.22-07.05.50:283][949]LogIChat: [10:5] (Group-5) USB_PrEdAtOr³²²: пока
+[2019.10.22-07.06.12:180][604]LogIChat: [10:6] (Group-10) wertrop: 4 яйца в гнезде алло
+[2019.10.22-07.06.15:620][707]LogIChat: [10:6] (Group-13) VIYLTRA: мини стадо
+[2019.10.22-07.06.31:067][171]LogIChat: [10:6] (Group-13) VIYLTRA: 2 тери и трайк
+[2019.10.22-07.06.36:270][327]LogIChat: [10:6] (Global) wertrop: 4 яйца в гнезде алло
+[2019.10.22-07.06.43:239][536]LogIChat: [10:6] (Group-13) |GO|SXP| Shloyd :3: скоро остальне подтянуться
+[2019.10.22-07.06.53:387][840]LogIChat: [10:6] (Group-13) VIYLTRA: кто?
+[2019.10.22-07.06.58:280][986]LogIChat: [10:6] (Group-14) [BS].:Laimon:.: галик адолт?
+[2019.10.22-07.11.51:509][768]LogIChat: [10:11] (Global) wertrop: + в чат кто хочет в гнездо к алло
+[2019.10.22-07.12.33:498][ 27]LogIChat: [10:12] (Group-14) SKORPION: да
+[2019.10.22-07.14.01:684][669]LogIChat: [10:14] (Group-15) Sweek ♂: какой рост
+[2019.10.22-07.14.22:403][291]LogIChat: [10:14] (Group-14) SKORPION: я тебе бегу хорошо?
+[2019.10.22-07.15.21:704][ 69]LogIChat: [10:15] (Group-15) Кириешка: 85
+[2019.10.22-07.15.27:601][246]LogIChat: [10:15] (Group-15) Кириешка: я джув
+[2019.10.22-07.15.28:932][286]LogIChat: [10:15] (Group-15) Sweek ♂: джув?
+[2019.10.22-07.15.30:357][329]LogIChat: [10:15] (Group-15) Sweek ♂: а
+[2019.10.22-07.15.31:753][371]LogIChat: [10:15] (Group-15) Sweek ♂: ок
+[2019.10.22-07.16.56:515][911]LogIChat: [10:16] (Global) wildmike: есть рэксы?
+[2019.10.22-07.17.15:744][488]LogIChat: [10:17] (Group-14) SKORPION: ты уже рядом
+[2019.10.22-07.17.17:110][529]LogIChat: [10:17] (Group-14) [BS].:Laimon:.: ок
+[2019.10.22-07.17.26:742][818]LogIChat: [10:17] (Group-14) [BS].:Laimon:.: я тут гигу убил блида много навешал
+[2019.10.22-07.17.36:243][103]LogIChat: [10:17] (Group-14) [BS].:Laimon:.: 7.25
+[2019.10.22-07.17.40:211][222]LogIChat: [10:17] (Group-14) SKORPION: хехе круто адолта?
+[2019.10.22-07.17.45:447][379]LogIDatabase: Error: CharRowName was None for lobodabogdan2000 despite having valid save data, starting new character creation
+[2019.10.22-07.17.45:447][379]LogIDatabase: Warning: Cancelling spawning character for lobodabogdan2000
+[2019.10.22-07.17.58:973][784]LogIChat: [10:17] (Group-14) [BS].:Laimon:.: нет я сам джуви 95%
+[2019.10.22-07.18.03:543][921]LogIChat: [10:18] (Group-14) [BS].:Laimon:.: и убил джуви гигу
+[2019.10.22-07.18.27:013][625]LogIChat: [10:18] (Group-14) SKORPION: ехехех джуф гига сктоко блида наносит я не знал!
+[2019.10.22-07.18.27:649][644]LogIChat: [10:18] (Group-14) [BS].:Laimon:.: приходи
+[2019.10.22-07.18.34:554][851]LogIChat: [10:18] (Group-14) [BS].:Laimon:.: много
+[2019.10.22-07.18.35:323][874]LogIChat: [10:18] (Global) VIYLTRA: кто хочет в гнездо тери?
+[2019.10.22-07.18.39:782][  8]LogIChat: [10:18] (Global) ✝ҜošMoś✝: я
+[2019.10.22-07.18.42:555][ 91]LogIChat: [10:18] (Global) [LoD] kennyS: вилитра
+[2019.10.22-07.18.47:186][230]LogIChat: [10:18] (Global) [LoD] kennyS: можно пати
+[2019.10.22-07.18.54:256][441]LogIChat: [10:18] (Global) [LoD] kennyS: я тоже терезинка
+[2019.10.22-07.18.59:915][610]LogIChat: [10:18] (Global) wildmike: есть рэксы? киньте пати
+[2019.10.22-07.19.03:677][723]LogIChat: [10:19] (Global) |GO|SXP| Shloyd :3: в гнездо терезина + в чат есть инвайт
+[2019.10.22-07.19.16:683][112]LogIChat: [10:19] (Global) [LoD] kennyS: можно мне инвайт
+[2019.10.22-07.19.30:777][535]LogIChat: [10:19] (Global) ✝ҜošMoś✝: так 5ч опять ростить терезину
+[2019.10.22-07.19.34:213][638]LogIChat: [10:19] (Global) Pussy: Есть гнездо стеги?
+[2019.10.22-07.19.34:646][651]LogIChat: [10:19] (Group-14) SKORPION: ты на тинате?
+[2019.10.22-07.19.55:120][264]LogIChat: [10:19] (Group-13) VIYLTRA: как ты её потерял?
+[2019.10.22-07.19.55:252][268]LogIChat: [10:19] (Group-14) SKORPION: а нет ты не на титане
+[2019.10.22-07.20.09:781][703]LogIChat: [10:20] (Group-14) [BS].:Laimon:.: нет я у водопада где гейзеры
+[2019.10.22-07.20.12:605][787]LogIChat: [10:20] (Group-13) ✝ҜošMoś✝: вы в дисе?
+[2019.10.22-07.20.13:374][810]LogIChat: [10:20] (Group-14) [BS].:Laimon:.: но рядом с титаном
+[2019.10.22-07.20.18:940][977]LogIChat: [10:20] (Group-13) VIYLTRA: я нет
+[2019.10.22-07.20.22:238][ 76]LogIChat: [10:20] (Group-14) SKORPION: я знаю
+[2019.10.22-07.20.24:236][136]LogIChat: [10:20] (Group-13) ✝ҜošMoś✝: заходи
+[2019.10.22-07.20.30:336][319]LogIChat: [10:20] (Group-13) ✝ҜošMoś✝: щас буит история
+[2019.10.22-07.20.33:404][411]LogIChat: [10:20] (Group-14) SKORPION: я титан вижу
+[2019.10.22-07.20.35:134][463]LogIChat: [10:20] (Global) wildmike: рэксы пати
+[2019.10.22-07.20.44:756][751]LogIChat: [10:20] (Group-13) VIYLTRA: ну рас стория тогда ок
+[2019.10.22-07.20.46:984][818]LogIChat: [10:20] (Group-13) ✝ҜošMoś✝: упс
+[2019.10.22-07.21.01:856][263]LogIChat: [10:21] (Group-14) SKORPION: ты меня слышал?
+[2019.10.22-07.21.07:231][424]LogIChat: [10:21] (Group-13) VIYLTRA: щас
+[2019.10.22-07.21.07:998][447]LogIChat: [10:21] (Group-14) [BS].:Laimon:.: нет
+[2019.10.22-07.21.11:998][567]LogIChat: [10:21] (Group-13) [LoD] kennyS: ребят
+[2019.10.22-07.21.12:496][582]LogIChat: [10:21] (Group-14) SKORPION: аа
+[2019.10.22-07.21.16:165][692]LogIChat: [10:21] (Group-13) [LoD] kennyS: я сломал гнездо
+[2019.10.22-07.21.16:299][696]LogIChat: [10:21] (Group-14) SKORPION: но я рядом
+[2019.10.22-07.21.20:514][822]LogIChat: [10:21] (Group-13) ✝ҜošMoś✝: в стадо заходи
+[2019.10.22-07.21.22:512][882]LogIChat: [10:21] (Group-13) [LoD] kennyS: но иконка все еще стоит
+[2019.10.22-07.21.27:871][ 43]LogIChat: [10:21] (Group-13) [LoD] kennyS: это норм?
+[2019.10.22-07.21.28:604][ 65]LogIChat: [10:21] (Group-14) SKORPION: а ты самка
+[2019.10.22-07.21.36:892][313]LogIChat: [10:21] (Group-14) [BS].:Laimon:.: нет
+[2019.10.22-07.21.40:033][407]LogIChat: [10:21] (Group-13) [LoD] kennyS: иду иду я к вам
+[2019.10.22-07.21.44:029][527]LogIChat: [10:21] (Group-14) SKORPION: z cfvrf
+[2019.10.22-07.21.50:529][722]LogIChat: [10:21] (Group-14) SKORPION: я самка
+[2019.10.22-07.22.15:882][482]LogIChat: [10:22] (Group-13) [LoD] kennyS: вы где
+[2019.10.22-07.22.18:255][553]LogIChat: [10:22] (Group-13) VIYLTRA: ты зашёл в дис?
+[2019.10.22-07.22.22:954][694]LogIChat: [10:22] (Group-13) ✝ҜošMoś✝: да
+[2019.10.22-07.22.25:459][769]LogIChat: [10:22] (Group-13) [LoD] kennyS: нет
+[2019.10.22-07.22.26:287][794]LogIChat: [10:22] (Group-13) |GO|SXP| Shloyd :3: кто подойдет близко к гнезду гаси их
+[2019.10.22-07.22.26:556][802]LogIChat: [10:22] (Group-13) ✝ҜošMoś✝: я в канале стадо
+[2019.10.22-07.22.32:237][972]LogIChat: [10:22] (Group-13) VIYLTRA: вижу
+[2019.10.22-07.22.36:835][110]LogIChat: [10:22] (Group-13) [LoD] kennyS: щас зайду
+[2019.10.22-07.22.49:711][496]LogINest: Warning: Removing nest from the game due to it being destroyed
+[2019.10.22-07.22.51:571][552]LogIChat: [10:22] (Group-13) [LoD] kennyS: но сразу говорю у меня микрофона неь
+[2019.10.22-07.22.55:161][658]LogIChat: [10:22] (Group-13) VIYLTRA: я молчать буду просто дис на планшете
+[2019.10.22-07.23.03:839][918]LogIChat: [10:23] (Group-13) [LoD] kennyS: лол
+[2019.10.22-07.23.06:411][995]LogIChat: [10:23] (Group-13) [LoD] kennyS: тоже самое
+[2019.10.22-07.23.32:534][778]LogIChat: [10:23] (Group-13) [LoD] kennyS: так вы где
+[2019.10.22-07.23.35:638][871]LogIChat: [10:23] (Group-14) SKORPION: я уже совсем рядом
+[2019.10.22-07.23.43:551][108]LogIChat: [10:23] (Group-13) |GO|SXP| Shloyd :3: близнецы
+[2019.10.22-07.23.47:684][232]LogIChat: [10:23] (Group-13) [LoD] kennyS: ок
+[2019.10.22-07.23.55:005][451]LogIChat: [10:23] (Group-13) [LoD] kennyS: ща посмотрю на карте
+[2019.10.22-07.24.13:470][  4]LogIChat: [10:24] (Group-14) [BS].:Laimon:.: вижу
+[2019.10.22-07.24.21:450][243]LogIChat: [10:24] (Group-13) [LoD] kennyS: ну нахер
+[2019.10.22-07.24.23:982][319]LogIChat: [10:24] (Group-14) [BS].:Laimon:.: не ори1
+[2019.10.22-07.24.25:714][371]LogIChat: [10:24] (Group-14) [BS].:Laimon:.: !
+[2019.10.22-07.24.36:488][694]LogIChat: [10:24] (Group-14) SKORPION: ок
+[2019.10.22-07.24.37:688][730]LogIChat: [10:24] (Group-13) [LoD] kennyS: слишком долго идти но ладно
+[2019.10.22-07.24.45:428][962]LogIChat: [10:24] (Group-14) SKORPION: значит ты меня слышал
+[2019.10.22-07.24.49:303][ 78]LogIChat: [10:24] (Group-13) VIYLTRA: наушники не работают
+[2019.10.22-07.24.54:983][248]LogIChat: [10:24] (Group-14) [BS].:Laimon:.: я и сейчас слышу
+[2019.10.22-07.25.04:526][534]LogIChat: [10:25] (Group-14) SKORPION: аа
+[2019.10.22-07.25.31:207][333]LogIChat: [10:25] (Global) Jungle One: Всем привет:-) Аллики есть ( фулл адолт )?:-)
+[2019.10.22-07.25.37:067][509]LogIChat: [10:25] (Global) wertrop: мы
+[2019.10.22-07.25.43:564][704]LogIChat: [10:25] (Global) wertrop: есть дискорд
+[2019.10.22-07.26.04:115][319]LogIChat: [10:26] (Group-14) SKORPION: ааа понял
+[2019.10.22-07.26.10:727][517]LogIChat: [10:26] (Group-13) VIYLTRA: не мохайся
+[2019.10.22-07.26.13:025][586]LogIChat: [10:26] (Group-14) SKORPION: ты меня за ютку сел
+[2019.10.22-07.26.41:069][426]LogIChat: [10:26] (Group-14) SKORPION: бляяяяя туша скатилась не поесть
+[2019.10.22-07.26.54:460][827]LogIChat: [10:26] (Group-14) [BS].:Laimon:.: ясно просто я сьел ютку потому-что меня юты всё время убивают
+[2019.10.22-07.26.56:745][895]LogIChat: [10:26] (Group-14) [BS].:Laimon:.: туша здесь
+[2019.10.22-07.26.59:347][973]LogIChat: [10:26] (Group-14) [BS].:Laimon:.: у меня
+[2019.10.22-07.27.25:516][757]LogIChat: [10:27] (Group-14) [BS].:Laimon:.: скорпион
+[2019.10.22-07.27.29:183][867]LogIChat: [10:27] (Group-14) SKORPION: что
+[2019.10.22-07.27.30:280][900]LogIChat: [10:27] (Group-14) [BS].:Laimon:.: иди сюда поешь гигу
+[2019.10.22-07.27.34:155][ 16]LogINest: Warning: Removing nest from the game due to it being destroyed
+[2019.10.22-07.27.36:338][ 82]LogIChat: [10:27] (Group-14) [BS].:Laimon:.: потом аву поймаем
+[2019.10.22-07.27.39:204][168]LogIChat: [10:27] (Group-14) SKORPION: она скатилась не поешь
+[2019.10.22-07.27.52:537][568]LogIChat: [10:27] (Group-14) [BS].:Laimon:.: быстрее час убьют меня
+[2019.10.22-07.28.14:746][232]LogIChat: [10:28] (Group-14) SKORPION: что
+[2019.10.22-07.28.16:046][271]LogIChat: [10:28] (Group-14) [BS].:Laimon:.: зуха джуви
+[2019.10.22-07.28.28:857][655]LogIChat: [10:28] (Group-14) [BS].:Laimon:.: на гору пошла
+[2019.10.22-07.28.36:391][881]LogIChat: [10:28] (Group-14) [BS].:Laimon:.: если подойдёт
+[2019.10.22-07.28.38:231][936]LogIChat: [10:28] (Group-14) [BS].:Laimon:.: убей
+[2019.10.22-07.28.46:418][181]LogIChat: [10:28] (Group-14) SKORPION: я не побигу за ней
+[2019.10.22-07.28.54:949][436]LogIChat: [10:28] (Group-14) [BS].:Laimon:.: не надо
+[2019.10.22-07.29.12:424][960]LogIChat: [10:29] (Group-14) SKORPION: у тя сильный кровоток?
+[2019.10.22-07.29.20:459][201]LogIChat: [10:29] (Group-14) [BS].:Laimon:.: уже кончается
+[2019.10.22-07.29.20:659][207]LogIChat: [10:29] (Group-13) [LoD] kennyS: так у меня нет мика!
+[2019.10.22-07.29.26:877][393]LogIDatabase: Error: CharRowName was None for Ruslan11041997 despite having valid save data, starting new character creation
+[2019.10.22-07.29.26:877][393]LogIDatabase: Warning: Cancelling spawning character for Ruslan11041997
+[2019.10.22-07.29.30:374][498]LogIChat: [10:29] (Group-13) VIYLTRA: и у меня нет
+[2019.10.22-07.29.30:473][501]LogIChat: [10:29] (Group-14) SKORPION: [jhjij ofc pe[bof pfdfkbv
+[2019.10.22-07.29.32:403][559]LogIChat: [10:29] (Group-14) [BS].:Laimon:.: был 8.75 блида час почти нету
+[2019.10.22-07.29.40:341][797]LogIChat: [10:29] (Group-14) SKORPION: хорошо щас зухича завалим
+[2019.10.22-07.29.45:047][938]LogIChat: [10:29] (Group-14) [BS].:Laimon:.: не надо
+[2019.10.22-07.29.48:258][ 34]LogIChat: [10:29] (Group-14) [BS].:Laimon:.: еда есть
+[2019.10.22-07.29.58:839][351]LogIChat: [10:29] (Group-14) SKORPION: у нас труп скатился его уже не покушаешь
+[2019.10.22-07.30.05:715][557]LogIChat: [10:30] (Group-14) [BS].:Laimon:.: у меня он тут лежит
+[2019.10.22-07.30.23:628][ 94]LogIChat: [10:30] (Group-14) SKORPION: не вижу его
+[2019.10.22-07.30.30:364][296]LogIChat: [10:30] (Group-14) SKORPION: он у меня тут
+[2019.10.22-07.30.31:724][337]LogIChat: [10:30] (Group-14) [BS].:Laimon:.: вот
+[2019.10.22-07.30.34:660][425]LogIChat: [10:30] (Global) wertrop: + в чат кто хочет в пати либо в гнездо к алло
+[2019.10.22-07.30.36:425][478]LogIChat: [10:30] (Global) VIYLTRA: кто хочет в гнездо тери?
+[2019.10.22-07.30.49:392][867]LogIChat: [10:30] (Group-14) SKORPION: а я аву ловить
+[2019.10.22-07.30.54:530][ 21]LogIChat: [10:30] (Group-14) [BS].:Laimon:.: ча админам скажу
+[2019.10.22-07.31.54:348][814]LogIChat: [10:31] (Global) Fluffy: привет
+[2019.10.22-07.31.54:682][824]LogIChat: [10:31] (Global) [LoD] kennyS: привет галлик
+[2019.10.22-07.32.00:436][996]LogIChat: [10:32] (Global) Fluffy: ты куда
+[2019.10.22-07.32.07:544][209]LogIChat: [10:32] (Global) [LoD] kennyS: не скажу)
+[2019.10.22-07.32.09:673][273]LogIChat: [10:32] (Global) wildmike: есть рэксы?
+[2019.10.22-07.32.12:208][349]LogIChat: [10:32] (Global) Fluffy: лан
+[2019.10.22-07.32.13:075][375]LogIChat: [10:32] (Global) [LoD] kennyS: другие видят
+[2019.10.22-07.32.15:408][445]LogIChat: [10:32] (Group-13) VIYLTRA: ещё трайк
+[2019.10.22-07.32.22:627][661]LogIChat: [10:32] (Global) [LoD] kennyS: ладно
+[2019.10.22-07.32.24:394][714]LogIChat: [10:32] (Global) [LoD] kennyS: скажу
+[2019.10.22-07.32.28:923][850]LogIChat: [10:32] (Global) [LoD] kennyS: на близнецы
+[2019.10.22-07.32.29:023][853]LogIChat: [10:32] (Global) Fluffy: не надо
+[2019.10.22-07.32.29:025][853]LogIChat: [10:32] (Group-14) [BS].:Laimon:.: убил
+[2019.10.22-07.32.30:709][903]LogIChat: [10:32] (Group-14) [BS].:Laimon:.: иди ешь
+[2019.10.22-07.32.34:283][ 10]LogIChat: [10:32] (Global) [LoD] kennyS: )
+[2019.10.22-07.32.41:142][216]LogIChat: [10:32] (Global) [LoD] kennyS: пойдешь?
+[2019.10.22-07.32.41:373][223]LogIChat: [10:32] (Global) Fluffy: а лан
+[2019.10.22-07.32.46:535][378]LogIChat: [10:32] (Global) Fluffy: там скучно
+[2019.10.22-07.32.48:066][424]LogIChat: [10:32] (Group-14) SKORPION: да убил
+[2019.10.22-07.32.49:270][460]LogIChat: [10:32] (Global) Fluffy: ну пошли
+[2019.10.22-07.32.50:136][486]LogIChat: [10:32] (Global) [LoD] kennyS: ну лаан
+[2019.10.22-07.32.56:951][690]LogIChat: [10:32] (Group-14) [BS].:Laimon:.: нет я убил
+[2019.10.22-07.33.03:736][893]LogIChat: [10:33] (Group-14) SKORPION: кого?
+[2019.10.22-07.33.06:239][968]LogIChat: [10:33] (Group-14) [BS].:Laimon:.: оро
+[2019.10.22-07.33.15:211][237]LogIChat: [10:33] (Group-14) SKORPION: у меня ава тут
+[2019.10.22-07.33.20:612][399]LogIChat: [10:33] (Group-14) [BS].:Laimon:.: ок я ем оро?
+[2019.10.22-07.33.22:713][462]LogIChat: [10:33] (Group-14) [BS].:Laimon:.: т
+[2019.10.22-07.33.24:850][526]LogIChat: [10:33] (Global) [LoD] kennyS: ты будешь моим носом))
+[2019.10.22-07.33.25:912][558]LogIChat: [10:33] (Group-14) SKORPION: да еш
+[2019.10.22-07.33.28:980][650]LogIChat: [10:33] (Global) Fluffy: )
+[2019.10.22-07.34.00:410][592]LogIChat: [10:34] (Global) Fluffy: иди я быстрая
+[2019.10.22-07.34.05:618][748]LogIChat: [10:34] (Global) [LoD] kennyS: ок
+[2019.10.22-07.34.19:951][176]LogIChat: [10:34] (Global) SKORPION: кто рэкс + в чат
+[2019.10.22-07.34.23:853][293]LogIChat: [10:34] (Global) Knyaz: +
+[2019.10.22-07.34.27:885][414]LogIChat: [10:34] (Global) [LoD] kennyS: )
+[2019.10.22-07.34.28:216][424]LogIChat: [10:34] (Global) wildmike: +
+[2019.10.22-07.34.41:645][826]LogIChat: [10:34] (Group-15) Sweek ♂: ооо
+[2019.10.22-07.34.43:476][881]LogIChat: [10:34] (Global) wildmike: я рэкс
+[2019.10.22-07.34.51:895][133]LogIChat: [10:34] (Group-14) SKORPION: ку
+[2019.10.22-07.34.55:748][248]LogIChat: [10:34] (Group-14) wildmike: го ко мне?
+[2019.10.22-07.34.56:247][263]LogIChat: [10:34] (Group-14) SKORPION: идите к нам
+[2019.10.22-07.34.58:604][333]LogIChat: [10:34] (Group-14) wildmike: ку
+[2019.10.22-07.35.06:427][567]LogIChat: [10:35] (Group-14) SKORPION: у нас ботов дахера
+[2019.10.22-07.35.11:169][709]LogIChat: [10:35] (Global) [LoD] kennyS: ты кудыы?
+[2019.10.22-07.35.15:802][848]LogIChat: [10:35] (Group-15) Sweek ♂: а почему я сразу все время на адолта , а саба перепрыгиваю можно сказать
+[2019.10.22-07.35.16:300][863]LogIChat: [10:35] (Group-14) wildmike: у меня тоже
+[2019.10.22-07.35.17:033][885]LogIChat: [10:35] (Global) Fluffy: хз
+[2019.10.22-07.35.18:931][942]LogIChat: [10:35] (Global) wertrop: + кто хочет в гнездо за алло
+[2019.10.22-07.35.19:961][973]LogIChat: [10:35] (Group-14) SKORPION: тут спавн ботов и игроков
+[2019.10.22-07.35.21:458][ 18]LogIChat: [10:35] (Group-13) VIYLTRA: кто там?
+[2019.10.22-07.35.36:929][481]LogIChat: [10:35] (Group-14) wildmike: и у меня спавн не долеко
+[2019.10.22-07.35.45:589][740]LogIChat: [10:35] (Group-14) [BS].:Laimon:.: когда я вырасту я на близнецы пойду
+[2019.10.22-07.35.47:024][783]LogIChat: [10:35] (Group-14) SKORPION: и шо иди к нам
+[2019.10.22-07.35.53:811][986]LogIChat: [10:35] (Group-14) SKORPION: мм
+[2019.10.22-07.35.56:062][ 53]LogIChat: [10:35] (Group-14) SKORPION: я тоже
+[2019.10.22-07.36.04:070][293]LogIChat: [10:36] (Group-14) SKORPION: у меня 83 процента
+[2019.10.22-07.36.16:641][670]LogIChat: [10:36] (Group-14) wildmike: 92% рост я джув
+[2019.10.22-07.36.18:346][721]LogIChat: [10:36] (Group-14) [BS].:Laimon:.: 78%
+[2019.10.22-07.36.23:889][887]LogIChat: [10:36] (Group-14) Knyaz: я там ток что убил алло
+[2019.10.22-07.36.39:929][367]LogIChat: [10:36] (Group-13) VIYLTRA: если к гнёздам подойдёт близко то нападём
+[2019.10.22-07.37.07:570][193]LogIChat: [10:37] (Group-14) [BS].:Laimon:.: 2 экран
+[2019.10.22-07.37.09:121][239]LogIChat: [10:37] (Global) Fluffy: пить хочу
+[2019.10.22-07.37.18:624][524]LogIChat: [10:37] (Global) Fluffy: фух
+[2019.10.22-07.37.23:798][679]LogIChat: [10:37] (Global) Fluffy: думала сдохну
+[2019.10.22-07.37.23:831][680]LogIChat: [10:37] (Group-14) wildmike: кто у вас там?
+[2019.10.22-07.37.29:382][846]LogIChat: [10:37] (Group-14) [BS].:Laimon:.: гига была я убил
+[2019.10.22-07.37.29:750][857]LogIChat: [10:37] (Global) [LoD] kennyS: )
+[2019.10.22-07.37.35:357][ 25]LogIChat: [10:37] (Group-14) [BS].:Laimon:.: 8.75 блида навешала
+[2019.10.22-07.37.36:226][ 51]LogIChat: [10:37] (Global) [LoD] kennyS: я уже обосрался
+[2019.10.22-07.37.40:559][181]LogIChat: [10:37] (Global) Fluffy: ахах)
+[2019.10.22-07.37.40:661][184]LogIChat: [10:37] (Global) VIYLTRA: кто хочет в гнездо тери?
+[2019.10.22-07.37.42:890][251]LogIChat: [10:37] (Global) [LoD] kennyS: а где спуск?
+[2019.10.22-07.37.43:258][262]LogIChat: [10:37] (Group-14) [BS].:Laimon:.: был 5 экран терь 2
+[2019.10.22-07.37.48:583][421]LogIChat: [10:37] (Group-14) [BS].:Laimon:.: от блида 5 экран
+[2019.10.22-07.37.48:781][427]LogIChat: [10:37] (Group-14) wildmike: джув гига?
+[2019.10.22-07.37.51:894][520]LogIChat: [10:37] (Global) Fluffy: тут
+[2019.10.22-07.37.53:163][558]LogIChat: [10:37] (Group-14) [BS].:Laimon:.: да гига джув
+[2019.10.22-07.37.56:511][658]LogIChat: [10:37] (Global) [LoD] kennyS: иду)
+[2019.10.22-07.38.06:423][955]LogIChat: [10:38] (Group-14) Knyaz: а чо -Скорпи?
+[2019.10.22-07.38.10:829][ 87]LogIChat: [10:38] (Group-14) wildmike: лаимон а ты джув?
+[2019.10.22-07.38.13:396][164]LogIChat: [10:38] (Group-14) [BS].:Laimon:.: нет
+[2019.10.22-07.38.14:462][196]LogIChat: [10:38] (Group-14) [BS].:Laimon:.: я саб
+[2019.10.22-07.38.22:170][427]LogIChat: [10:38] (Group-14) [BS].:Laimon:.: но когда дрался был джуви
+[2019.10.22-07.38.24:436][495]LogIChat: [10:38] (Group-14) wildmike: я джц
+[2019.10.22-07.38.28:907][629]LogIChat: [10:38] (Group-14) wildmike: джув*
+[2019.10.22-07.38.33:604][770]LogIChat: [10:38] (Group-14) Knyaz: а вы где
+[2019.10.22-07.38.36:827][867]LogIChat: [10:38] (Group-14) wildmike: рост 93%
+[2019.10.22-07.38.41:576][  9]LogIChat: [10:38] (Group-14) wildmike: я на вышке
+[2019.10.22-07.38.46:810][166]LogIChat: [10:38] (Group-14) [BS].:Laimon:.: на водопадах рядом с титаном и гейзерами
+[2019.10.22-07.39.03:133][655]LogIChat: [10:39] (Group-14) [BS].:Laimon:.: на аодопаде*
+[2019.10.22-07.39.05:236][718]LogIChat: [10:39] (Group-14) [BS].:Laimon:.: во
+[2019.10.22-07.39.12:031][921]LogIChat: [10:39] (Group-14) Knyaz: у меня 90 саба
+[2019.10.22-07.39.29:871][455]LogIChat: [10:39] (Group-14) wildmike: го ко мне?
+[2019.10.22-07.39.30:007][459]LogIChat: [10:39] (Global) [LoD] kennyS: пойдем через реку?
+[2019.10.22-07.39.34:569][596]LogIChat: [10:39] (Global) Fluffy: да
+[2019.10.22-07.39.37:831][694]LogIChat: [10:39] (Group-14) [BS].:Laimon:.: не я тут буду расти
+[2019.10.22-07.39.40:506][774]LogIChat: [10:39] (Global) Pussy: Есть гнездо стего?
+[2019.10.22-07.39.51:262][ 96]LogIChat: [10:39] (Group-14) Knyaz: не там я убил алло но там ещё кто то большой
+[2019.10.22-07.40.18:912][924]LogIChat: [10:40] (Group-14) wildmike: нет тут никого\
+[2019.10.22-07.40.36:499][451]LogIChat: [10:40] (Group-14) [BS].:Laimon:.: ладно еда кончится и мы пойдём
+[2019.10.22-07.40.40:742][578]LogIChat: [10:40] (Global) Fluffy: аа ты быстрей)
+[2019.10.22-07.40.44:484][690]LogIChat: [10:40] (Global) [LoD] kennyS: )
+[2019.10.22-07.40.55:961][ 34]LogIChat: [10:40] (Global) VIYLTRA: кто хочет в гнездо тери 2 места?
+[2019.10.22-07.40.59:190][131]LogIChat: [10:40] (Global) [LoD] kennyS: у меня хвост с мое тело)
+[2019.10.22-07.41.06:553][352]LogIChat: [10:41] (Global) Fluffy: ага
+[2019.10.22-07.41.16:429][648]LogIChat: [10:41] (Group-14) [BS].:Laimon:.: если что я играю с гаммой ночью
+[2019.10.22-07.41.17:197][671]LogIChat: [10:41] (Global) Fluffy: представляю тебя без хвоста))
+[2019.10.22-07.41.27:784][988]LogIChat: [10:41] (Global) [LoD] kennyS: ахахах
+[2019.10.22-07.41.36:815][259]LogIChat: [10:41] (Global) [LoD] kennyS: это бы была курица
+[2019.10.22-07.41.46:699][555]LogIChat: [10:41] (Global) [LoD] kennyS: хотя этак я как курица
+[2019.10.22-07.41.57:734][885]LogIChat: [10:41] (Global) Fluffy: а я бы страус
+[2019.10.22-07.41.58:249][900]LogINest: Warning: Removing nest from the game due to it being destroyed
+[2019.10.22-07.42.06:671][153]LogIChat: [10:42] (Group-14) [BS].:Laimon:.: скорпион вылетел
+[2019.10.22-07.42.08:337][203]LogIChat: [10:42] (Global) [LoD] kennyS: )
+[2019.10.22-07.42.12:482][327]LogIChat: [10:42] (Global) [LoD] kennyS: пошли
+[2019.10.22-07.42.17:118][466]LogIChat: [10:42] (Global) Fluffy: норм на работе ехать) на нем)
+[2019.10.22-07.42.21:896][609]LogIChat: [10:42] (Global) [LoD] kennyS: )
+[2019.10.22-07.43.09:888][ 46]LogIChat: [10:43] (Global) SKORPION: лаймон
+[2019.10.22-07.43.17:689][280]LogIChat: [10:43] (Global) SKORPION: кинь пати у меня вылетело
+[2019.10.22-07.43.24:033][470]LogIChat: [10:43] (Global) [BS].:Laimon:.: вижу
+[2019.10.22-07.43.33:537][755]LogIChat: [10:43] (Group-14) SKORPION: ку
+[2019.10.22-07.43.38:400][901]LogIChat: [10:43] (Group-14) [BS].:Laimon:.: скорпион когда я уввидел что ты лежишь я подумал ты мёртвый
+[2019.10.22-07.43.40:698][970]LogIChat: [10:43] (Group-14) SKORPION: у меня вылетело
+[2019.10.22-07.43.45:403][111]LogIChat: [10:43] (Group-14) SKORPION: хехех
+[2019.10.22-07.44.43:678][858]LogIChat: [10:44] (Group-14) SKORPION: тут где-то ава должна быть
+[2019.10.22-07.44.43:780][861]LogIChat: [10:44] (Global) wertrop: + в чат кто хочет в гнездо к алло
+[2019.10.22-07.44.57:459][271]LogIChat: [10:44] (Group-14) [BS].:Laimon:.: нашёл
+[2019.10.22-07.45.07:463][571]LogIChat: [10:45] (Group-14) SKORPION: кушай
+[2019.10.22-07.45.11:535][693]LogIChat: [10:45] (Group-14) SKORPION: я кости поем
+[2019.10.22-07.46.19:663][733]LogIChat: [10:46] (Global) Курлык курлык: +
+[2019.10.22-07.46.24:825][888]LogIChat: [10:46] (Group-14) SKORPION: все идите к нам
+[2019.10.22-07.46.53:563][750]LogIChat: [10:46] (Group-10) Курлык курлык: рекс сожрал пока афк сидел
+[2019.10.22-07.46.56:444][836]LogIChat: [10:46] (Group-14) SKORPION: поорём?
+[2019.10.22-07.47.01:077][975]LogIChat: [10:47] (Group-14) wildmike: зачем джувом куда то топать?
+[2019.10.22-07.47.08:245][190]LogIChat: [10:47] (Global) Fluffy: там озеро
+[2019.10.22-07.47.16:177][428]LogIChat: [10:47] (Group-10) wertrop: привет
+[2019.10.22-07.47.19:849][538]LogIChat: [10:47] (Group-10) Курлык курлык: ку
+[2019.10.22-07.47.22:216][609]LogIChat: [10:47] (Global) [LoD] kennyS: давай обойдем
+[2019.10.22-07.47.24:651][682]LogIChat: [10:47] (Group-10) wertrop: заходи к нам
+[2019.10.22-07.47.29:757][835]LogIChat: [10:47] (Group-10) wertrop: в дисе
+[2019.10.22-07.47.32:796][926]LogIChat: [10:47] (Group-10) Курлык курлык: я пока без диса
+[2019.10.22-07.47.35:166][997]LogIChat: [10:47] (Global) Fluffy: оно далеко еще
+[2019.10.22-07.47.37:867][ 78]LogIChat: [10:47] (Group-14) SKORPION: хз
+[2019.10.22-07.47.39:343][122]LogIChat: [10:47] (Global) [LoD] kennyS: ок
+[2019.10.22-07.47.39:511][127]LogIChat: [10:47] (Group-10) wertrop: жалко
+[2019.10.22-07.47.52:194][507]LogIChat: [10:47] (Group-10) Курлык курлык: есть яйцо лишнее на скин пох какт уже
+[2019.10.22-07.47.52:296][510]LogIChat: [10:47] (Group-14) [BS].:Laimon:.: сабом не желательно топать
+[2019.10.22-07.47.58:507][696]LogIChat: [10:47] (Group-14) [BS].:Laimon:.: а я и князь саб
+[2019.10.22-07.48.00:579][758]LogIChat: [10:48] (Group-14) SKORPION: ну да
+[2019.10.22-07.48.09:790][ 34]LogIChat: [10:48] (Group-14) SKORPION: хехе
+[2019.10.22-07.48.17:252][257]LogIChat: [10:48] (Group-14) [BS].:Laimon:.: а джувом темболее
+[2019.10.22-07.48.24:724][481]LogIChat: [10:48] (Group-14) SKORPION: угу
+[2019.10.22-07.48.40:899][966]LogIChat: [10:48] (Group-14) SKORPION: джуфы не топают
+[2019.10.22-07.48.50:756][261]LogIChat: [10:48] (Group-14) SKORPION: сабы уже начинают топать
+[2019.10.22-07.48.58:010][478]LogIChat: [10:48] (Group-10) Курлык курлык: вы на титане?
+[2019.10.22-07.48.59:446][521]LogIChat: [10:48] (Group-10) wertrop: тебя в яйцо кинуть чтоль
+[2019.10.22-07.49.00:345][548]LogIDatabase: Error: CharRowName was None for Pope despite having valid save data, starting new character creation
+[2019.10.22-07.49.00:345][548]LogIDatabase: Warning: Cancelling spawning character for Pope
+[2019.10.22-07.49.03:286][636]LogIChat: [10:49] (Group-10) wertrop: да
+[2019.10.22-07.49.09:369][818]LogIChat: [10:49] (Group-14) SKORPION: а адолты уже ойёёй
+[2019.10.22-07.49.16:763][ 39]LogIDatabase: Error: CharRowName was None for Kea despite having valid save data, starting new character creation
+[2019.10.22-07.49.16:764][ 39]LogIDatabase: Warning: Cancelling spawning character for Kea
+[2019.10.22-07.49.19:164][111]LogIChat: [10:49] (Group-14) [BS].:Laimon:.: ага
+[2019.10.22-07.49.19:805][130]LogIChat: [10:49] (Group-10) Курлык курлык: хотя попробую добежать
+[2019.10.22-07.49.30:178][441]LogIChat: [10:49] (Group-10) wertrop: у меня 4 яйца
+[2019.10.22-07.49.35:849][611]LogIChat: [10:49] (Group-10) wertrop: лишних
+[2019.10.22-07.49.41:413][778]LogIChat: [10:49] (Group-14) SKORPION: у меня 86 процентов
+[2019.10.22-07.49.43:549][842]LogIChat: [10:49] (Global) Sweek ♂: есть юты ?
+[2019.10.22-07.49.46:953][944]LogIChat: [10:49] (Global) VIP: да
+[2019.10.22-07.49.48:403][987]LogIChat: [10:49] (Group-14) SKORPION: я както быстро расту
+[2019.10.22-07.50.04:637][473]LogIChat: [10:50] (Group-14) [BS].:Laimon:.: саб это самый долгий период времени
+[2019.10.22-07.50.16:120][817]LogIChat: [10:50] (Group-14) SKORPION: ну да кончно
+[2019.10.22-07.50.20:486][948]LogIChat: [10:50] (Global) [LoD] kennyS: ты куда
+[2019.10.22-07.50.22:949][ 22]LogIChat: [10:50] (Group-14) SKORPION: конечно
+[2019.10.22-07.50.23:481][ 38]LogIChat: [10:50] (Group-15) Sweek ♂: hi
+[2019.10.22-07.50.26:382][125]LogIChat: [10:50] (Global) Fluffy: кушать
+[2019.10.22-07.50.30:344][244]LogIChat: [10:50] (Group-15) VIP: привет
+[2019.10.22-07.50.31:872][290]LogIChat: [10:50] (Global) [LoD] kennyS: ок)
+[2019.10.22-07.50.39:367][515]LogIChat: [10:50] (Group-14) SKORPION: у меня сила укуса 87
+[2019.10.22-07.50.39:972][533]LogIChat: [10:50] (Global) wertrop: + в чат кто хочет в гнездо к алло (есть 4 яйца)
+[2019.10.22-07.50.46:834][739]LogIChat: [10:50] (Group-15) Sweek ♂: ты вроде близко
+[2019.10.22-07.50.51:534][880]LogIChat: [10:50] (Group-14) Knyaz: у меня 335
+[2019.10.22-07.50.53:128][928]LogIChat: [10:50] (Group-14) wildmike: 99
+[2019.10.22-07.50.54:060][956]LogIChat: [10:50] (Group-15) Sweek ♂: ты джув ?
+[2019.10.22-07.50.55:472][998]LogIChat: [10:50] (Group-14) [BS].:Laimon:.: 150
+[2019.10.22-07.50.57:271][ 52]LogIChat: [10:50] (Group-15) VIP: да
+[2019.10.22-07.51.06:409][326]LogIChat: [10:51] (Global) Fluffy: о я фулл)
+[2019.10.22-07.51.10:242][441]LogIChat: [10:51] (Group-14) SKORPION: кнайз а ты саб?
+[2019.10.22-07.51.13:647][543]LogIChat: [10:51] (Global) [LoD] kennyS: я 85%
+[2019.10.22-07.51.19:026][704]LogIChat: [10:51] (Group-14) Knyaz: да почти адолт
+[2019.10.22-07.51.33:492][137]LogIChat: [10:51] (Group-14) SKORPION: уууу иди к нам

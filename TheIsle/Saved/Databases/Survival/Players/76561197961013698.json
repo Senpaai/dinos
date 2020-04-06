@@ -1,0 +1,21 @@
+{
+	"CharacterClass": "Herrera",
+	"DNA": "",
+	"Location_Thenyaw_Island": "X=-278147.219 Y=-85321.836 Z=-43726.027",
+	"Rotation_Thenyaw_Island": "P=0.000000 Y=44.556717 R=0.000000",
+	"Growth": "1.0",
+	"Hunger": "58",
+	"Thirst": "48",
+	"Stamina": "130",
+	"Health": "500",
+	"BleedingRate": "0",
+	"Oxygen": "40",
+	"bGender": false,
+	"bIsResting": true,
+	"bBrokenLegs": false,
+	"ProgressionPoints": "0",
+	"ProgressionTier": "1",
+	"UnlockedCharacters": "Herrera;",
+	"CameraRotation_Thenyaw_Island": "P=0.000000 Y=134.556763 R=0.000000",
+	"CameraDistance_Thenyaw_Island": "300.009979"
+}

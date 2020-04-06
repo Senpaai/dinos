@@ -1,0 +1,184 @@
+﻿Log file open, 10/05/19 22:40:32
+LogPakFile: Display: Found Pak file ../../../TheIsle/Content/Paks/TheIsle-WindowsServer.pak attempting to mount.
+LogPakFile: Display: Mounting pak file ../../../TheIsle/Content/Paks/TheIsle-WindowsServer.pak.
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 4 named threads and 8 total threads with 1 sets of task threads.
+LogModuleManager: Warning: ModuleManager: Module 'D3D11RHI' not found - its StaticallyLinkedModuleInitializers function is null.
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +3:00, Platform Override: ''
+LogPluginManager: Mounting plugin OnlineSubsystemSteam
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin WindowsDeviceProfileSelector
+LogPluginManager: Mounting plugin SteamController
+LogPluginManager: Mounting plugin AdvancedSessions
+LogPluginManager: Mounting plugin AdvancedSteamSessions
+LogPluginManager: Mounting plugin ImpostorBaker
+LogPluginManager: Mounting plugin BlueprintMaterialTextureNodes
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin IKinema
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-0
+LogInit: Engine Version: 4.20.3-0+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-0+++UE4+Release-4.20
+LogInit: Net CL: 0
+LogInit: OS: Windows Server 2012 (), CPU: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz, GPU: GenericGPUBrand
+LogInit: Compiled (64-bit): Apr 11 2019 08:04:47
+LogInit: Compiled with Visual C++: 19.16.27030.01
+LogInit: Build Configuration: Shipping
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: "/Game/TheIsle/Maps/Landscape3/Isle_V3?MultiHome=185.66.84.203?game=Survival?MaxPlayers=170?Port=27025?ServerName=Industri?QueryPort=27026 -log | set /P "=""
+LogInit: Base Directory: d:/Servers/gsp_1954/185.66.84.203-27025/TheIsle/Binaries/Win64/
+LogInit: Installed Engine Build: 0
+LogInit: Presizing for max 2097152 objects, including 50000 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.10.05-19.40.32:975][  0]LogInit: Selected Device Profile: [WindowsServer]
+[2019.10.05-19.40.32:975][  0]LogInit: Applying CVar settings loaded from the selected device profile: [WindowsServer]
+[2019.10.05-19.40.32:978][  0]LogHAL: Display: Platform has ~ 64 GB [68352249856 / 68719476736 / 64], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.10.05-19.40.32:978][  0]LogInit: Going up to parent DeviceProfile [Windows]
+[2019.10.05-19.40.32:978][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.10.05-19.40.32:978][  0]LogInit: Going up to parent DeviceProfile []
+[2019.10.05-19.40.32:978][  0]LogInit: Computer: EURU700
+[2019.10.05-19.40.32:978][  0]LogInit: User: gspserv3502
+[2019.10.05-19.40.32:978][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.10.05-19.40.32:978][  0]LogInit: High frequency timer resolution =3.117193 MHz
+[2019.10.05-19.40.32:978][  0]LogMemory: Memory total: Physical=63.7GB (64GB approx)
+[2019.10.05-19.40.32:978][  0]LogMemory: Platform Memory Stats for WindowsServer
+[2019.10.05-19.40.32:978][  0]LogMemory: Process Physical Memory: 67.91 MB used, 67.91 MB peak
+[2019.10.05-19.40.32:978][  0]LogMemory: Process Virtual Memory: 86.44 MB used, 86.44 MB peak
+[2019.10.05-19.40.32:978][  0]LogMemory: Physical Memory: 21047.99 MB used,  44137.79 MB free, 65185.79 MB total
+[2019.10.05-19.40.32:978][  0]LogMemory: Virtual Memory: 311.59 MB used,  44137.79 MB free, 134217728.00 MB total
+[2019.10.05-19.40.32:983][  0]LogInit: Using OS detected language (ru-RU).
+[2019.10.05-19.40.32:983][  0]LogInit: Using OS detected locale (ru-RU).
+[2019.10.05-19.40.32:984][  0]LogTextLocalizationManager: No specific localization for 'ru-RU' exists, so the 'ru' localization will be used.
+[2019.10.05-19.40.32:987][  0]LogSlate: Warning: FCoreStyle assets not detected, skipping FCoreStyle initialization
+[2019.10.05-19.40.32:987][  0]LogInit: Using OS detected language (ru-RU).
+[2019.10.05-19.40.32:987][  0]LogInit: Using OS detected locale (ru-RU).
+[2019.10.05-19.40.32:987][  0]LogTextLocalizationManager: No specific localization for 'ru-RU' exists, so the 'ru' localization will be used.
+[2019.10.05-19.40.33:026][  0]LogAssetRegistry: FAssetRegistry took 0.0373 seconds to start up
+[2019.10.05-19.40.33:086][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.009732 seconds
+[2019.10.05-19.40.33:086][  0]LogPakFile: New pak file ../../../TheIsle/Content/Paks/TheIsle-WindowsServer.pak added to pak precacher.
+[2019.10.05-19.40.33:086][  0]LogInit: Selected Device Profile: [WindowsServer]
+[2019.10.05-19.40.33:091][  0]LogNetVersion: TheIsle 1.0.0, NetCL: 0, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2422549516)
+[2019.10.05-19.40.33:102][  0]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Button'. Using FButtonStyle defaults instead.
+[2019.10.05-19.40.33:102][  0]LogSlateStyle: Warning: Unable to find Slate Widget Style 'NormalText'. Using FTextBlockStyle defaults instead.
+[2019.10.05-19.40.33:103][  0]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Button'. Using FButtonStyle defaults instead.
+[2019.10.05-19.40.33:103][  0]LogSlateStyle: Warning: Unable to find Slate Widget Style 'NormalText'. Using FTextBlockStyle defaults instead.
+[2019.10.05-19.40.33:104][  0]ImportText (ProgressionOverrides): Missing opening parenthesis: 
+[2019.10.05-19.40.33:105][  0]LogSlateStyle: Warning: Unable to find Slate Widget Style 'CheckBox'. Using FCheckBoxStyle defaults instead.
+[2019.10.05-19.40.33:105][  0]LogSlateStyle: Warning: Unable to find Slate Widget Style 'ComboBox'. Using FComboBoxStyle defaults instead.
+[2019.10.05-19.40.33:105][  0]LogSlateStyle: Warning: Unable to find Slate Widget Style 'TableView.Row'. Using FTableRowStyle defaults instead.
+[2019.10.05-19.40.33:105][  0]LogSlateStyle: Warning: Unable to find Slate Widget Style 'NormalEditableText'. Using FEditableTextStyle defaults instead.
+[2019.10.05-19.40.33:105][  0]LogSlateStyle: Warning: Unable to find Slate Widget Style 'NormalEditableTextBox'. Using FEditableTextBoxStyle defaults instead.
+[2019.10.05-19.40.33:105][  0]LogSlateStyle: Warning: Unable to find Slate Widget Style 'ExpandableArea'. Using FExpandableAreaStyle defaults instead.
+[2019.10.05-19.40.33:106][  0]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Button'. Using FButtonStyle defaults instead.
+[2019.10.05-19.40.33:106][  0]LogSlateStyle: Warning: Unable to find Slate Widget Style 'NormalText'. Using FTextBlockStyle defaults instead.
+[2019.10.05-19.40.33:106][  0]LogSlateStyle: Warning: Unable to find Slate Widget Style 'NormalText'. Using FTextBlockStyle defaults instead.
+[2019.10.05-19.40.33:106][  0]LogSlateStyle: Warning: Unable to find Slate Widget Style 'NormalEditableTextBox'. Using FEditableTextBoxStyle defaults instead.
+[2019.10.05-19.40.33:106][  0]LogSlateStyle: Warning: Unable to find Slate Widget Style 'NormalText'. Using FTextBlockStyle defaults instead.
+[2019.10.05-19.40.33:106][  0]LogSlateStyle: Warning: Unable to find Slate Widget Style 'ProgressBar'. Using FProgressBarStyle defaults instead.
+[2019.10.05-19.40.33:106][  0]LogSlateStyle: Warning: Unable to find Slate Widget Style 'ScrollBar'. Using FScrollBarStyle defaults instead.
+[2019.10.05-19.40.33:106][  0]LogSlateStyle: Warning: Unable to find Slate Widget Style 'ScrollBox'. Using FScrollBoxStyle defaults instead.
+[2019.10.05-19.40.33:106][  0]LogSlateStyle: Warning: Unable to find Slate Widget Style 'ScrollBar'. Using FScrollBarStyle defaults instead.
+[2019.10.05-19.40.33:106][  0]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Slider'. Using FSliderStyle defaults instead.
+[2019.10.05-19.40.33:106][  0]LogSlateStyle: Warning: Unable to find Slate Widget Style 'SpinBox'. Using FSpinBoxStyle defaults instead.
+[2019.10.05-19.40.33:113][  0]LogUObjectArray: 36277 objects as part of root set at end of initial load.
+[2019.10.05-19.40.33:113][  0]LogUObjectAllocator: 5387784 out of 0 bytes used by permanent object pool.
+[2019.10.05-19.40.33:113][  0]LogUObjectArray: CloseDisregardForGC: 36277/0 objects in disregard for GC pool
+[2019.10.05-19.40.33:344][  0]LogEngine: Initializing Engine...
+[2019.10.05-19.40.33:362][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.10.05-19.40.33:362][  0]LogNetVersion: Set ProjectVersion to 0.1.53.3. Version Checksum will be recalculated on next use.
+[2019.10.05-19.40.33:362][  0]LogInit: Texture streaming: Disabled
+[2019.10.05-19.40.34:115][  0]ImportText (ProgressionOverrides): Missing opening parenthesis: 
+[2019.10.05-19.40.34:115][  0]ImportText (ProgressionOverrides): Missing opening parenthesis: 
+[2019.10.05-19.40.34:258][  0]LogTemp: Warning: IGameInstance::Init() executed in 0.890731 seconds.
+[2019.10.05-19.40.34:258][  0]LogInit: Display: Game Engine Initialized.
+[2019.10.05-19.40.34:259][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.10.05-19.40.34:265][  0]LogInit: Display: Starting Game.
+[2019.10.05-19.40.34:265][  0]LogLoad: LoadMap: /Game/TheIsle/Maps/Landscape3/Isle_V3?Name=Player?MultiHome=185.66.84.203?game=Survival?MaxPlayers=170?Port=27025?ServerName=Industri?QueryPort=27026 -log | set /P 
+[2019.10.05-19.40.34:384][  0]ImportText (ProgressionOverrides): Missing opening parenthesis: 
+[2019.10.05-19.40.34:702][  0]LogAIModule: Creating AISystem for world Isle_V3
+[2019.10.05-19.40.34:702][  0]LogLoad: Game class is 'BP_GameMode_Survival_C'
+[2019.10.05-19.40.34:716][  0]LogWorld: Bringing World /Game/TheIsle/Maps/Landscape3/Isle_V3.Isle_V3 up for play (max tick rate 30) at 2019.10.05-22.40.34
+[2019.10.05-19.40.45:869][  0]LogWorld: Bringing up level for play took: 11.166695
+[2019.10.05-19.40.45:903][  0]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.10.05-19.40.45:910][  0]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.10.05-19.40.45:910][  0]LogLoad: Took 11.644411 seconds to LoadMap(/Game/TheIsle/Maps/Landscape3/Isle_V3)
+[2019.10.05-19.40.45:910][  0]LogTemp: Warning: IGameInstance::LoadComplete - Load Time: 11.644411 Map Name: /Game/TheIsle/Maps/Landscape3/Isle_V3
+[2019.10.05-19.40.45:910][  0]LogLoad: (Engine Initialization) Total time: 13.24 seconds
+[2019.10.05-19.40.47:552][ 11]LogOnline: Warning: STEAM: Server setting ,ServerName_s:Industri overflows Steam SetGameTags call
+[2019.10.05-19.40.47:552][ 11]LogOnline: Warning: STEAM: Server setting ,SECURE_b:true overflows Steam SetGameTags call
+[2019.10.05-19.40.47:552][ 11]LogOnline: Warning: STEAM: Server setting ,Version_s:0.1.53.3 overflows Steam SetGameTags call
+[2019.10.05-19.40.47:552][ 11]LogOnline: Warning: STEAM: Server setting ,GameMode_s:Survival overflows Steam SetGameTags call
+[2019.10.05-19.40.47:552][ 11]LogOnline: Warning: STEAM: Server setting ,DISCORD_s:6zUBJ6V overflows Steam SetGameTags call
+[2019.10.05-19.40.48:317][ 29]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.10.05-19.40.48:318][ 29]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.10.05-19.41.12:783][768]LogNetVersion: TheIsle 0.1.53.3, NetCL: 0, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1885715905)
+[2019.10.05-19.50.05:809][750]LogIAdmin: Banned Player by steamid 76561198826140239 Reason: nedostoin Length: permanent
+[2019.10.05-19.50.16:489][ 71]LogIChat: [22:50] (Global) Lilian: ля-ля-ля
+[2019.10.05-19.50.21:014][207]LogIAdmin: Banned Player by steamid 76561198987015636 Reason: nedostoin Length: permanent
+[2019.10.05-19.50.35:276][630]LogIAdmin: Banned Player by steamid 76561198236989536 Reason: nedostoin Length: permanent
+[2019.10.05-19.50.49:211][ 48]LogIAdmin: Banned Player by steamid 76561198797554337 Reason: nedostoin Length: permanent
+[2019.10.05-20.13.38:404][ 60]LogINest: Warning: Removing nest from the game due to it being destroyed
+[2019.10.05-20.26.30:144][203]LogIDatabase: Error: CharRowName was None for [OMBlob] VictorEAJ despite having valid save data, starting new character creation
+[2019.10.05-20.26.30:145][203]LogIDatabase: Warning: Cancelling spawning character for [OMBlob] VictorEAJ
+[2019.10.05-20.26.40:154][503]LogIChat: [23:26] (Global) [OMBlob] VictorEAJ: hi
+[2019.10.05-20.26.53:114][891]LogIChat: [23:26] (Global) ♔ MONARH ♔: \
+[2019.10.05-20.27.01:473][142]LogIChat: [23:27] (Global) Пончик: Hello
+[2019.10.05-20.27.01:708][149]LogIChat: [23:27] (Global) ♔ MONARH ♔: hi)
+[2019.10.05-20.39.48:058][105]LogIDatabase: Error: Failed to save SMILE ♐ because their Character is invalid
+[2019.10.05-20.49.06:287][849]LogIChat: [23:49] (Global) CocaCola: help me
+[2019.10.05-20.49.27:307][478]LogIChat: [23:49] (Global) CocaCola: ;С
+[2019.10.05-20.49.57:658][386]LogINest: Warning: Removing nest from the game due to it being destroyed
+[2019.10.05-21.02.16:430][508]LogINest: Warning: Removing nest from the game due to it being destroyed
+[2019.10.05-21.02.41:463][257]LogINest: Warning: Removing nest from the game due to it being destroyed
