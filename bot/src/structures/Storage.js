@@ -17,14 +17,14 @@ class Storage extends Array{
 		this.push(name)
 		this.save()
 	}
-	remove(name){
-		if(!this.includes(name))return undefined;
-		this.splice(this.indexOf(name), 1)
+	remove(fn){
+		let dino = this.find(fn)
+		if(!dino)return undefined;
+		this.splice(this.indexOf(dino), 1)
 		this.save()
-		return name
 	}
-	has(name){
-		return this.includes(name)
+	has(fn){
+		return !!this.find(fn)
 	}
 }
 

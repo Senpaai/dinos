@@ -18,24 +18,28 @@ class Dino{
 	save(){
 		fs.writeFileSync(this._filePath, JSON.stringify(this._file, null, 8))
 	}
-	set(name){
-		if(!this.storage.has(name))return;
-		if(this.grown) this.add(this.selected);
+	set(name, gender){
+		if(!this.storage.has(i => i.name == name))return;
+		if(this.grown) this.add(this.selected.name, this.selected.gender);
 		this._file['CharacterClass'] = name;
-		this.storage.remove(name);
+		this._file['bGender'] = gender == 'male' ? false : true
+		this.storage.remove(i => i.name == name);
 		this.setMaxStats();
 		this.save()
 
 	}
 	get selected(){
-		return this._file['CharacterClass']
+		return {
+			name: this._file['CharacterClass'],
+			gender: this._file['bGender'] ? 'female' : 'male'
+		}
 	}
 	get grown(){
 		return '1.0' == this._file['Growth']  
 	}
-	add(name){
+	add(name, gender){
 		if(!Dino.ALL.has(name))return;
-		this.storage.add(name);
+		this.storage.add({ name, gender });
 	}
 	setMaxStats(){
 		this._file['Growth'] = '1.0'

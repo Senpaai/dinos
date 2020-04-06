@@ -7,10 +7,10 @@ module.exports.run = (app, message, [ , ]) => {
 	message.embeder.send('[Dinosaurs]', `
 Информация об участнике ${member.toString()}
 Steam id: ${member.db.steamid}
-Выбранный динозавр: ${member.dino.selected}
+Выбранный дино: ${member.dino.selected.name} ${member.dino.selected.gender}
 Количество динозавров в хранилище: ${member.dino.storage.length}
 хранилище: 
-${member.dino.storage.join(', ')}`)	
+${[...member.dino.storage].map(i => `${i.name} ${i.gender}`).join(',\n')}`)	
 }
 exports.config = {
 	name: 'info',
