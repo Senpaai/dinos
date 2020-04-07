@@ -49,7 +49,7 @@ class Dino{
 	add(name, gender, count){
 		if(!Dino.ALL.has(name))return;
 		if(!this.storage.has(i => i.name == name && i.gender == gender)){
-			this.storage.add({ name, gender, count });
+			this.storage.add({ name, gender, count: Number(count) });
 			return;
 		}
 		let dino = this.storage.find(i => i.name == name && i.gender == gender);
