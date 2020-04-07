@@ -6,7 +6,7 @@ module.exports.run = (app, message, [ n ]) => {
 	}
 	let dinos = [...message.member.dino.storage]
 	if(!n){
-		message.embeder.send('[Storage]',
+		message.author.embeder.send('[Storage]',
 `
 Текущий дино: ${message.member.dino.selected.name} ${message.member.dino.selected.gender ? ':female_sign:' : ':male_sign:'}
 Список доступных дино:
@@ -14,6 +14,7 @@ ${dinos.map((e, i) => `**[${i+1}]** ${e.name} ${e.gender ? ':female_sign:' : ':m
 для смены дино используйте комманду
 !dino [номер дино]
 `)
+		message.embeder.send('[Storage]', 'данные отправлены вам в личные сообщения')
 		return;
 	}
 	if((+n > dinos.length || +n < 1) || +n != n ){
@@ -26,5 +27,7 @@ ${dinos.map((e, i) => `**[${i+1}]** ${e.name} ${e.gender ? ':female_sign:' : ':m
 }
 exports.config = {
 	name: 'dino',
-	aliases: []
+	aliases: [],
+	usage: '!dino [номер дино]',
+	discription: 'изменяет играбельного дино на дино из хранилища'
 }

@@ -5,45 +5,17 @@
       "7656119805997079",
       [
         {
-          "name": "Bary",
+          "name": "Ava",
           "gender": false,
-          "count": 12
-        },
-        {
-          "name": "Theri",
-          "gender": true,
           "count": 5
         },
         {
-          "name": "Austro",
-          "gender": "male",
-          "count": 15
-        },
-        {
-          "name": "Stego",
-          "gender": false,
-          "count": 1
-        },
-        {
-          "name": "Stego",
+          "name": "Ava",
           "gender": true,
-          "count": 1
+          "count": 5
         }
       ]
-    ],
-    [
-      1,
-      [
-        {
-          "name": "Taco",
-          "gender": true
-        }
-      ]
-    ],
-    [
-      "76561197960290179",
-      []
     ]
   ],
-  "createAt": 1586197806390
+  "createAt": 1586262124246
 }

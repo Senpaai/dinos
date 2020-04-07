@@ -26,10 +26,12 @@ module.exports.run = (app, message, [ , dino, gender, count ]) => {
 		message.embeder.warn('Укажите количество дино которое нужно добавить.')
 		return;
 	}
-	member.dino.add(dino, gender, count);
-	message.embeder.send('[addDino]', `Дино "${dino}" успешно добавлен в хранилище`)
+	member.dino.add(dino, gender == 'female', count);
+	message.embeder.send('[addDino]', `Вы успешно передали ${dino} ${gender == 'female' ? ':female_sign:' : ':male_sign:'} [${count}] участнику ${member.toString()}`)
 }
 exports.config = {
-	name: 'adddino',
-	aliases: []
+	name: 'changedino',
+	aliases: ['chd'],
+	usage: '!changedino {@member} [дино] [гендер] [количество]',
+	discription: 'изменяет количество дино у пользователя. Можно указать меньше нуля (отнять)'
 }

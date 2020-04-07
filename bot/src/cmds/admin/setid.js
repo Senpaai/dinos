@@ -18,5 +18,7 @@ module.exports.run = (app, message, [ , id ]) => {
 }
 exports.config = {
 	name: 'setid',
-	aliases: []
+	aliases: [],
+	usage: '!setid {@member} [id]',
+	discription: 'присваивает steam id конкретному пользователю'
 }
