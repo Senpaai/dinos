@@ -1,7 +1,7 @@
 const Dino = require('../../structures/Dino.js')
 module.exports.run = (app, message, [ n ]) => {
 	if(!message.member.hasSteamid){
-		message.embeder.warn('вы не подтвердили свой steam id')
+		message.embeder.warn('У данного пользователя не подтверждён аккаунт steam. И/или под таким id нет аккаунта')
 		return;
 	}
 	let dinos = [...message.member.dino.storage]

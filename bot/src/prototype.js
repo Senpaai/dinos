@@ -1,6 +1,8 @@
 let { Guild, GuildMember } = require('discord.js')
+const fs = require('fs')
+const path = require('path')
 const { RichEmbed, TextChannel, Message, User } = require('discord.js');
-
+const config = require('./config.json')
 
 const Embeder = require('./structures/Embeder.js');
 const MemberDB = require('./structures/MemberDB.js');
@@ -18,14 +20,16 @@ Object.defineProperties(GuildMember.prototype, {
 	},
 	hasSteamid: {
 		get(){
-			return !!this.db.steamid
+			if(!this.db.steamid)return false;
+			const dbPath = path.isAbsolute(config.dbPath) ?
+			config.dbPath :  path.join(process.cwd(), config.dbPath)
+			return fs.existsSync(path.join(dbPath, this.db.steamid + '.json'))
 		}
 	},
 	dino: {
 		get(){
 			if(!this.hasSteamid)return undefined;
-			if(!this.hasOwnProperty('_dino')) this._dino = new Dino(this.db.steamid);
-			return this._dino
+			return new Dino(this.db.steamid)
 		}
 	},
 	setSteamid: {
@@ -35,18 +39,6 @@ Object.defineProperties(GuildMember.prototype, {
 		}
 	}
 })
-
-
-
-
-
-
-
-
-
-
-
-
 
 Object.defineProperty(User.prototype, 'embeder', { 
 	get(){

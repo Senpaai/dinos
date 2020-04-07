@@ -1,8 +1,11 @@
 const path = require('path');
 const fs = require('fs')
+const dinosaurs = require('../dinosaurs.json');
 const config = require('../config.json');
 const Storage = require('./Storage.js');
-const dbPath = path.join(process.cwd(), '../TheIsle/Saved/Databases/Survival/Players/') 
+const dbPath = path.isAbsolute(config.dbPath) ?
+config.dbPath :  path.join(process.cwd(), config.dbPath) 
+
 class Dino{
 	constructor(id){
 		let filePath = path.join(dbPath, id + '.json');
@@ -51,6 +54,6 @@ class Dino{
 		this.save()
 	}
 }
-Dino.ALL = new Set(config.dinosaurs)
+Dino.ALL = new Set(dinosaurs)
 
 module.exports = Dino

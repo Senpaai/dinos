@@ -11,7 +11,7 @@ module.exports.run = (app, message, [ , dino, gender ]) => {
 		return;
 	}
 	if(!member.hasSteamid){
-		message.embeder.warn('пользователь не подтвердил свой steam id')
+		message.embeder.warn('У данного пользователя не подтверждён аккаунт steam. И/или под таким id нет аккаунта')
 		return;
 	}
 	if(!Dino.ALL.has(dino)){
