@@ -54,6 +54,8 @@ class Dino{
 		}
 		let dino = this.storage.find(i => i.name == name && i.gender == gender);
 		dino.count ? dino.count += Number(count) : dino.count = Number(count)
+		if(dino.count-1 < 1) this.storage.remove(i => i.name == name && i.gender == gender) 
+		this.storage.save()
 	}
 	setMaxStats(){
 		this.save({
