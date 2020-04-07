@@ -10,10 +10,11 @@ class Dino{
 			throw new Error(`user with id ${id} is not exists`)
 			return;
 		}
-		let file = JSON.parse(fs.readFileSync(filePath));
-		this._file = file
 		this._filePath = filePath
 		this.storage = new Storage(id) 
+	}
+	get _file(){
+		return JSON.parse(fs.readFileSync(this._filePath));
 	}
 	save(){
 		fs.writeFileSync(this._filePath, JSON.stringify(this._file, null, 8))
