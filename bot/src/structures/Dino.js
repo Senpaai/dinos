@@ -24,29 +24,36 @@ class Dino{
 		fs.writeFileSync(this._filePath, JSON.stringify(obj, null, 8))
 	}
 	set(name, gender){
-		if(!this.storage.has(i => i.name == name))return;
-		if(this.grown) this.add(this.selected.name, this.selected.gender);
-		this.storage.remove(i => i.name == name);
+		let dino = this.storage.find(i => i.name == name && i.gender == gender);
+		if(!dino)return console.log('дино нет')
+		this.add(this.selected.name, this.selected.gender, 1)
+		this.add(dino.name, dino.gender, -1)
+		if(dino.count-1 < 1) this.storage.remove(i => i.name == name && i.gender == gender) 
 		this.setMaxStats();
 		this.save({
 			...this._file,
 			"CharacterClass": name,
-			"bGender": gender == 'male' ? false : true
+			"bGender": gender
 		})
 
 	}
 	get selected(){
 		return {
 			name: this._file['CharacterClass'],
-			gender: Boolean(this._file['bGender']) ? 'female' : 'male'
+			gender: this._file['bGender']
 		}
 	}
 	get grown(){
 		return '1.0' == this._file['Growth']  
 	}
-	add(name, gender){
+	add(name, gender, count){
 		if(!Dino.ALL.has(name))return;
-		this.storage.add({ name, gender });
+		if(!this.storage.has(i => i.name == name && i.gender == gender)){
+			this.storage.add({ name, gender, count });
+			return;
+		}
+		let dino = this.storage.find(i => i.name == name && i.gender == gender);
+		dino.count ? dino.count += Number(count) : dino.count = Number(count)
 	}
 	setMaxStats(){
 		this.save({

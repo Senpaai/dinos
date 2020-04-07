@@ -11,10 +11,10 @@ module.exports.run = (app, message, [ , ]) => {
 	message.author.embeder.send('[Dinosaurs]', `
 Информация об участнике ${member.toString()}
 Steam id: ${member.db.steamid}
-Выбранный дино: ${member.dino.selected.name} ${member.dino.selected.gender}
+Выбранный дино: ${member.dino.selected.name} ${member.dino.selected.gender ? ':female_sign:' : ':male_sign:'}
 Количество динозавров в хранилище: ${member.dino.storage.length}
 хранилище: 
-${[...member.dino.storage].map(i => `${i.name} ${i.gender}`).join(',\n')}`)
+${[...member.dino.storage].map(i => `${i.name} ${i.gender ? ':female_sign:' : ':male_sign:'} [${i.count}]`).join(',\n')}`)
 	message.embeder.send('[Dinosaurs]', `Информация участника ${member.toString()} отправлена вам в личные сообщения`)
 }
 exports.config = {

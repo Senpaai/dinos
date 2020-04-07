@@ -18,9 +18,9 @@ class Storage extends Array{
 		this.save()
 	}
 	remove(fn){
-		let dino = this.find(fn)
-		if(!dino)return undefined;
-		this.splice(this.indexOf(dino), 1)
+		let element = this.find(fn)
+		if(!element)return undefined;
+		this.splice(this.indexOf(element), 1)
 		this.save()
 	}
 	has(fn){

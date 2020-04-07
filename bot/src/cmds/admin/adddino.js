@@ -1,6 +1,6 @@
 const Dino = require('../../structures/Dino.js')
 const config = require('../../config.json')
-module.exports.run = (app, message, [ , dino, gender ]) => {
+module.exports.run = (app, message, [ , dino, gender, count ]) => {
 	if(!config.admins.includes(message.member.id)){
 		message.embeder.warn('Данную комманду могут использовать только определённый круг лиц')
 		return
@@ -22,7 +22,11 @@ module.exports.run = (app, message, [ , dino, gender ]) => {
 		message.embeder.warn('Укажите пол: male | female')
 		return;
 	}
-	member.dino.add(dino, gender);
+	if(!count || !(+count == count)){
+		message.embeder.warn('Укажите количество дино которое нужно добавить.')
+		return;
+	}
+	member.dino.add(dino, gender, count);
 	message.embeder.send('[addDino]', `Дино "${dino}" успешно добавлен в хранилище`)
 }
 exports.config = {

@@ -5,12 +5,29 @@
       "7656119805997079",
       [
         {
-          "name": "Stego",
-          "gender": "male"
+          "name": "Bary",
+          "gender": false,
+          "count": 12
         },
         {
-          "name": "Bary",
-          "gender": "male"
+          "name": "Theri",
+          "gender": true,
+          "count": 5
+        },
+        {
+          "name": "Austro",
+          "gender": "male",
+          "count": 15
+        },
+        {
+          "name": "Stego",
+          "gender": false,
+          "count": 1
+        },
+        {
+          "name": "Stego",
+          "gender": true,
+          "count": 1
         }
       ]
     ],
@@ -19,7 +36,7 @@
       [
         {
           "name": "Taco",
-          "gender": "female"
+          "gender": true
         }
       ]
     ],

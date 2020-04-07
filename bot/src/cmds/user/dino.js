@@ -8,9 +8,9 @@ module.exports.run = (app, message, [ n ]) => {
 	if(!n){
 		message.embeder.send('[Storage]',
 `
-Текущий дино: ${message.member.dino.selected.name} ${message.member.dino.selected.gender}
+Текущий дино: ${message.member.dino.selected.name} ${message.member.dino.selected.gender ? ':female_sign:' : ':male_sign:'}
 Список доступных дино:
-${dinos.map((e, i) => `**[${i+1}]** ${e.name} ${e.gender}`).join(',\n')}
+${dinos.map((e, i) => `**[${i+1}]** ${e.name} ${e.gender ? ':female_sign:' : ':male_sign:'} [${e.count}]`).join(',\n')}
 для смены дино используйте комманду
 !dino [номер дино]
 `)
