@@ -26,7 +26,7 @@ class Dino{
 	set(name, gender){
 		let dino = this.storage.find(i => i.name == name && i.gender == gender);
 		if(!dino)return console.log('дино нет')
-		this.add(this.selected.name, this.selected.gender, 1)
+		if(this.grown) this.add(this.selected.name, this.selected.gender, 1)
 		this.add(dino.name, dino.gender, -1)
 		if(dino.count-1 < 1) this.storage.remove(i => i.name == name && i.gender == gender) 
 		this.setMaxStats();
