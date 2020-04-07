@@ -29,7 +29,10 @@ Object.defineProperties(GuildMember.prototype, {
 	dino: {
 		get(){
 			if(!this.hasSteamid)return undefined;
-			return new Dino(this.db.steamid)
+			if(!this.hasOwnProperty('_dino') || !(this._dino.id == this.db.steamid)){
+				this._dino = new Dino(this.db.steamid);
+			}
+			return this._dino
 		}
 	},
 	setSteamid: {

@@ -13,29 +13,32 @@ class Dino{
 			throw new Error(`user with id ${id} is not exists`)
 			return;
 		}
+		this.id = id
 		this._filePath = filePath
 		this.storage = new Storage(id) 
 	}
 	get _file(){
 		return JSON.parse(fs.readFileSync(this._filePath));
 	}
-	save(){
-		fs.writeFileSync(this._filePath, JSON.stringify(this._file, null, 8))
+	save(obj){
+		fs.writeFileSync(this._filePath, JSON.stringify(obj, null, 8))
 	}
 	set(name, gender){
 		if(!this.storage.has(i => i.name == name))return;
 		if(this.grown) this.add(this.selected.name, this.selected.gender);
-		this._file['CharacterClass'] = name;
-		this._file['bGender'] = gender == 'male' ? false : true
 		this.storage.remove(i => i.name == name);
 		this.setMaxStats();
-		this.save()
+		this.save({
+			...this._file,
+			"CharacterClass": name,
+			"bGender": gender == 'male' ? false : true
+		})
 
 	}
 	get selected(){
 		return {
 			name: this._file['CharacterClass'],
-			gender: this._file['bGender'] ? 'female' : 'male'
+			gender: Boolean(this._file['bGender']) ? 'female' : 'male'
 		}
 	}
 	get grown(){
@@ -46,12 +49,14 @@ class Dino{
 		this.storage.add({ name, gender });
 	}
 	setMaxStats(){
-		this._file['Growth'] = '1.0'
-		this._file['Hunger'] = '99999'
-		this._file['Thirst'] = '99999'
-		this._file['Stamina'] = '99999'
-		this._file['Health'] = '99999'
-		this.save()
+		this.save({
+			...this._file,
+			'Growth': '1.0',
+			'Hunger': '99999',
+			'Thirst': '99999',
+			'Stamina': '99999',
+			'Health': '99999'
+		})
 	}
 }
 Dino.ALL = new Set(dinosaurs)
