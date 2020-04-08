@@ -28,7 +28,7 @@ class Dino{
 		if(!dino)return console.log('дино нет')
 		if(this.grown) this.add(this.selected.name, this.selected.gender, 1)
 		this.add(dino.name, dino.gender, -1)
-		if(dino.count-1 < 1) this.storage.remove(i => i.name == name && i.gender == gender) 
+		if(dino.count < 1) this.remove(name, gender)
 		this.setMaxStats();
 		this.save({
 			...this._file,
@@ -46,6 +46,9 @@ class Dino{
 	get grown(){
 		return '1.0' == this._file['Growth']  
 	}
+	remove(name,gender){
+		this.storage.remove(i => i.name == name && i.gender == gender) 
+	}
 	add(name, gender, count){
 		if(!Dino.ALL.has(name))return;
 		if(!this.storage.has(i => i.name == name && i.gender == gender)){
@@ -54,7 +57,7 @@ class Dino{
 		}
 		let dino = this.storage.find(i => i.name == name && i.gender == gender);
 		dino.count ? dino.count += Number(count) : dino.count = Number(count)
-		if(dino.count < 1) this.storage.remove(i => i.name == name && i.gender == gender) 
+		if(dino.count < 1) this.remove(name, gender)
 		this.storage.save()
 	}
 	setMaxStats(){
