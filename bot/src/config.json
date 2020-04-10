@@ -2,5 +2,8 @@
 	"token": "token",
 	"prefix": "!",
 	"admins": ["456911063083122694", "266672133457838081"],
-	"dbPath": "../TheIsle/Saved/Databases/Survival/Players/"
+	"dbPath": "../TheIsle/Saved/Databases/Survival/Players/",
+	"logPath": "../TheIsle/Saved/Logs/TheIsle.log",
+	"logChannelID": "698119388573859850",
+	"adminRoleID": "698124012701614140"
 }

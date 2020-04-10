@@ -19,5 +19,7 @@ ${[...member.dino.storage].map(i => `${i.name} ${i.gender ? ':female_sign:' : ':
 }
 exports.config = {
 	name: 'info',
-	aliases: []
+	aliases: [],
+	usage: '!info [@member]',
+	discription: 'отправляет информацию '
 }
