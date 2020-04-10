@@ -34,10 +34,9 @@ ${dinos.map((e, i) => `**[${i+1}]** ${e.name} ${e.gender ? ':female_sign:' : ':m
       return;
     }
     let dino = dinos[n-1]
-    if(dino.count <= count){
+    if(dino.count < count){
       message.embeder.warn(`У вас недостаточно дино
-Ваше количество дино данного типо: ${dino.count}
-Вы должны оставить как минимум одного дино этого типа`)
+Ваше количество дино данного типо: ${dino.count}`)
       return;
     }
     message.member.dino.add(dino.name, dino.gender, -count)
