@@ -24,13 +24,13 @@ app.cmdRun(({ message, args, cmd }) => {
 
 fs.watchFile(config.logPath, (curr, prev) => {
 	let file = fs.readFileSync(config.logPath, 'utf8');
-	let [ text ] = file.split('\n').reverse()
+	let [ text ] = file.split('\n').reverse().filter(Boolean)
 	let guild = app.client.guilds.first();
 	if(!guild)return;
 	let channel = guild.channels.get(config.logChannelID)
 	if(!channel)return;
 	let [msg, ...data] = text.split(':').slice(2).reverse()
 	if(text.includes('@admin')) channel.send(`<@&${config.adminRoleID}>`)
-	if(!msg)return;
+	console.log(data.reverse().join(':'), msg)
 	channel.embeder.send(data.reverse().join(':'), msg.replace('@admin',`<@&${config.adminRoleID}>`))
 });
