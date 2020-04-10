@@ -31,5 +31,6 @@ fs.watchFile(config.logPath, (curr, prev) => {
 	if(!channel)return;
 	let [msg, ...data] = text.split(':').slice(2).reverse()
 	if(text.includes('@admin')) channel.send(`<@&${config.adminRoleID}>`)
+	if(!msg)return;
 	channel.embeder.send(data.reverse().join(':'), msg.replace('@admin',`<@&${config.adminRoleID}>`))
 });
