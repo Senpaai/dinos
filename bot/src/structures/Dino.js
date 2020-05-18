@@ -12,7 +12,10 @@ class Dino{
 		Object.defineProperty(this, '_currDino', {
 			configurable: false,
 			enumerable: false,
-			value: null,
+			value: {
+				name: null,
+				gender: null
+			},
 			writable: true
 		})  //yeah, kluge
 		if(!fs.existsSync(filePath)){
@@ -41,8 +44,8 @@ class Dino{
 			"CharacterClass": name,
 			"bGender": gender
 		})
-		this._currDino = `${name}:${gender}`
-		if(name == 'Slot') this._currDino = null;
+		this._currDino = { name, gender }
+		if(name == 'Slot') this._currDino = { name: null, gender: null }
 	}
 	get selected(){
 		return {
