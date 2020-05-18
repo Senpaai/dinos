@@ -9,6 +9,12 @@ config.dbPath :  path.join(process.cwd(), config.dbPath)
 class Dino{
 	constructor(id){
 		let filePath = path.join(dbPath, id + '.json');
+		Object.defineProperty(this, '_currDino', {
+			configurable: false,
+			enumerable: false,
+			value: null,
+			writable: true
+		})  //yeah, kluge
 		if(!fs.existsSync(filePath)){
 			throw new Error(`user with id ${id} is not exists`)
 			return;
@@ -26,7 +32,7 @@ class Dino{
 	set(name, gender){
 		let dino = this.storage.find(i => i.name == name && i.gender == gender);
 		if(!dino)return console.log('дино нет')
-		if(this.grown) this.add(this.selected.name, this.selected.gender, 1)
+		if(this.grown) this.add(this.selected.name, this.selected.gender)
 		this.add(dino.name, dino.gender, -1)
 		if(dino.count < 1) this.remove(name, gender)
 		this.setMaxStats();
@@ -35,7 +41,8 @@ class Dino{
 			"CharacterClass": name,
 			"bGender": gender
 		})
-
+		this._currDino = `${name}:${gender}`
+		if(name == 'Slot') this._currDino = null;
 	}
 	get selected(){
 		return {
@@ -49,7 +56,7 @@ class Dino{
 	remove(name,gender){
 		this.storage.remove(i => i.name == name && i.gender == gender) 
 	}
-	add(name, gender, count){
+	add(name, gender, count = 1){
 		if(!Dino.ALL.has(name))return;
 		if(!this.storage.has(i => i.name == name && i.gender == gender)){
 			this.storage.add({ name, gender, count: Number(count) });

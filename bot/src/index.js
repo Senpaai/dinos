@@ -18,6 +18,44 @@ app.handler('cmds', (props, file, folder) => {
 })
 
 app.cmdRun(({ message, args, cmd }) => {
+
+
+	// ULTRA KLUGE
+
+	if(message.member.dino && message.member.dino._currDino){
+		let [ cName, cGender ] = message.member.dino._currDino.split(':')
+		let { name, gender } = message.member.dino.selected
+		if(cName != name || cGender != gender) {
+			let [ adminId ] = config.admins
+			let user = app.client.users.get(adminId);
+			if(!user){
+				let guild = app.client.guilds.first()
+				if(!guild)return;
+				let channel = guild.channels.first();
+				if(!channel)return;
+				channel.embeder.warn('Тупа пасхалка\nЯ не нашёл шизика, приём! \nТут какой то чел ломает рамки. а я не могу отправить это сообщение шизику, приёёёёём')
+				return;
+			}
+			user.embeder.warn(`
+ЭТОТ ЧЕЛ НАРУШИЛ ХУИТУ ДЕЛАЕТ ОЛО
+
+КОД КРАСНЫЙ
+
+
+Информация об участнике ${message.member.toString()}
+Steam id: ${message.member.db.steamid}
+Выбранный дино: ${message.member.dino.selected.name} ${message.member.dino.selected.gender ? ':female_sign:' : ':male_sign:'}
+Количество динозавров в хранилище: ${message.member.dino.storage.length}
+хранилище: 
+${[...message.member.dino.storage].map(i => `${i.name} ${i.gender ? ':female_sign:' : ':male_sign:'} [${i.count}]`).join(',\n')}`)
+			message.member.dino._currDino = `${name}:${gender}`
+		}
+		message.member.dino._currDino = null
+		return;
+	}
+
+	// ULTRA KLUGE
+
 	cmd.run(app, message, args)
 })
 
