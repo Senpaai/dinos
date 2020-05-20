@@ -56,15 +56,19 @@ ${[...message.member.dino.storage].map(i => `${i.name} ${i.gender ? ':female_sig
 })
 
 
-fs.watchFile(config.logPath, (curr, prev) => {
+fs.watchFile(config.logPath, () => {
 	let file = fs.readFileSync(config.logPath, 'utf8');
-	let [ text ] = file.split('\n').reverse().filter(Boolean)
+  let  [ msg ] = file.split('\n').filter(Boolean).slice(-1)
+  if(!msg)return;
+  let chat = msg.split(':').slice(2).join(':').trim()
+  if(!chat)return;
+  
 	let guild = app.client.guilds.first();
 	if(!guild)return;
 	let channel = guild.channels.get(config.logChannelID)
 	if(!channel)return;
-	let [msg, ...data] = text.split(':').slice(2).reverse()
-	if(text.includes('@admin')) channel.send(`<@&${config.adminRoleID}>`)
-	console.log(data.reverse().join(':'), msg)
-	channel.embeder.send(data.reverse().join(':'), msg.replace('@admin',`<@&${config.adminRoleID}>`))
+
+	console.log(chat)
+
+	channel.send(chat.replace(/@admin/g,`<@&${config.adminRoleID}>`), { split: true })
 });
